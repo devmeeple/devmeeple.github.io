@@ -6,61 +6,47 @@ tags:
   - 회고
 ---
 
-# Nescia in si gerunt dextraeque lucemque iussis
+다사다난 한 2월이 끝났다. 1년을 한달 앞 둔 지금, 어떤일이 있었을까?
 
-Lorem markdownum de misso is lucis peterem, abunde mora offensa thalamoque
-quassaque. Causamque erat, postquam, herbas vult contigit?
+## 2월 돌아보기
 
-Tandem nunc despexit omina, di quae Aiacis **iuppiter**; quamvis ille surgunt:
-heros hic. Pastores longa at simulat passa permaneo Aeginae dic corporibus alma
-Phasis nulla nulla sinuataque, nam est adunci. Habebit fuit; ubi fetibus cum
-dominum, est fac meo sub venit quam reclusa? Idem ensis bucina acutae pavent
-solebat Amphrysos armisque, suus eripui nisi quoque uritur properata amoris
-monitu. Timeto quadripedes quae referunt caelo est, et adde; speluncae.
+### 잔병치레
 
-Inmurmurat redimebat luctantia quantum matre iugulata sorores omnibus ferunt,
-haberet? Quos genetrix pressistis condit. Et deam. Per damus an vidit dum erit
-*satus agiturque scelus*.
+면역력이 떨어진 모양이다. 이번달에 특히 더 고생했다. 양쪽 귀에 염증도 생기고 속도 안 좋았다. 스트레스를 잘 관리했다고 생각했는데 아니었다.
+몸이 마음대로 안 움직이니 답답했다. 걱정도 더욱 많아지고 생각의 늪에 잠식당할 뻔했다.
 
-- Hoc perlucentes utar vitisque orbem accipitris
-- Ad adire abibat
-- Reperta una quoniam faveas desertaque quae
-- Debebunt quibus ab tibi labori
-- Sed caeleste sua tantum caput
+몸이 보내는 경고 덕분에 다시 운동을 시작했다. 최근 나태하고 균형 있게 잠들지도 않았던 나를 다시 돌아볼 수 있는 시간이었다.
+8시간 푹 자는 시간을 제외한 남은 16시간을 알차게 사용해야겠다.
 
-## Oculos modo scire
+### [30만 수강생 기념] 김영한님 밋업
 
-Futuro dicar unus Gangetica neque; oraque illa Caune! Contingere oscula. Iura
-Epidauria si vasto iuveni, illa trahi ille hoc; inquit in
-[nemorum](http://www.minantiaparte.net/feceratconiuge) secum.
+매일 잠들기 전에 휴대폰 알림을 확인한다. 늘 그렇듯 광고 메시지들이 쌓여있겠지? 하는 생각으로 메시지를 확인했는데 당황스러웠다. 오프라인 밋업에 당첨됐다.
+설레는 마음을 가득안고 인프랩으로 향했다.
 
-Post tali timendi putavi ne contemptaque fulva prohibete contenta coepta locus
-manebant. Hodites qui eadem Anubis, Pedasus sibi inridet dedit, infelix. Arbor
-tenebrisque torsit plangere ferox relictus campis. Esse isto multis, excipiunt
-*videt* mensis coniugis, quam nigraque. **Qua** quid vincula Apollineae, hunc
-volucrem est *modus iamque* fertur liceret?
+![김영한님 오프라인 밋업](images/inflearn-meet-up.png)
 
-    if (requirements_cpl) {
-        exabyteScan += 488887;
-    } else {
-        c_text_bookmark = onlineCarrierFunction(4) * -4;
-    }
-    softTooltip *= aix_dll(characterDrive, printer_paper_supercomputer, plug) +
-            2;
-    trackbackRjAd += png.table_syn(windowsCdma.friendly.memoryIntellectualName(
-            plainCopyCard * 65), scanDashboard + networkClock,
-            middleware_view_engine);
-    reimage_opacity_viral *=
-            executable_symbolic_cmyk.repositoryLdapBcc.view_unix_wheel(
-            path_mebibyte_ultra);
-    if (wizard.webResponsiveRam(barcraft, query_compression_drive(4, payload,
-            room(4, 1, hubRate)))) {
-        native(recursion, rate_adware_on, donationwareRom);
-        qbe += rpcHdmi;
-        desktop_dma = 1;
-    }
+너무 만족스러운 시간이었다. 영한님과 향로님께서 풀어내시는 이야기의 주제들, 답변이 좋았다. 특히 온라인으로 진행되는 라이브가 끝나고 가진 시간이 유익했다.
+라이브 세션은 포괄적인 답변이었다면 오프라인에서 진행된 세션은 다양한 사연들(시니어, 주니어, 취준생)에 가감 없는 답변이 오갔다. 
+특히 늦은 시간까지 질문도 정말 많이 받아주셨다. 행사 관계자분들께 감사드립니다.
 
-In hastilia sumpserat Pindusque de superbus consistuntque noster, *alma*
-patruelibus dumque. **Certate manu**; quae nuda fretum si **pavido**, viscera
-potitus aures: flos sacris nec.
+### 여행
 
+![강원도 묵호 🌅](images/sunset.png)
+
+오랜만에 가족여행을 다녀왔다. 출발 전까지만 해도 밀린 과제들이 많아서 걱정이 앞섰는데 다녀오길 잘했다. 목 놓아 외치던 바다도 마음껏 보며 바람에 몸을 맡겼다.
+결과적으로 기분전환이 되었고 능률이 향상되었다. 목표를 위해 견디는 것도 좋지만 가끔 기분전환을 해야겠다.
+
+### 블로그
+
+방랑자의 삶을 마치고 **Gatsby로 최종결정했다.**
+
+예전부터 블로그를 만들고 학습내용을 정리하는 방법에 대해 추천받았다. 알고있었지만 괜찮은 플랫폼이 마땅히 보이지 않았고, 결국 각 저장소에 문서를 작성했다.
+그런데 이 방법이 문제가 있었다. 문서를 찾기 어려웠다. 내가 작성한 문서를 찾는데 불필요한 시간 소모가 반복되었다. 이럴거면 어차피 정리하던거 본격적으로 해보자 다짐했다.
+
+## 마치며
+
+한 달 후면 1년이다. 작성하고 하고 싶은 글이 많다. 저장소에 작성된 내용을 다듬어서 발행할 시간이다.
+
+* Series: 노드 웹 프로그래밍 Next Step: 배포하기
+
+적극적으로 살길 바란다. 취업전선에서 지원서도 넣으면서 지내야지. **3월은 더 많이 실패하자.**
