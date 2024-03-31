@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[진인사대천명(盡人事待天命)]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 Mar 2024 00:22:27 GMT</lastBuildDate><item><title><![CDATA[2월 회고]]></title><description><![CDATA[다사다난 한 2월이 끝났다. 1년을 한달 앞 둔 지금, 어떤일이 있었을까?…]]></description><link>https://devmeeple.github.io/retrospective/</link><guid isPermaLink="false">https://devmeeple.github.io/retrospective/</guid><pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;다사다난 한 2월이 끝났다. 1년을 한달 앞 둔 지금, 어떤일이 있었을까?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[진인사대천명(盡人事待天命)]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Mar 2024 14:01:18 GMT</lastBuildDate><item><title><![CDATA[Node.js 입문 (1) - EC2 배포하기]]></title><description><![CDATA[Node 앱을 Amazon EC2 인스턴스에 배포해봅시다. 1. Node.js 설치하기 EC2 인스턴스에 Node.js를 설치합니다. nvm(Node Version Manager)을 사용하면 여러 버전간 전환이 용이하다. nvm을 설치한다. nvm…]]></description><link>https://devmeeple.github.io/nodejs-nextstep-02-deploying-nodejs-app-on-aws-ec2-instance/</link><guid isPermaLink="false">https://devmeeple.github.io/nodejs-nextstep-02-deploying-nodejs-app-on-aws-ec2-instance/</guid><pubDate>Sat, 02 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Node 앱을 Amazon EC2 인스턴스에 배포해봅시다.&lt;/p&gt;
+&lt;h3&gt;1. Node.js 설치하기&lt;/h3&gt;
+&lt;p&gt;EC2 인스턴스에 Node.js를 설치합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;bash&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;nvm(Node Version Manager)을 사용하면 여러 버전간 전환이 용이하다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;nvm을 설치한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; ~/.nvm/nvm.sh
+nvm &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--lts&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;nvm을 활성화 시키고 LTS 버전의 Node.js를 설치한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;node&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Node.js가 올바르게 설치되었는지 확인한다.&lt;/p&gt;
+&lt;h3&gt;2. 코드복사하기&lt;/h3&gt;
+&lt;p&gt;작성한 코드를 EC2 인스턴스로 복사해야 한다. 이때 2가지 선택지가 있다. 두가지 방법중 한가지로 선택하자. 실습에서는 이미 버전관리를 진행중이기 때문에 git을 선택했다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SCP(secure copy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;scp&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;local-project-directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; ec2-user@&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ec2-instance-ip&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;:/home/ec2-user/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum update &lt;span class=&quot;token parameter variable&quot;&gt;-y&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-y&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;yum(Yellodog Update Modified)은 레드햇 계열의 리눅스 배포판에서 사용하는 패키지 설치 관리 도구이다. npm과 유사하다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;프로젝트 주소&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;프로젝트를 배포할 디렉토리로 이동한 후, Git 저장소를 클론한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;프로젝트&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;클론한 프로젝트로 이동한 후 Node.js 앱 의존성을 설치한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;pm2 start app.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;애플리케이션을 실행한다. 이때 PM2를 프로세스를 관리한다.&lt;/p&gt;
+&lt;h3&gt;참고&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/nvm-sh/nvm&quot;&gt;nvm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/ko_kr/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html&quot;&gt;Amazon EC2 인스턴스 Node.js 설정&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Node.js 입문 (0) - 프로젝트 환경 설정]]></title><description><![CDATA[깊이있게 학습을 하기 위해서는 원리를 알아야 한다. 웹 프레임워크(Express, NestJS)의 사용법 외에 프레임워크가 어떤 문제로 개선되었는지 원리를 파악해보자. 짧은 시간이었지만 NestJS…]]></description><link>https://devmeeple.github.io/nodejs-nextstep-01-settings/</link><guid isPermaLink="false">https://devmeeple.github.io/nodejs-nextstep-01-settings/</guid><pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;깊이있게 학습을 하기 위해서는 원리를 알아야 한다.&lt;/strong&gt; 웹 프레임워크(Express, NestJS)의 사용법 외에 프레임워크가 어떤 문제로 개선되었는지 원리를 파악해보자.&lt;/p&gt;
+&lt;p&gt;짧은 시간이었지만 NestJS 프레임워크를 사용할 때 어려움이 많았다. (특히 테스트) 왜 Testing Module을 구성하고 어떤 패키지가 사용되는지 전혀 알지 못했다. 잘못된 방법으로
+학습하고 있다는 생각이 들어 처음으로 돌아가보려 한다. MVC 프레임워크를 만들어 보는 것이 목표다.&lt;/p&gt;
+&lt;h2&gt;개발 환경 구성&lt;/h2&gt;
+&lt;h3&gt;프로젝트 만들기&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; nodejs-nextstep &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; nodejs-nextstep&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;프로젝트 폴더를 만들고 해당 폴더로 이동한다.&lt;/p&gt;
+&lt;p&gt;JetBrains IDE(IntelliJ, WebStorm...)에서 TypeScript 파일을 단독으로 실행할 수 없다. 실행을 위해서는 플러그인과 패키지를 설치해야 한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://plugins.jetbrains.com/plugin/10841-run-configuration-for-typescript/&quot;&gt;Run Configuration for TypeScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/ts-node&quot;&gt;ts-node&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; ts-node &lt;span class=&quot;token parameter variable&quot;&gt;-D&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 개발 의존성&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;코드 품질 도구&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ESLint, Prettier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;테스트 환경 구성&lt;/h3&gt;
+&lt;p&gt;테스트 환경에 설치하는 패키지는 모두 개발 의존성으로 설치한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; jest ts-jest supertest @types/jest @types/supertest &lt;span class=&quot;token parameter variable&quot;&gt;-D&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2월 회고]]></title><description><![CDATA[다사다난 한 2월이 끝났다. 1년을 한달 앞 둔 지금, 어떤일이 있었을까?…]]></description><link>https://devmeeple.github.io/2024-02-retrospective/</link><guid isPermaLink="false">https://devmeeple.github.io/2024-02-retrospective/</guid><pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;다사다난 한 2월이 끝났다. 1년을 한달 앞 둔 지금, 어떤일이 있었을까?&lt;/p&gt;
 &lt;h2&gt;2월 돌아보기&lt;/h2&gt;
 &lt;h3&gt;잔병치레&lt;/h3&gt;
 &lt;p&gt;면역력이 떨어진 모양이다. 이번달에 특히 더 고생했다. 양쪽 귀에 염증도 생기고 속도 안 좋았다. 스트레스를 잘 관리했다고 생각했는데 아니었다.
@@ -51,4 +108,26 @@
 &lt;ul&gt;
 &lt;li&gt;Series: 노드 웹 프로그래밍 Next Step: 배포하기&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;적극적으로 살길 바란다. 취업전선에서 지원서도 넣으면서 지내야지. &lt;strong&gt;3월은 더 많이 실패하자.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;적극적으로 살길 바란다. 취업전선에서 지원서도 넣으면서 지내야지. &lt;strong&gt;3월은 더 많이 실패하자.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2023 회고]]></title><description><![CDATA[소중했던 2023년이 가고 2024년이 찾아왔다. 결과만 보았을 때 202…]]></description><link>https://devmeeple.github.io/good-bye-2023-hello-2024/</link><guid isPermaLink="false">https://devmeeple.github.io/good-bye-2023-hello-2024/</guid><pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/ed78b7599eeff8278fb9cd09243c9885/42cbc/worlds-2023.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 52.352941176470594%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACn0lEQVR42h2S3WvbVhiHfdGLQUtpmzqtG39JsiP5S7IsW5Il25IcJ3acyHZsEhrD8jFou7UQCi00hKaUdrBCSdnYxWAXgzHG/oHd7WIX2//19NCLw8vL4TzneX+8CaW+i2ROyBkTCqJK9Zno90Q/oz9+zF8//8rlxU/8+/c/nD27RDXHKPoWUnVA0RjxoNhjNWeTkh2S2QYJtRGzbs1Qm3sCNEMW4OXBU/rDI344f8t/Vx/49OqCP68+8dvHKyx/Tmo9QDG2afgLigKe03qUKjYFtUVCdyaY3hy9vUARZk5ngVqscxrP+OXyNW++e87p8oRrX91hcyNmvHtMFO5jezOK9RFSRdiWB1juBFkLSWhihGorFuPuoFkxfleMGs34Udi9fHpBHJ/Q9UZksuqX+v78e/7/43eOdvYoGSG6M6MdLfHDOaVal8R0umQ4PqTTP6DuTllJu5T0TVreDmrFw2kNqBmB+CgmCCYcHz7h3dkLjIqF4+8wjE/p9Rd4vnjjRCRsP8Zo7wq78ZeQK80FhjMnV7C5ly5x7XqSW6sKq5kyN1byZCWDcs0Xx6VsbuF2J3SjCbY7wGwJYEaLWNP6pEsRcnWLbMHh1t2cADZpNIdcX5EwrBC3s83Nu3nc9hZFzSKtmKTXOzS9McFgwZrSIyXZJJKSx+1cmwdqQKbUFxct7mdUXH/E7nhJMl0hlZHJy0XWpBqDjT3kgs6a3CCleGKNNpFrI1blPsmMLjJ8+C0nT86xevu0ggMkrYtW9TnYf8Q3R2cE4ZR8wSCrGDTsPvPpMTXd536+SboYopRD8mqHjBAqlH0SwfbXHJ6+pCWAptixe1mLm3ckTHODuhmJoIc4Ip9SrY3RCFE1m3K1jVIVRlkHRXXIyiaqPkAuR3wGRHtVHHXR15AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;Worlds 2023&apos; title=&apos;&apos; src=&apos;/static/ed78b7599eeff8278fb9cd09243c9885/ca1dc/worlds-2023.png&apos; srcset=&apos;/static/ed78b7599eeff8278fb9cd09243c9885/e7570/worlds-2023.png 170w,
+/static/ed78b7599eeff8278fb9cd09243c9885/f46e7/worlds-2023.png 340w,
+/static/ed78b7599eeff8278fb9cd09243c9885/ca1dc/worlds-2023.png 680w,
+/static/ed78b7599eeff8278fb9cd09243c9885/02d09/worlds-2023.png 1020w,
+/static/ed78b7599eeff8278fb9cd09243c9885/9d567/worlds-2023.png 1360w,
+/static/ed78b7599eeff8278fb9cd09243c9885/42cbc/worlds-2023.png 1600w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;Worlds 2023&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;소중했던 2023년이 가고 2024년이 찾아왔다. 결과만 보았을 때 2023년 한 해는 안식년이었다. 원하는 결과를
+얻지 못했다. 하지만 끝없이 연습하고 나만의 루틴을 찾았다.&lt;/p&gt;
+&lt;h2&gt;의식적인 연습&lt;/h2&gt;
+&lt;p&gt;순탄치 않았다. 오래 쉬었다는 사실이 너무나 체감돼서 더욱더 노력하는 방법밖에 없었다. 견뎠다. 가장 큰 화두는
+꾸준함이다. 개발자를 다시 도전하는 게 맞나? 내가 잘하고 있는 건가? 의심도 많고 힘들었다. 한편으론 이대로 눈 감으면 마음
+편하지 않을까 싶기도 했다. 하지만 꾸준히 하다 보니 자연스럽게 스스로에게 던진 질문이 해결되고 이제는 확신이 생겼다.&lt;/p&gt;
+&lt;h2&gt;마무리&lt;/h2&gt;
+&lt;p&gt;올 해는 소중했던 한 해의 과정을 결과로 증명하는 한 해가 되길 바란다. 더 많은 기회와 위기가 찾아올 것이다. 초심을 잃지 않고
+아무것도 없이 시작했던 나를 믿고 응원해 준 사람들을 생각하며 정진하길 바란다. 할 수 있다.&lt;/p&gt;</content:encoded></item></channel></rss>
