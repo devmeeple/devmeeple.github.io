@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[진인사대천명(盡人事待天命)]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Mar 2024 19:43:16 GMT</lastBuildDate><item><title><![CDATA[3월 회고]]></title><description><![CDATA[…]]></description><link>https://devmeeple.github.io/2024-03-retrospective/</link><guid isPermaLink="false">https://devmeeple.github.io/2024-03-retrospective/</guid><pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;이력서&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[진인사대천명(盡人事待天命)]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 08 Apr 2024 14:38:21 GMT</lastBuildDate><item><title><![CDATA[[ERR_REQUIRE_ESM] 에러 해결하기]]></title><description><![CDATA[TypeScript + Express + Yarn…]]></description><link>https://devmeeple.github.io/err-require-esm/</link><guid isPermaLink="false">https://devmeeple.github.io/err-require-esm/</guid><pubDate>Mon, 08 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TypeScript + Express + Yarn 환경으로 프로젝트 구성 중 에러가 발생했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; run v1.22.19
+$ jest
+Error &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ERR_REQUIRE_ESM&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: require&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; of ES Module&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;해결방법&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; cache claen&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;캐시를 비워줍니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;node_modules&lt;/code&gt; 디렉터리와 &lt;code class=&quot;language-text&quot;&gt;yarn.lock&lt;/code&gt; 파일을 삭제합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;yarn&lt;/code&gt;: 삭제한 패키지를 재설치합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;다음과 같은 순서로 에러를 해결했습니다. 특정 패키지의 문제인 줄 알았지만 이는 버전 호환 문제로
+빈번하게 발생하는 에러입니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[3월 회고]]></title><description><![CDATA[…]]></description><link>https://devmeeple.github.io/2024-03-retrospective/</link><guid isPermaLink="false">https://devmeeple.github.io/2024-03-retrospective/</guid><pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;이력서&lt;/h3&gt;
 &lt;p&gt;이력서 초안을 작성하며 &lt;strong&gt;마무리하는 능력이 부족하다고 느꼈다.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;강점, 경쟁력은 무엇일까라는 질문에 &lt;strong&gt;꾸준함이라고 항상 생각했다.&lt;/strong&gt; 하지만 냉정하게 돌아보니 마무리한 프로젝트가 없었다. 마침표를 찍지 않고 다음으로 넘어가는 사람이라고 느껴졌다.
 스스로 생각하던 방향성과는 다르게 흘러갔다.&lt;/p&gt;
