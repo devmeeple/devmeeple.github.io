@@ -8,30 +8,65 @@ tags:
 series: 
 ---
 
-코드 컨벤션을 지키면서 어떻게 프로그래밍할 수 있을까요? IntelliJ에서 코드 컨벤션을 적용하는 방법을 알아봅시다.
+코드컨벤션을 지키면서 어떻게 프로그래밍할 수 있을까요? IntelliJ에서 코드 컨벤션을 적용하는 방법을 알아봅시다.
 
-> [네이버 캠퍼스 핵데이 Java 코딩 컨벤션](https://github.com/naver/hackday-conventions-java/blob/master/rule-config/naver-intellij-formatter.xml)
+## 준비하기
 
-## 적용하기
+![준비물](./images/get-reddy.png)
 
-![Settings -> Editor -> Code Style -> Java](./images/naver-convention.png)
+먼저 [저장소](https://github.com/naver/hackday-conventions-java/tree/master/rule-config)에서 설정에 필요한 파일을 다운로드해주세요.
 
-1. 다운로드한 컨벤션을 import 합니다.
+## Formatter
+
+![Editor | Code Style | Java](./images/naver-convention.png)
+
+1. 다운로드한 `naver-intellij-formatter.xml` 를 import 해주세요.
 2. 스키마의 이름을 설정합니다. 다양한 컨벤션을 적용하는 상황에는 유의미한 이름을 권합니다.
 
-> 만약 IDE 설정이 아닌 일부 프로젝트에 적용하고 싶다면 Default가 아닌 Project를 선택하세요.
+### 자동 적용하기
 
-## 추가 설정
+자동으로 컨벤션이 적용될 수 있도록 추가설정 해봅시다.
 
-자동으로 컨벤션이 적용될 수 있도록 추가설정을 하겠습니다.
+![Tools | Action on Save](./images/action-on-save.png)
 
-![Settings -> Tools -> Action on Save](./images/action-on-save.png)
+> - Reformat code: 자동으로 포맷 적용
+> - Optimize imports: 사용하지 않는 import 제거
 
-- Reformat code: 자동으로 포맷 적용
-- Optimize imports: 사용하지 않는 import 제거
+설정이 적용되지 않았다면 IDE를 재시작해주세요.
 
-자동으로 포맷이 적용되고 사용하지 않는 import를 제거하도록 적용했습니다.
+## CheckStyle
 
-## 함께 자라기
+![Plugins | Marketplace | CheckStyle-IDEA](./images/checkstyle-idea.png)
 
+컨벤션을 준수하여 코드를 작성했는지 확인하고 싶지 않나요? 정적 코드 분석도구를 설치해 봅시다.
+
+![CheckStyle 설정하기 1](images/checkstyle-setting.png)
+
+1. CheckStyle-IDEA를 설치하고 재시작해주세요.
+2. 이미지와 같이 Scope와 Treat Checkstyle errors as warnings를 설정해주세요. 표기되는 version은 다를 수 있지만 8.24 이상의 버전을 선택해주세요.
+
+![CheckStyle 설정하기 2](./images/checkstyle-setting-2.png)
+
+3. 다운로드한 `naver-checkstyle-rules.xml`을 Browse 해주세요.
+
+![CheckStyle 설정하기 3](images/checkstyle-setting-3.png)
+
+4. 예외 정책을 지정한다면 변숫값 `naver-checkstyle-suppressions.xml`를 지정해 주세요.
+
+![CheckStyle 설정하기 4](./images/checkstyle-setting-4.png)
+
+5. 규칙을 사용하도록 꼭 체크해 주세요.
+
+![설정완료](./images/checkstyle-finish.png)
+
+6. 설정을 완료하면 아래 CheckStyle이 표시됩니다.
+
+## 마무리
+
+추가설정이나 상세 설정은 공식문서를 참고해 주세요.
+
+### 함께 자라기
+
+- [캠퍼스 핵데이 Java 코딩 컨벤션](https://naver.github.io/hackday-conventions-java/)
 - [Code convention과 개발자가 지켜야할 수칙에 관하여](https://novemberde.github.io/post/2017/05/21/Javascript_policy/)
+- [정적 분석(Static Analysis)이란?](https://hudi.blog/static-analysis/)
