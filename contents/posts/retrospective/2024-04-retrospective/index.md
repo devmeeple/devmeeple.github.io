@@ -25,7 +25,7 @@ Java & Spring 조합과 TypeScript & NestJS 조합이 상호작용 됐다. (A를
 
 ### 인프런 워밍업 클럽 - 스터디 1기
 
-![인프런 워밍업 클럽 - 스터디 1기](./images/inflearn-warmup-club-study.png)
+![인프런 워밍업 클럽 - 스터디 1기](images/inflearn-warmup-club-study.png)
 
 때 마침 [인프런 워밍업 클럽 - 스터디 1기](https://www.inflearn.com/course/inflearn-warmup-club-study-1)가 열렸다. 이전에도 다른 기회가 찾아왔었다. 찾아온
 기회도 Spring 학습이었고 의도와 다르게 흘러가지 않을까 고민하다 끝내 포기했다. 하지만 포기하고 기간이 지나니 아쉬웠다. 결정적으로 좋으나 싫으나 학습을 하다 보면 자연스럽게 Spring
@@ -39,7 +39,7 @@ Java & Spring 조합과 TypeScript & NestJS 조합이 상호작용 됐다. (A를
 
 ## 운동
 
-![나이키 런 클럽(NRC)](./images/nrc-app.jpg)
+![나이키 런 클럽(NRC)](images/nrc-app.jpg)
 
 운동을 많이 쉬었던 걸로 기억하는데 의외로 3번밖에 쉬지 않았다. 매일 하지 못해서 아쉽다. 매번 느끼지만 운동이 없었으면 소리소문 없이 사라지지 않았을까 싶다. 기분 탓인지는 몰라도 허리도 많이 좋아진 것 같다.
 원래

@@ -8,6 +8,8 @@ tags:
 series: "인프런 워밍업 클럽 - 스터디 BE 1기"
 ---
 
+![인프런 워밍업 클럽 - 스터디 1기](../images/inflearn-warmup-club-study.png)
+
 2일 차는 첫 HTTP API 개발을 주제로 간단한 API를 만들었다. 배운 건 써봐야지. 먼저 과제의 요구사항을 검토하고 구현해 보자.
 
 > 모든 코드는 [GitHub](https://github.com/devmeeple/inflearn-warmup-club-study/tree/feature/week-1)에서 확인할 수 있습니다.
@@ -86,7 +88,7 @@ public TaskCalcResponse calcTwoNumbers(TaskCalcRequest request) {
 
 작성된 코드의 결과를 확인해 보자.
 
-![[문제 1] 덧셈, 뺄셈, 곱셈결과 반환](./images/calc.png)
+![[문제 1] 덧셈, 뺄셈, 곱셈결과 반환](images/calc.png)
 
 ## 문제 2
 
@@ -178,7 +180,7 @@ http POST :8080/api/v1/sum
 
 ### 해결
 
-![[문제 3] 수의 총합 반환](./images/sum.png)
+![[문제 3] 수의 총합 반환](images/sum.png)
 
 ```java
 
@@ -194,7 +196,7 @@ public Integer sumNumbers(@RequestBody TaskSumNumbersRequest request) {
 
 요구사항 외에도 람다와 테스트코드를 학습했다. 아직 레이어가 분리되지 않아서 그런지 간단하게 작성됐다. 코드를 리팩터링 하고 레이어가 분리되면 어떤 식으로 작성해야 할지 추가학습이 필요하다.
 
-코드를 미리 준비했음에도 불구하고 작성에 꽤 오랜 시간이 소요됐다. 일상으로 돌아가 글을 어떤 순서로 작성하면 좋을지 한번 더 생각해 보자.
+코드를 미리 준비했음에도 불구하고 정리하는데 꽤 오랜 시간이 소요됐다. 일상으로 돌아가 글을 어떤 순서로 작성하면 좋을지 한번 더 생각해 보자.
 
 ### 함께 자라기
 
