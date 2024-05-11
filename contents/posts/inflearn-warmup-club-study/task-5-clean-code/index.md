@@ -8,6 +8,8 @@ tags:
 series: "인프런 워밍업 클럽 - 스터디 BE 1기"
 ---
 
+![인프런 워밍업 클럽 - 스터디 1기](../images/inflearn-warmup-club-study.png)
+
 5일 차는 클린코드의 개념과 리팩터링을 배웠다. 실제 코드에 적용해 가면서 클린코드와 친해지자.
 
 ```java
