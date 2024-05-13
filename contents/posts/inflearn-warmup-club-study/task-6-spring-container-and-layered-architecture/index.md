@@ -199,8 +199,11 @@ public interface FruitRepository {
 }
 ```
 
+### @Primary
+
 ```java
 
+@Primary
 @Repository
 public class FruitMySqlRepository implements FruitRepository {
 }
@@ -216,9 +219,41 @@ public class FruitMemoryRepository implements FruitRepository {
 
 - `@Primary` 또는 `@Qualifier`를 사용하지 않으면 에러가 발생한다.
 
+### @Qualifier
+
+정의
+
+```java
+
+@Repository
+@Qualifier("mysql")
+public class FruitMySqlRepository implements FruitRepository {
+    // 구현
+}
+
+@Repository
+@Qualifier("memory")
+public class FruitMemoryRepository implements FruitRepository {
+    // 구현
+}
+```
+
+주입
+
+```java
+
+@Autowired
+@Qualifier("mysql")
+private FruitRepository mysqlRepository;
+
+@Autowired
+@Qualifier("memory")
+private FruitRepository memoryRepository;
+```
+
 ## 마무리
 
-간단한 문제였지만 이외에도 다양한 시도를 해서 얻은 지식이 많았다. 시도했던 내용은 다음과 같다.
+간단한 문제였지만 이외에도 다양한 시도를 해서 얻은 지식이 많았다. 추가로 고민했던 내용은 다음과 같다.
 
 - 메모리 데이터베이스 데이터를 어떻게 미리 넣어둘 수 있을까?: `@EventListener`
 - MemoryRepository를 제대로 구현해야 하는가?: 요구사항을 오버한다고 생각하여 최소한으로 구성했다.
