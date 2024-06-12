@@ -1,6 +1,6 @@
 ---
 title: "5월 회고 - 이 또한 지나가리라"
-description: "2024년 5월 이 또한 지나가리라, DAY6 - 마라톤"
+description: ""
 date: 2024-05-30 08:57:14
 update: 2024-05-30 08:57:14
 tags:
