@@ -1,5 +1,5 @@
 ---
-title: "3월 회고"
+title: "3월호 ｢NO PAIN｣"
 date: 2024-03-31
 update: 2024-03-31
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "6월, Stop Crying Your Heart Out"
+title: "6월호 ｢Stop Crying Your Heart Out｣"
 description: ""
 date: 2024-06-30 18:09:59
 update: 2024-06-30 18:09:59

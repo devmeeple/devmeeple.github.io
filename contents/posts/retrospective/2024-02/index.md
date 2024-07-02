@@ -1,5 +1,5 @@
 ---
-title: "2월 회고"
+title: "2월호 ｢Kingdom｣"
 date: 2024-02-29
 update: 2024-02-29
 tags:
