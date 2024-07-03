@@ -33,3 +33,15 @@
 - [InfoGrab '테크니컬 라이팅 깔끔하게 완성하는 10가지 원칙'](https://insight.infograb.net/blog/2023/03/30/technical-writing-guide/)
 - [유튜브 '개발자도 글을 잘 써야 한다고요?!: 개발자를 위한 글쓰기 코칭의 시간! | 7월 우아한테크세미나'](https://www.youtube.com/live/xu3XGEomRWI?si=GMukQ_FaNVBegIfj)
 - [이동진의 영화풍경](https://blog.naver.com/lifeisntcool/223466898240)
+
+# 3일(수)
+
+- 잠이 오지 않았다. 억지로 누워도 도저히 잠에 들지 않아서 운동을 나갔다. 이전에 밤새고 운동하다 통증을 느껴서 걱정했는데 이번에는 괜찮았다. 운동을 하며 다양한 생각을 해서 재밌었다. 혼잣말을 많이 했다.
+- 비가 오지 않아서, 오래 산책도 나가서 기분이 좋았다.
+- [인프랩 백엔드 파트 로드맵](https://www.inflearn.com/roadmaps/4065)을 발견했다. 마침 궁금했는데, 운이 좋았다.
+- [유튜브 '인프콘 2024 즐기기 라이브 방송'](https://www.youtube.com/live/BICZOyzv7_0?si=Ic7zpumq3hKNSgap)를 시청했다. 한 달이 남았는데 설렌다. 작년에는
+  다녀오지 못했는데 올해는 갈 수 있어서 좋다. 혹시 모르니 몸관리를 잘해야겠다.
+
+### 참고
+
+- [글쓰기 '월간 윤종신'](https://yoonjongshin.com/)
