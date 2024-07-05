@@ -3,7 +3,7 @@ title: "[SQL 첫걸음] 2장. 테이블에서 데이터 검색"
 date: 2024-04-18
 update: 2024-04-18
 tags:
-  - SQL
+  - Database
 series: "SQL 첫걸음"
 ---
 

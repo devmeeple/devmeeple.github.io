@@ -4,7 +4,7 @@ description: ""
 date: 2024-06-13 04:14:19
 update: 2024-06-13 04:14:19
 tags:
-  - SQL
+  - Database
 series: "SQL 첫걸음"
 ---
 

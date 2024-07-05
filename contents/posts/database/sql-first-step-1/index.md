@@ -3,7 +3,7 @@ title: "[SQL 첫걸음] 1장. 데이터베이스와 SQL"
 date: 2024-04-16
 update: 2024-04-16
 tags:
-  - SQL
+  - Database
 series: "SQL 첫걸음"
 ---
 
