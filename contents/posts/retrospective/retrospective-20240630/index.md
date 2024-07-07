@@ -12,7 +12,7 @@ series: "2024년 월간회고"
 
 ## 응급실
 
-![Gaviscon](./images/gaviscon.webp)
+![불-편 <출처: 개비스콘>](./gaviscon.webp)
 
 응급실에 다녀왔다. 몸이 좋지 않았다. 웬만하면 통증을 참는데 몸이 심상치 않았다.
 
@@ -27,7 +27,7 @@ series: "2024년 월간회고"
 
 ## 책책책! 책을 읽읍시다
 
-![MBC, 느낌표, ｢책책책! 책을 읽읍시다｣](./images/exclamation-mark.jpeg)
+![<출처: MBC 느낌표 ｢책책책! 책을 읽읍시다｣>](./exclamation-mark.jpeg)
 
 몸이 좋지 않은 덕분에 미뤄왔던 책을 읽었다. 특히 기술이 아닌 일반도서를 주로 읽었다.
 
