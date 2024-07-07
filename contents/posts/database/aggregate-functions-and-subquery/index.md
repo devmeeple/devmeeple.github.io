@@ -124,13 +124,21 @@ FROM tables
 
 예제와 실제 사용사례, 문제
 
-## 2. 서브쿼리
+## 2. 서브쿼리(Subquery)
 
-서브쿼리는 어느구에서든 사용가능하다.
+- 서브쿼리 정의
+- 서브쿼리 사용방법
+- 서브쿼리 패턴(하나의 값, 복수의 행이지만 열은 하나, 하나의 행이 반환되지만 열이 복수, 복수의 행, 복수의 열 반환)
 
-### 종류
+서브쿼리란 쿼리안에 또 다른 쿼리를 선언하는 방법을 의미한다. 서브쿼리는 WHERE, FROM, SELECT 절 등 어느절에서든 사용가능하다. 특히 WHERE 절에서 주로 사용한다.
 
-스칼라
+MySQL에서는 서브쿼리를 INNER QUERY 또는 INNER SELECT 라고 한다.
+
+서브쿼리를 먼저 실행하고, DELETE 명령을 실행한다.
+
+### 스칼라(Scalar)
+
+'스칼라 값'이란 '단일 값'을 반환하는 서브쿼리를 의미한다. 스칼라 값을 다른 서브쿼리 패턴들 중 사용하기 쉬운 장점을 가진다.
 
 ## 상관 서브쿼리
 
@@ -145,7 +153,7 @@ FROM tables
 **<참고자료>**
 
 1. 『SQL 첫걸음』(아사이 아츠시, 한빛미디어, 2015)
-2. [TechOnTheNet](https://www.techonthenet.com/index.php)
-3. [위키독스](https://wikidocs.net/book/13790)
+2. [TechOnTheNet 'SQL Tutorial'](https://www.techonthenet.com/index.php)
+3. [위키독스 'AI가 알려주는 SQL - 아직 AI가 알아서 못하는 DB 관리'](https://wikidocs.net/book/13790)
 
 [^1]: 별개의, 구별되는
