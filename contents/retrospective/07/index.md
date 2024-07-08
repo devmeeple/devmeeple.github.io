@@ -142,3 +142,14 @@ Tistory, Hashnode에 작성했던 글을 Gatsby Github 블로그로 가져왔다
 - [SQL 코딩 테스트 #1 'HackerRank'](https://www.hackerrank.com/)
 - [SQL 코딩 테스트 #2 'LeetCode'](https://leetcode.com/)
 - [정승제 수학 공부 조언과 방법 모음](https://master-kim.tistory.com/entry/%EC%9D%BC%ED%83%80%EA%B0%95%EC%82%AC-%EC%A0%95%EC%8A%B9%EC%A0%9C%EC%9D%98-%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80-%EC%A1%B0%EC%96%B8-20%EA%B0%80%EC%A7%80%EC%99%80-%EB%B0%A9%EB%B2%95)
+
+# 8일(월)
+
+집중이 되지 않고 이유 없이 무기력했다. 잠도 푹 잔 것 같은데 왜 그럴까? 그래도 데이터베이스 문제를 풀었다. HackerRank 문제를 풀었는데 재밌었다. 중요하다고 생각하지 않았던 함수들이 자주 사용됐다.
+예를 들어 ROUND, FLOOR, RIGHT 등을 사용했다. 데이터를 어떻게 가져올지 생각하는 연습이 필요하다. 연습 끝에 결국 이겨낼 수 있을 거라 믿는다.
+
+운동을 하고 싶었는데 비가 내렸다. 산책도 하지 못해서 아쉽다.
+
+### 참고
+
+- [하루개발(one day dev) '인프랩(inflearn)](https://one-day.dev/post/012-inflab/)
