@@ -5,6 +5,8 @@ module.exports = {
   siteUrl: "https://devmeeple.github.io/",
   links: {
     github: "https://github.com/devmeeple",
+    linkedIn:
+      "https://www.linkedin.com/in/%ED%83%9C%EA%B7%BC-%EC%9E%A5-a98622300/",
   },
   utterances: {
     repo: "devmeeple/devmeeple.github.io",
