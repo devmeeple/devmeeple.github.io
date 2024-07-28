@@ -1,5 +1,5 @@
 ---
-title: "5월호 ｢마라톤｣"
+title: "월간 회고 5월호 - 마라톤"
 description: ""
 date: 2024-05-30 08:57:14
 update: 2024-05-30 08:57:14
@@ -7,6 +7,8 @@ tags:
   - 회고
 series: "2024년 월간회고"
 ---
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ClwEVvUgxEE?si=HzV9OLWagN8cm1FT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 지난달보다 휴식이 많았지만 만족스러운 한달을 보냈다. 기억하고 싶은 사건사고도 많다. 어떤일이 있었는지 알아보자.
 
@@ -64,5 +66,3 @@ series: "2024년 월간회고"
 
 꾸준하게 질문을 던지며 만족스러운 한 달을 보냈다. 개발 외에도 다양한 경험과 적절한 휴식의 조화로 이뤄낸 성과라고 생각한다. 이 또한 지나가겠지만 현재의 파도에 올라탄다면 성과도 드러나고 이야기할 거리도 생기지
 않을까 싶다. 일희일비하지 말고 6월에 올라타자.
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/ClwEVvUgxEE?si=HzV9OLWagN8cm1FT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

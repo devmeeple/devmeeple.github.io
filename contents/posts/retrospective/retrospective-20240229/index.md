@@ -1,11 +1,13 @@
 ---
-title: "2월호 ｢Kingdom｣"
+title: "월간 회고 2월호 - Kingdom"
 date: 2024-02-29
 update: 2024-02-29
 tags:
   - 회고
 series: "2024년 월간회고"
 ---
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/QM8UMOERycA?si=inBabkaqWiS-qaEC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 다사다난 한 2월이 끝났다. 1년을 한달 앞 둔 지금, 어떤일이 있었을까?
 
@@ -24,7 +26,7 @@ series: "2024년 월간회고"
 매일 잠들기 전에 휴대폰 알림을 확인한다. 늘 그렇듯 광고 메시지들이 쌓여있겠지? 하는 생각으로 메시지를 확인했는데 당황스러웠다. 오프라인 밋업에 당첨됐다.
 설레는 마음을 가득안고 인프랩으로 향했다.
 
-![김영한님 오프라인 밋업](images/inflearn-meet-up.png)
+![김영한님 오프라인 밋업](inflearn-meet-up.png)
 
 너무 만족스러운 시간이었다. 영한님과 향로님께서 풀어내시는 이야기의 주제들, 답변이 좋았다. 특히 온라인으로 진행되는 라이브가 끝나고 가진 시간이 유익했다.
 라이브 세션은 포괄적인 답변이었다면 오프라인에서 진행된 세션은 다양한 사연들(시니어, 주니어, 취준생)에 가감 없는 답변이 오갔다.
@@ -32,7 +34,7 @@ series: "2024년 월간회고"
 
 ### 여행
 
-![강원도 묵호 🌅](images/sunset.png)
+![강원도 묵호 🌅](sunset.png)
 
 오랜만에 가족여행을 다녀왔다. 출발 전까지만 해도 밀린 과제들이 많아서 걱정이 앞섰는데 다녀오길 잘했다. 목 놓아 외치던 바다도 마음껏 보며 바람에 몸을 맡겼다.
 결과적으로 기분전환이 되었고 능률이 향상되었다. 목표를 위해 견디는 것도 좋지만 가끔 기분전환을 해야겠다.

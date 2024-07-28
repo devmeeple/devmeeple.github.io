@@ -1,5 +1,5 @@
 ---
-title: "6월호 ｢Stop Crying Your Heart Out｣"
+title: "월간 회고 6월호 - Stop Crying Your Heart Out"
 description: ""
 date: 2024-06-30 18:09:59
 update: 2024-06-30 18:09:59
@@ -7,6 +7,8 @@ tags:
   - 회고
 series: "2024년 월간회고"
 ---
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/dhZUsNJ-LQU?si=lLxvUqTK1gvnEVA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **웃으며 지내다 결국 쓰러졌다.** 다시 한번 겸손에 대해 생각했다. 예정에 없던 손님이 방문해서 고충이 이만저만이 아니었다. 그래도 호기심으로 시작해서 성찰까지 이어지는 한 달을 보냈다.
 
@@ -65,5 +67,3 @@ series: "2024년 월간회고"
 **"컴포트존(Comfort Zone)에서 벗어나자."**
 
 다음을 위해서는 결국 도전을 해야 한다는 사실을 알면서도 컴포트존에 머무르고 있었다. 미지의 세계가 두렵고, 부담되지만 이겨내야 한다. 도전하기 좋은 적기다.
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/dhZUsNJ-LQU?si=lLxvUqTK1gvnEVA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
