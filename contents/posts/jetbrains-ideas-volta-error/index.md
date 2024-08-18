@@ -18,7 +18,10 @@ Error: tsx must be loaded with --import instead of --loader
 The --loader flag was deprecated in Node v20.6.0 and v18.19.0
 ``` 
 
-문제는 `Volta` 환경에서만 발생했다. 해결하기 위해서는 표준 Node.js 인터프리터를 사용해야 한다.
+문제는 `Volta` 환경에서만 발생했다. 해결하기 위해서는 표준 `Node.js` 인터프리터를 사용해야 한다.
+
+> `Volta`는 Package Manager 도구 중 하나다. 여러 `Node.js` 버전을 관리할 때 유용하다. `Volta` 외에도 `nvm`, `fnm`등이 있다.
+> Java에서 사용하는 `jenv`와 유사하다.
 
 ## Volta 제거하기
 
@@ -35,7 +38,7 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 3. `source ~/.zshrc`: 설정 파일을 다시 불러온다.
 4. `volta -v`: 삭제를 확인한다.
 
-## 테스트
+## 기능 확인하기
 
 ```typescript
 const blog = '장태근블로그 devmeeple.github.io';
@@ -53,7 +56,7 @@ thankYou(blog);
 
 ## 마치며
 
-Volta를 삭제하면 당장의 문제는 해결할 수 있다. 하지만 다양한 버전을 사용하기 위해서 다른 버전 관리자(Node Version Manager)를 고려해야겠다. 우선 급한 대로 `nvm`을 다시 사용 중이다.
+`Volta`를 삭제하면 당장의 문제는 해결할 수 있다. 하지만 다양한 버전을 사용하기 위해서 다른 버전 관리자(Node Version Manager)를 고려해야겠다. 우선 급한 대로 `nvm`을 다시 사용 중이다.
 
 **<참고 자료>**
 
