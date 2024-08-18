@@ -1,64 +1,83 @@
 import React from "react"
 import styled from "styled-components"
 
-import { author } from "../../../../blog-config"
-
-import Divider from "components/Divider"
-import TagList from "components/TagList"
 import { Link } from "gatsby"
 
-const Wrapper = styled.div`
-    margin-top: 32px;
-    @media (max-width: 768px) {
-        padding: 0 15px;
+import Divider from "components/Divider"
+
+import { useAbout } from "../../../blog-config"
+
+const TabWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 1px solid ${props => props.theme.colors.divider};
+    margin-top: 35px;
+    margin-bottom: 48px;
+
+    & a {
+        text-decoration: none;
     }
 `
 
-const ArticleTitle = styled.h1`
-    margin-bottom: 25.6px;
-    line-height: 1.2;
-    font-size: 44.8px;
-    font-weight: 700;
-    color: ${props => props.theme.colors.text};
+const TabButton = styled.button`
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 43px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    border-bottom-color: ${props =>
+            props.active ? props.theme.colors.text : "transparent"};
+    font-size: 14px;
+    color: ${props =>
+            props.active ? props.theme.colors.text : props.theme.colors.tertiaryText};
+    font-weight: ${props => (props.active ? "bold" : "normal")};
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+        color: ${props => props.theme.colors.text};
+        border-bottom-color: ${props =>
+                props.active ? props.theme.colors.text : props.theme.colors.divider};
+    }
+
+    & svg {
+        margin-right: 10px;
+        height: 20px;
+    }
 `
 
-const Information = styled.div`
-    margin-bottom: 32px;
-    font-size: 16px;
+const Badge = styled.span`
+    display: inline-block;
+    margin-left: 7px;
+    padding: 3px 6px;
+    border-radius: 50px;
+    background-color: ${props => props.theme.colors.tagBackground};
+    color: ${props => props.theme.colors.tagText};
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    transition: all 0.2s;
 `
 
-const Author = styled.span`
-  & > a {
-    font-weight: 700;
-    color: ${props => props.theme.colors.text};
-    text-decoration: none;
-  }
+const Tab = ({ postsCount, activeTab }) => {
+  if (!useAbout) return <Divider />
 
-  & > a:hover {
-    text-decoration: underline;
-  }
-`
-
-const Date = styled.span`
-  font-weight: 300;
-  color: ${props => props.theme.colors.secondaryText};
-`
-
-const Header = ({ title, date, tags, minToRead }) => {
   return (
-    <Wrapper>
-      <ArticleTitle> {title} </ArticleTitle>
-      <Information>
-        <Author>
-          <Link to="/about">@{author}</Link>
-        </Author>
-        <Date>· {date} </Date>
-        <Date>· {minToRead} min read </Date>
-      </Information>
-      {tags && <TagList tagList={tags} />}
-      <Divider mt="0" />
-    </Wrapper>
+    <TabWrapper>
+      <Link to="/">
+        <TabButton active={activeTab == "posts"}>
+          POSTS <Badge>{postsCount}</Badge>
+        </TabButton>
+      </Link>
+      <Link to="/about">
+        <TabButton active={activeTab == "about"}>ABOUT</TabButton>
+      </Link>
+    </TabWrapper>
   )
 }
 
-export default Header
+export default Tab
