@@ -1,4 +1,147 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[개발자. 명료한 생각이 명료한 글이 된다.]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Jul 2024 14:11:56 GMT</lastBuildDate><item><title><![CDATA[월간 회고 7월호 - 시퍼런 봄]]></title><description><![CDATA[…]]></description><link>https://devmeeple.github.io/retrospective-20240728/</link><guid isPermaLink="false">https://devmeeple.github.io/retrospective-20240728/</guid><pubDate>Sun, 28 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/8i-B1ieI_kY?si=VDSK-up06aLKIp7g&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[개발자. 명료한 생각이 명료한 글이 된다.]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 18 Aug 2024 07:55:51 GMT</lastBuildDate><item><title><![CDATA[<INFCON 2024> 후기]]></title><description><![CDATA[1년을 기다렸다. 작년에 탈락할 때 'INFCON 2024는 꼭 간다.' 다짐했는데 인프런 워밍업 클럽 덕분에 다녀왔다.
+발표와 네트워킹 위주로 들은 백엔드 취업준비생의 후기를 공유한다. 발표 1. 이형주 외…]]></description><link>https://devmeeple.github.io/infcon-2024-review/</link><guid isPermaLink="false">https://devmeeple.github.io/infcon-2024-review/</guid><pubDate>Sat, 17 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/d9ce7de075ad543b6173ddc460f6b48d/f5005/infcon-2024.avif&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 75.29411764705883%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/heif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAwQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAACAAIABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAADwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEgYIDhAAAAMltZGF0EgAKBTgQ58wSMrUBGAAAAEDt5PqhW9igIQ5BTEEqI2AgjxTD+KegUMyAWAI48eawWcOcu84Rd7ggbo1ZFCXf2+OFJQzAy5iiay0YTXIF87mRUwBE/DBtxngYNkVzRWI3UvBmLWA54RSZcvmF5uSrdgbB9a7N5epWhqE7UtjXLxgtvNUo/RrC+XLZN89D4GKj42MIkKsrIBbhn7MJctr+8zpmdLDycuBre6fUTuIR7FamkAImCyhz2mikL+Pw1tunwA==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;INFCON 2024 선물&apos; title=&apos;&apos; src=&apos;/static/d9ce7de075ad543b6173ddc460f6b48d/d3231/infcon-2024.avif&apos; srcset=&apos;/static/d9ce7de075ad543b6173ddc460f6b48d/b521e/infcon-2024.avif 170w,
+/static/d9ce7de075ad543b6173ddc460f6b48d/74bf6/infcon-2024.avif 340w,
+/static/d9ce7de075ad543b6173ddc460f6b48d/d3231/infcon-2024.avif 680w,
+/static/d9ce7de075ad543b6173ddc460f6b48d/78007/infcon-2024.avif 1020w,
+/static/d9ce7de075ad543b6173ddc460f6b48d/7c47d/infcon-2024.avif 1360w,
+/static/d9ce7de075ad543b6173ddc460f6b48d/f5005/infcon-2024.avif 4032w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;INFCON 2024 선물&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;1년을 기다렸다. 작년에 탈락할 때 &apos;INFCON 2024는 꼭 간다.&apos; 다짐했는데 인프런 워밍업 클럽 덕분에 다녀왔다.
+발표와 네트워킹 위주로 들은 백엔드 취업준비생의 후기를 공유한다.&lt;/p&gt;
+&lt;h2 id=&quot;발표&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B0%9C%ED%91%9C&quot; aria-label=&quot;발표 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;발표&lt;/h2&gt;
+&lt;h3 id=&quot;1-이형주-외-2인-인프랩의-도전-글로벌-교육-플랫폼으로의-첫-발걸음&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%9D%B4%ED%98%95%EC%A3%BC-%EC%99%B8-2%EC%9D%B8-%EC%9D%B8%ED%94%84%EB%9E%A9%EC%9D%98-%EB%8F%84%EC%A0%84-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EA%B5%90%EC%9C%A1-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9C%BC%EB%A1%9C%EC%9D%98-%EC%B2%AB-%EB%B0%9C%EA%B1%B8%EC%9D%8C&quot; aria-label=&quot;1 이형주 외 2인 인프랩의 도전 글로벌 교육 플랫폼으로의 첫 발걸음 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;1. 이형주 외 2인 &apos;인프랩의 도전: 글로벌 교육 플랫폼으로의 첫 발걸음&apos;&lt;/h3&gt;
+&lt;p&gt;인프랩이 어떤 길을 걸어왔고 어떤 생각을 가지고 있는지 대표님이신 형주님, CTO 동욱 님, 커뮤니티 리드 연의님께서 다양한 관점을 이야기해 주셨다.
+번역, 국제화도 기억에 남지만 특히 기억에 남았던 이야기는 &apos;과제&apos;다. 인프랩에서 이야기하는 &apos;성장기회의 평등&apos;을 추구하기 위해서 꼭 필요한 기능이라고 생각했다.&lt;/p&gt;
+&lt;p&gt;이전에 스터디에서 태현 님의 피드백 덕분에 강의를 듣고 끝나는 것이 아닌 재밌게 성장한 경험이 있다. 다른 강의에서도 만나볼 수 있고 강의를 듣는 것에서 끝나는 것이 아닌
+활용까지 하는 기능을 제공한다는 점이 긍정적이다. 그런데 관리가 어려울 것 같은데 어떤 식으로 제공될지 조금 더 지켜봐야겠다.&lt;/p&gt;
+&lt;h3 id=&quot;2-김재민-지속-성장-가능한-설계를-만들어가는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EA%B9%80%EC%9E%AC%EB%AF%BC-%EC%A7%80%EC%86%8D-%EC%84%B1%EC%9E%A5-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%84%A4%EA%B3%84%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;2 김재민 지속 성장 가능한 설계를 만들어가는 방법 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;2. 김재민 &apos;지속 성장 가능한 설계를 만들어가는 방법&apos;&lt;/h3&gt;
+&lt;p&gt;가장 앞줄 중앙에 가서 재민님의 발표를 들었다. &lt;a href=&quot;https://www.youtube.com/@geminikims&quot;&gt;Youtube(유튜브)&lt;/a&gt;에서도 자주 뵀던 분이라 기대가 컸다.
+&apos;설계&apos;를 주제로 내용을 풀어주셨는데 경험이 적어서 초반은 이해하기 어려웠다. 그런데 코드와 함께 예시를 들어주시는 부분부터는 이해가 잘됐다.
+추가로 &lt;a href=&quot;https://inf.run/RnztG&quot;&gt;강의&lt;/a&gt;에서는 어떤 내용을 전달하고 계실지 궁금했다.&lt;/p&gt;
+&lt;h3 id=&quot;3-이동욱-인프런-아키텍처-2024--2025&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%9D%B4%EB%8F%99%EC%9A%B1-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-2024--2025&quot; aria-label=&quot;3 이동욱 인프런 아키텍처 2024  2025 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;3. 이동욱 &apos;인프런 아키텍처 2024 ~ 2025&apos;&lt;/h3&gt;
+&lt;p&gt;올해 두 번째 뵌 이동욱(향로)님. 앞서 인프랩의 여정을 모두가 이해할 수 있도록 해주셨다면 동욱 님께서는 조금 더 기술적인 이야기를 해주셨다.
+아키텍처를 어떻게 설계하고 변경하셨는지 그림과 예시가 적절해서 재밌었다. 특히 &lt;code class=&quot;language-text&quot;&gt;avif&lt;/code&gt; 확장자를 도입과 &lt;code class=&quot;language-text&quot;&gt;JSON CDN Caching&lt;/code&gt; 이야기가 가장 기억에 남는다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;블로그에 바로 avif 확장자를 도입했다. &lt;a href=&quot;https://news.hada.io/&quot;&gt;GeekNews&lt;/a&gt;를 흘려봤는데 조금 더 신경 써서 봐야겠다는 생각이 들었다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;4-조현우-사이드-프로젝트로-커리어-레벨업&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EC%A1%B0%ED%98%84%EC%9A%B0-%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A1%9C-%EC%BB%A4%EB%A6%AC%EC%96%B4-%EB%A0%88%EB%B2%A8%EC%97%85&quot; aria-label=&quot;4 조현우 사이드 프로젝트로 커리어 레벨업 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;4. 조현우 &apos;사이드 프로젝트로 커리어 레벨업!&apos;&lt;/h3&gt;
+&lt;p&gt;짧은 시간에 내용이 농축되어 있는 좋은 발표였다. 점심 먹기 전에 시간 내어 들었는데 가장 기억에 남았다.
+빠른 시간에 어떻게 사이드 프로젝트를 구현하셨고 어떤 어려움이 있었는지 공유해 주셨다. 특히 발표자분의 관심사를 어떻게 사이드 프로젝트로 녹여내셨는지 사례를 이야기해 주셔서 공감이 많이 됐다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;도메인이 인터넷 방송이어서 더욱 재밌었다. 처음 뵀는데 그동안 어떤 행보를 보내셨는지 궁금했다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;후기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%9B%84%EA%B8%B0&quot; aria-label=&quot;후기 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;후기&lt;/h3&gt;
+&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/4307698f5d9557f549cd5099771f32c8/a6698/pelican-just-do-it.avif&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/heif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAApAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAACAAIABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAFAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEgYIDhAAAAKxtZGF0EgAKBTgRJzYJMpgBGAACCMGFANFKDTcdcGNCVPTyUSVcHN4MyUndZadn2AvTZlv47DuFi4plqM+xq43xKK1iwQaWMAJw8olvJvRCvL20RG05Ng0d0Dg67PJVp9TXJquuTy1ozSAkJ+xxh7b0z0172zASQBWB111qkYHKDlClMYpKhj4ExZ129ITklxV2efzvPoELrk3h2wYfStfuw0eTMNTvakA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;펠리칸적 사고 &amp;quot;일단 시도함&amp;quot; &amp;lt;출처: X&amp;gt;&apos; title=&apos;&apos; src=&apos;/static/4307698f5d9557f549cd5099771f32c8/d3231/pelican-just-do-it.avif&apos; srcset=&apos;/static/4307698f5d9557f549cd5099771f32c8/b521e/pelican-just-do-it.avif 170w,
+/static/4307698f5d9557f549cd5099771f32c8/74bf6/pelican-just-do-it.avif 340w,
+/static/4307698f5d9557f549cd5099771f32c8/d3231/pelican-just-do-it.avif 680w,
+/static/4307698f5d9557f549cd5099771f32c8/78007/pelican-just-do-it.avif 1020w,
+/static/4307698f5d9557f549cd5099771f32c8/a6698/pelican-just-do-it.avif 1179w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;펠리칸적 사고 &amp;quot;일단 시도함&amp;quot; &amp;lt;출처: X&amp;gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;오전에만 발표를 들었다. 발표에서 공통적으로 &apos;일단 시도하라&apos;라고 강조했다. 말은 쉽지만 행동으로 이어지기 어려운 것이 &apos;도전&apos;이라 생각한다.
+그럼에도 다시 돌아보고 다잡을 수 있는 이야기여서 좋았다.&lt;/p&gt;
+&lt;p&gt;가장 인상 깊었던 발표는 마지막에 들었던 &lt;strong&gt;조현우 님의 &apos;사이드 프로젝트로 커리어 레벨업!&apos;&lt;/strong&gt;이다.
+모두 훌륭하지만 바로 적용가능하고 필요한 내용이어서 인상 깊다. 발표가 마치 다듬어지지 않은 원석 같았다.&lt;/p&gt;
+&lt;h2 id=&quot;네트워킹&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9&quot; aria-label=&quot;네트워킹 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;네트워킹&lt;/h2&gt;
+&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 545px; &apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/7d7c9c2a6ae0293124e300eb730bc8c8/809f1/the-gambling-apocalypse-kaiji.avif&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 62.35294117647059%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/heif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAfwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAACAAIABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAADAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEgYIDhAAAAIdtZGF0EgAKBTgQ52wSMnQYAAAAUO9URbLlpnpP1lnHUcYua8Y6HwOe2lMHQb7lAyX+AdMVLsn+DV5859rm/QCtIATgdCzIWiLeCZ9jfz0s29ZXZKatQxuXpcLSW+WMXkEnO3rDZS3x/qYpPPbl5XpMJYPoJFA6jDHO9Q2Ob/uPoEUicA==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;감사합니다. 고맙습니다. 덕분입니다. &amp;lt;출처: 도박묵시록 카이지&amp;gt;&apos; title=&apos;&apos; src=&apos;/static/7d7c9c2a6ae0293124e300eb730bc8c8/809f1/the-gambling-apocalypse-kaiji.avif&apos; srcset=&apos;/static/7d7c9c2a6ae0293124e300eb730bc8c8/b521e/the-gambling-apocalypse-kaiji.avif 170w,
+/static/7d7c9c2a6ae0293124e300eb730bc8c8/74bf6/the-gambling-apocalypse-kaiji.avif 340w,
+/static/7d7c9c2a6ae0293124e300eb730bc8c8/809f1/the-gambling-apocalypse-kaiji.avif 545w&apos; sizes=&apos;(max-width: 545px) 100vw, 545px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;감사합니다. 고맙습니다. 덕분입니다. &amp;lt;출처: 도박묵시록 카이지&amp;gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;오후에는 네트워킹에 전념했다. 여러 사람들과 같은 공간에서 네트워킹 하는 경험은 처음이었다. (만약 서포터즈분들의 도움이 없었다면 듣기만 했을 것 같다)
+발표도 기대했던 만큼 좋았지만 네트워킹은 더욱 좋았다. (강조하신 이유가 있었다)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;만약 서포터즈분들의 도움이 없었다면 듣기만 했을 것 같다. 여러 고충도 많이 들었는데 감사드린다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;백엔드 주제에서 주로 놀았는데, Java/Spring 개발자 분들이 역시 많았다. (의외로 Go도 많았다)
+선배 개발자의 문제를 만났던 경험과 해결 노하우를 들으니 즐거웠다. 놀다 보니 어둠 속의 한줄기 빛처럼 Node.js 경험을 공유하시는 분을 만났다. 너무 반가워서 조금 더 궁금했던 주제를 꺼냈다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Closure(클로저), Prototype(프로토 타입), NestJS &apos;Mapped types&apos;&lt;/li&gt;
+&lt;li&gt;자료를 얻는 배경&lt;/li&gt;
+&lt;li&gt;테스트를 어떻게 작성하는가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;그동안 혼자 정의했던 개념들에 대해 의견을 주고받을 수 있어서 너무 즐거웠다. 입이 풀려서 &quot;감사합니다. 고맙습니다. 덕분입니다&quot;를 연신 말하며 오랜 시간 대화를 나눴다.
+끝까지 듣고 의견을 전해주신 재호님과 인프랩 후니님께 다시 한번 감사드린다.&lt;/p&gt;
+&lt;p&gt;어렸을 때 유명한 사람들을 많이 봐서 그런지 연예인, 인플루언서를 만나도 별 감흥 없었다. 결국 똑같은 &apos;사람&apos;이라는 인식이 강했다.
+그런데 INFCON에서 유명 개발자분들을 마주하니 달랐다. 유명세를 떠나 성장에 영향받은 기억이 남아서 색다른 감정이 들었다.
+특히 최근에 즐겨 듣는 지식 공유자이신 박우빈 님과 예전부터 도움&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; 받은 진유림 님을 뵀을 때 그랬다.
+이일민(토비)님도 2층에서 많이 뵀는데 10년 전에도 유명하셨던 분을 마주하니 장로님을 뵙는 것 같아 당황스러웠다. 당황하며 &quot;어??? 안녕하세요&quot; 인사드렸는데 받아주신 토비 님께 감사드린다.
+만약 내년에도 참여할 수 있다면 꼭 책에 사인받고 싶다.&lt;/p&gt;
+&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;마치며&lt;/h2&gt;
+&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/a7540cf52c21a53866d8ed19d9a9d504/87cb0/mike-tyson.avif&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/heif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAkQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAACAAIABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAFAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEgYIDhAAAAJltZGF0EgAKBTgRJzYJMoUBGAANNAFFAM8ciW2hpB7qV5vLQt2sfrfmUbRwtzGZzkCGBwCvpe5+TQ12wD7eHf9kBsKiOJb7sfTU7bMwh6Qnp+4wTeIgnW51H5AcRhr/alRnSymWVI4mvy988YHS3AA1pDJMP5r5aK5miUXUS1ClN/hPNpl3uWTm99XEXroVkFynKBm3+A==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;누구나 그럴싸한 계획을 갖고 있다. 쳐 맞기 전까지는&apos; title=&apos;&apos; src=&apos;/static/a7540cf52c21a53866d8ed19d9a9d504/87cb0/mike-tyson.avif&apos; srcset=&apos;/static/a7540cf52c21a53866d8ed19d9a9d504/b521e/mike-tyson.avif 170w,
+/static/a7540cf52c21a53866d8ed19d9a9d504/74bf6/mike-tyson.avif 340w,
+/static/a7540cf52c21a53866d8ed19d9a9d504/87cb0/mike-tyson.avif 512w&apos; sizes=&apos;(max-width: 512px) 100vw, 512px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;누구나 그럴싸한 계획을 갖고 있다. 쳐 맞기 전까지는&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;계획에 빈틈이 없었다. &lt;a href=&quot;https://devmeeple.github.io/infcon-2024-guide/&quot;&gt;가이드&lt;/a&gt;도 다시 보고 시작부터 종료까지 발표를 들을 생각이었다. 그런데 실제로는 오전에 4개를 들은
+게 전부였다. (오히려 좋았다) 노트북을 들고 가야 할지 끝까지 고민했는데 안 들고 가길 잘했다.&lt;/p&gt;
+&lt;p&gt;운영진과 스터디원을 만나서 재밌었다. 인프런 워밍업 클럽 덕분에 좋은 인연을 맺었다. 감사함을 전하고 싶은 분들이 많아서 작은 비타민을 챙겨 드렸는데 INFCON을 즐기는 &apos;나만의 방법&apos;&lt;sup id=&quot;fnref-2&quot;&gt;&lt;a href=&quot;#fn-2&quot; class=&quot;footnote-ref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;이었다.&lt;/p&gt;
+&lt;p&gt;&apos;펠리컨적 사고&apos;를 배웠지만 집으로 돌아와서 푹 쉬었다. 다음날에도, 또 다음날에도, 그렇게 2주 정도를 하는 둥 마는 둥 보냈다.
+색다른 시도&lt;sup id=&quot;fnref-3&quot;&gt;&lt;a href=&quot;#fn-3&quot; class=&quot;footnote-ref&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;를 하지 않았다면 후기도 작성하지 않고 넘어갔을 것 같다. 그래도 &lt;a href=&quot;https://inf.run/38Va9&quot;&gt;이벤트&lt;/a&gt; 막차가 끊기기 전에 탑승해서
+다행이다.&lt;/p&gt;
+&lt;p&gt;많은 사람들이 지원하지만 아무나 올 수 없는 세미나. 참여에서 끝나지 않고 앞으로 어떤 변화가 일어날지 기대된다.&lt;/p&gt;
+
+      &lt;div class=&quot;footnotes&quot;&gt;
+        
+        &lt;ol &gt;
+    
+    &lt;li class=&quot;footnote-list-item&quot; id=&quot;fn-1&quot; &gt;
+          
+        &lt;p class=&quot;footnote-paragraph&quot; style=&quot;display:inline; &quot;&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000202039327&quot;&gt;정호영, 진유림 『팀 개발을 위한 Git, GitHub 시작하기』&lt;/a&gt;&lt;/p&gt;
+      &lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot; style=&quot;display:inline;text-decoration: none;&quot;&gt;
+        ↩
+      &lt;/a&gt;
+    
+      &lt;/li&gt;
+      
+    
+
+    &lt;li class=&quot;footnote-list-item&quot; id=&quot;fn-2&quot; &gt;
+          
+        &lt;p class=&quot;footnote-paragraph&quot; style=&quot;display:inline; &quot;&gt;어렸을 때 친구들 딱풀 챙겨주던 기억도 나서 반가웠다.&lt;/p&gt;
+      &lt;a href=&quot;#fnref-2&quot; class=&quot;footnote-backref&quot; style=&quot;display:inline;text-decoration: none;&quot;&gt;
+        ↩
+      &lt;/a&gt;
+    
+      &lt;/li&gt;
+      
+    
+
+    &lt;li class=&quot;footnote-list-item&quot; id=&quot;fn-3&quot; &gt;
+          
+        &lt;p class=&quot;footnote-paragraph&quot; style=&quot;display:inline; &quot;&gt;자세한 이야기는 8월 회고에서 이어진다.&lt;/p&gt;
+      &lt;a href=&quot;#fnref-3&quot; class=&quot;footnote-backref&quot; style=&quot;display:inline;text-decoration: none;&quot;&gt;
+        ↩
+      &lt;/a&gt;
+    
+      &lt;/li&gt;
+      
+    &lt;/ol&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[월간 회고 7월호 - 시퍼런 봄]]></title><description><![CDATA[…]]></description><link>https://devmeeple.github.io/retrospective-20240728/</link><guid isPermaLink="false">https://devmeeple.github.io/retrospective-20240728/</guid><pubDate>Sun, 28 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/8i-B1ieI_kY?si=VDSK-up06aLKIp7g&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h2 id=&quot;경찰서&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%BD%EC%B0%B0%EC%84%9C&quot; aria-label=&quot;경찰서 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;경찰서&lt;/h2&gt;
 &lt;p&gt;믿기지 않는 상황이 펼쳐졌다. 새벽에 집을 나왔다. 골목길은 항상 더러웠다. 하지만 그날따라 깨끗했다.
 무엇 앤가 이끌린 듯 고개를 돌렸다. 돈이 떨어져 있었다. 가로등 아래 빛나는 황색 지폐는 흡사 금덩이 같았다.
@@ -188,7 +331,7 @@
     
       &lt;/li&gt;
       
-    &lt;/ol&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[INFCON 2024 가이드]]></title><description><![CDATA[이 글은 인프런 라이브 방송과 인프콘 2024 공식 사이트를 기준으로 작성되었다. (2024. 07. 03)  들어가며 인프콘(INFCON)은 인프런에서 주관하는 IT 콘퍼런스로, 2024년 8월…]]></description><link>https://devmeeple.github.io/infcon-2024-guide/</link><guid isPermaLink="false">https://devmeeple.github.io/infcon-2024-guide/</guid><pubDate>Wed, 03 Jul 2024 21:58:27 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+    &lt;/ol&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[<INFCON 2024> 가이드]]></title><description><![CDATA[이 글은 인프런 라이브 방송과 인프콘 2024 공식 사이트를 기준으로 작성되었다. (2024. 07. 03)  들어가며 인프콘(INFCON)은 인프런에서 주관하는 IT 콘퍼런스로, 2024년 8월…]]></description><link>https://devmeeple.github.io/infcon-2024-guide/</link><guid isPermaLink="false">https://devmeeple.github.io/infcon-2024-guide/</guid><pubDate>Wed, 03 Jul 2024 21:58:27 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;이 글은 인프런 라이브 방송과 인프콘 2024 공식 사이트를 기준으로 작성되었다. (2024. 07. 03)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
