@@ -17,11 +17,17 @@ import { title, description, siteUrl, useAbout } from "../../blog-config"
 import Divider from "components/Divider"
 
 const ArticleTitle = styled.h1`
-  margin-bottom: 30px;
-  line-height: 1.2;
-  font-size: 32px;
-  font-weight: 700;
-  color: ${props => props.theme.colors.text};
+    margin-bottom: 30px;
+    line-height: 1.2;
+    font-size: 32px;
+    font-weight: 700;
+    color: ${props => props.theme.colors.text};
+`
+
+const Wrapper = styled.div`
+  @media (max-width: 768px) {
+    padding: 0 15px;
+  }
 `
 
 const BlogIndex = ({ data }) => {
@@ -37,10 +43,14 @@ const BlogIndex = ({ data }) => {
       <Bio />
       <Tab postsCount={postsCount} activeTab="about" />
       <Article>
-        <ArticleTitle>{aboutPost.frontmatter.title}</ArticleTitle>
+        <Wrapper>
+          <ArticleTitle>{aboutPost.frontmatter.title}</ArticleTitle>
+        </Wrapper>
         <Article.Body html={aboutPost.html} hideToc />
-        <Divider />
-        <Comment />
+        <Wrapper>
+          <Divider />
+          <Comment />
+        </Wrapper>
       </Article>
     </Layout>
   )
