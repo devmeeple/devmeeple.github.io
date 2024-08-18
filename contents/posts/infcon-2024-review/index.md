@@ -4,7 +4,7 @@ description: ""
 date: 2024-08-17
 update: 2024-08-17
 tags:
-  - 행사(콘퍼런스/세미나)
+  - 행사(세미나/콘퍼런스)
 series: 
 ---
 
