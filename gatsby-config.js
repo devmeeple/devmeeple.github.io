@@ -10,6 +10,12 @@ module.exports = {
     siteUrl,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-9EMQVPHMY6"],
+      },
+    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
     {
@@ -30,8 +36,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `noto sans kr:300,400,500,700,900`,
-          `source code pro:700`, // you can also specify font weights and styles
+          `noto sans kr\:300,400,500,700,900`,
+          `source code pro\:700`, // you can also specify font weights and styles
         ],
         display: "swap",
       },
@@ -39,6 +45,13 @@ module.exports = {
     "gatsby-plugin-styled-components",
     "gatsby-remark-reading-time",
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -51,14 +64,14 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ced4da`,
         display: `standalone`,
-        icon: `static/favicon.png`,
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: `${__dirname}/contents/posts`,
+        path: `${__dirname}/contents`,
       },
     },
     {
@@ -74,7 +87,7 @@ module.exports = {
             options: {
               maxWidth: 680,
               loading: "lazy",
-              wrapperStyle: "margin-bottom: 16px;",
+              wrapperStyle: "margin-bottom: 1rem;",
               quality: 100,
               showCaptions: true,
             },
@@ -176,6 +189,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { fileAbsolutePath: { regex: "/contents/posts/" } },
                 ) {
                   edges {
                     node {

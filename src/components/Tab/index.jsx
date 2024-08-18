@@ -28,20 +28,20 @@ const Information = styled.div`
 `
 
 const Author = styled.span`
-    & > a {
-        font-weight: 700;
-        color: ${props => props.theme.colors.text};
-        text-decoration: none;
-    }
+  & > a {
+    font-weight: 700;
+    color: ${props => props.theme.colors.text};
+    text-decoration: none;
+  }
 
-    & > a:hover {
-        text-decoration: underline;
-    }
+  & > a:hover {
+    text-decoration: underline;
+  }
 `
 
 const Date = styled.span`
-    font-weight: 300;
-    color: ${props => props.theme.colors.secondaryText};
+  font-weight: 300;
+  color: ${props => props.theme.colors.secondaryText};
 `
 
 const Header = ({ title, date, tags, minToRead }) => {

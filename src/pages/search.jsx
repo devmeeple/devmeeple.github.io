@@ -12,10 +12,10 @@ import VerticalSpace from "components/VerticalSpace"
 import { title, description, siteUrl } from "../../blog-config"
 
 const SearchWrapper = styled.div`
-  margin-top: 20px;
-  @media (max-width: 768px) {
-    padding: 0 15px;
-  }
+    margin-top: 20px;
+    @media (max-width: 768px) {
+        padding: 0 15px;
+    }
 `
 
 const Search = ({ data }) => {
@@ -59,7 +59,10 @@ export default Search
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fileAbsolutePath: { regex: "/contents/posts/" } }
+    ) {
       nodes {
         excerpt(pruneLength: 200, truncate: true)
         fields {

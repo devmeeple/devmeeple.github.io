@@ -14,11 +14,11 @@ import NoContent from "components/NoContent"
 import { title, description, siteUrl } from "../../blog-config"
 
 const TagListWrapper = styled.div`
-  margin-top: 20px;
+    margin-top: 20px;
 
-  @media (max-width: 768px) {
-    padding: 0 15px;
-  }
+    @media (max-width: 768px) {
+        padding: 0 15px;
+    }
 `
 
 const SeriesPage = ({ data }) => {
@@ -64,7 +64,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fileAbsolutePath: { regex: "/contents/posts/" } }
+    ) {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount
