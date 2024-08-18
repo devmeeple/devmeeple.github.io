@@ -45,7 +45,7 @@ Java & Spring 조합과 TypeScript & NestJS 조합이 상호작용 됐다. (A를
 원래
 오래 앉아있지 못했는데 이제 장시간도 앉아있는다. 운동 역시 꾸준히 해야겠다.
 
-## 마무리
+## 마치며
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/xMZMwFUscDc?si=yECRYXa4MtcaJBrb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

@@ -67,4 +67,4 @@ IntelliJ에서 ESLint와 Prettier를 항상 사용할 수 있도록 추가설정
 
 프로젝트 전역에서 사용할 수 있도록 Automatic configuration & Run on save를 활성화 시킨자.
 
-## 마무리
+## 마치며

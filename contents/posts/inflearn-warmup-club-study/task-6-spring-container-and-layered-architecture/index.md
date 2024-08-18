@@ -251,7 +251,7 @@ private FruitRepository mysqlRepository;
 private FruitRepository memoryRepository;
 ```
 
-## 마무리
+## 마치며
 
 간단한 문제였지만 이외에도 다양한 시도를 해서 얻은 지식이 많았다. 추가로 고민했던 내용은 다음과 같다.
 

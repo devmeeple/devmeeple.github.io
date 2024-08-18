@@ -272,7 +272,7 @@ public FruitSalesResponse findByName(@RequestParam String name) {
 
 처음부터 SUM, GROUP BY를 사용했다. 이외에는 이전과제와 강의에서 다루는 내용과 일치한다.
 
-## 마무리
+## 마치며
 
 강의가 진행됨에 따라 컨트롤러의 역할이 증가하고 있다. 역할을 분리하는 리팩터링이 필요한 시간이다. 다음 강의와 과제가 기대된다.
 

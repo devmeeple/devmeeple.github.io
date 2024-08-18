@@ -29,7 +29,7 @@ series:
 * [개발자 경력 개발 세미나 주최 후기](https://younghoe.wordpress.com/2015/12/23/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B2%BD%EB%A0%A5%EA%B0%9C%EB%B0%9C-%EC%84%B8%EB%AF%B8%EB%82%98-%EC%A3%BC%EC%B5%9C-%ED%9B%84%EA%B8%B0/)
 * [아마존 킨들 개발자가 된 백기선씨를 만남](https://younghoe.wordpress.com/2015/10/01/%EC%95%84%EB%A7%88%EC%A1%B4-%ED%82%A8%EB%93%A4-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%9C-%EB%B0%B1%EA%B8%B0%EC%84%A0%EC%94%A8%EB%A5%BC-%EB%A7%8C%EB%82%A8/)
 
-## 마무리
+## 마치며
 
 **<참고 자료>**
 
