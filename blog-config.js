@@ -6,11 +6,21 @@ module.exports = {
   links: {
     github: "https://github.com/devmeeple",
     linkedIn:
-      "https://www.linkedin.com/in/%ED%83%9C%EA%B7%BC-%EC%9E%A5-a98622300/",
+      "https://www.linkedin.com/in/%ED%83%9C%EA%B7%BC-%EC%9E%A5-a98622300/"
   },
-  useAbout: false,
   utterances: {
-    repo: "devmeeple/devmeeple.github.io",
-    type: "pathname",
+    repo: 'devmeeple/devmeeple.github.io',
+    type: "pathname"
   },
+  giscus: {
+    repo: "devmeeple/devmeeple.github.io",
+    repoId: "R_kgDOLZf5oA",
+    category: "Comments",
+    categoryId: "DIC_kwDOLZf5oM4Chwuu",
+    mapping: "pathname",
+    strict: "1",
+    reactionsEnabled: "1",
+    inputPosition: "bottom",
+    lang: "ko"
+  }
 }
