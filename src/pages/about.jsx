@@ -6,8 +6,8 @@ import SEO from "components/SEO"
 import Bio from "components/Bio"
 import VerticalSpace from "components/VerticalSpace"
 import Article from "components/Article"
-import Tab from "components/Tab"
 import Comment from "components/Article/Footer/Comment"
+import Tab from "components/Tab"
 
 import NotFoundPage from "pages/404"
 
@@ -25,9 +25,9 @@ const ArticleTitle = styled.h1`
 `
 
 const Wrapper = styled.div`
-  @media (max-width: 768px) {
-    padding: 0 15px;
-  }
+    @media (max-width: 768px) {
+        padding: 0 15px;
+    }
 `
 
 const BlogIndex = ({ data }) => {

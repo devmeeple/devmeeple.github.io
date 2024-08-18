@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ["G-9EMQVPHMY6"],
+        trackingIds: ["G-ZQRHQY8T3Y"],
       },
     },
     `gatsby-plugin-catch-links`,
@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `markdown-pages`,
+        path: `${__dirname}/contents`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -64,7 +64,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ced4da`,
         display: `standalone`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/favicon.png`, // This path is relative to the root of the site.
       },
     },
     {

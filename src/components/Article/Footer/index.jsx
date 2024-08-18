@@ -8,26 +8,26 @@ import Bio from "components/Bio"
 import Comment from "./Comment"
 
 const ArticleButtonContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
 
-  @media (max-width: 768px) {
-    margin-bottom: 80px;
-    padding: 0 12.8px;
-    flex-direction: column;
+    @media (max-width: 768px) {
+        margin-bottom: 80px;
+        padding: 0 12.8px;
+        flex-direction: column;
 
-    & > div:first-child {
-      margin-bottom: 12.8px;
+        & > div:first-child {
+            margin-bottom: 12.8px;
+        }
     }
-  }
 `
 
 const ArrowFlexWrapper = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 `
 
 const ArticleButtonTextWrapper = styled.div`
@@ -48,44 +48,44 @@ const Arrow = styled.div`
 `
 
 const ArticleButtonWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: ${props => (props.right ? "flex-end" : "flex-start")};
-  padding: 20.8px 16px;
-  max-width: 250px;
-  flex-basis: 250px;
-  font-size: 17.6px;
-  border-radius: 5px;
-  background-color: ${props => props.theme.colors.nextPostButtonBackground};
-  color: ${props => props.theme.colors.text};
-  cursor: pointer;
-  transition: background-color 0.3s;
-
-  &:hover {
-    background-color: ${props =>
-  props.theme.colors.hoveredNextPostButtonBackground};
-  }
-
-  & ${ArrowFlexWrapper} {
-    flex-direction: ${props => (props.right ? "row-reverse" : "row")};
-  }
-
-  & ${ArticleButtonTextWrapper} {
+    display: flex;
+    flex-direction: column;
     align-items: ${props => (props.right ? "flex-end" : "flex-start")};
-  }
+    padding: 20.8px 16px;
+    max-width: 250px;
+    flex-basis: 250px;
+    font-size: 17.6px;
+    border-radius: 5px;
+    background-color: ${props => props.theme.colors.nextPostButtonBackground};
+    color: ${props => props.theme.colors.text};
+    cursor: pointer;
+    transition: background-color 0.3s;
 
-  & ${Arrow} {
-    ${props => (props.right ? "margin-left: 16px" : "margin-right: 16px")};
-  }
+    &:hover {
+        background-color: ${props =>
+                props.theme.colors.hoveredNextPostButtonBackground};
+    }
 
-  &:hover ${Arrow} {
-    left: ${props => (props.right ? 2 : -2)}px;
-  }
+    & ${ArrowFlexWrapper} {
+        flex-direction: ${props => (props.right ? "row-reverse" : "row")};
+    }
 
-  @media (max-width: 768px) {
-    max-width: inherit;
-    flex-basis: inherit;
-  }
+    & ${ArticleButtonTextWrapper} {
+        align-items: ${props => (props.right ? "flex-end" : "flex-start")};
+    }
+
+    & ${Arrow} {
+        ${props => (props.right ? "margin-left: 16px" : "margin-right: 16px")};
+    }
+
+    &:hover ${Arrow} {
+        left: ${props => (props.right ? 2 : -2)}px;
+    }
+
+    @media (max-width: 768px) {
+        max-width: inherit;
+        flex-basis: inherit;
+    }
 `
 
 const ArticleButtonLabel = styled.div`
@@ -94,10 +94,10 @@ const ArticleButtonLabel = styled.div`
 `
 
 const ArticleButtonTitle = styled.div`
-  padding: 2px 0;
-  width: 100%;
-  text-overflow: ellipsis;
-  overflow: hidden;
+    padding: 2px 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
 `
 
 const CommentWrapper = styled.div`

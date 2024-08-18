@@ -10,8 +10,7 @@ import SideTagList from "components/SideTagList"
 import VerticalSpace from "components/VerticalSpace"
 import Tab from "components/Tab"
 
-import { title, description, siteUrl, useAbout } from "../../blog-config"
-import Divider from "components/Divider"
+import { title, description, siteUrl } from "../../blog-config"
 
 const BlogIndex = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
