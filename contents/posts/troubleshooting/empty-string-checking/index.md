@@ -34,7 +34,7 @@ if (password === null || password === undefined || password === '') {
   return PasswordStrength.INVALID;
 }
 
-// 2. Optional chaining, Nullish Coalescing 연산자 활용
+// 2. 옵셔널 체이닝(Optional chaining) 활용
 if (!password?.trim()) {
   return PasswordStrength.INVALID;
 }
