@@ -50,3 +50,4 @@ Git을 처음 배울 땐 이정도로 자주 사용하는 기술이될지 몰랐
 - [GitHub Blog 'Top 12 Git commands every developer must know'](https://github.blog/developer-skills/github/top-12-git-commands-every-developer-must-know/)
 - [GitHub Blog 'Highlights from Git 2.23'](https://github.blog/open-source/git/highlights-from-git-2-23/)
 - [『팀 개발을 위한 팀 개발을 위한 Git, GitHub 시작하기』(정호영, 진유림, 한빛미디어, 2020)](https://product.kyobobook.co.kr/detail/S000202039327)
+- [GitHub '커밋 메시지 가이드'](https://github.com/RomuloOliveira/commit-messages-guide/blob/master/README_ko-KR.md)
