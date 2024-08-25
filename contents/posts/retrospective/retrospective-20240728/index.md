@@ -1,9 +1,9 @@
 ---
-title: "월간 회고 7월호 - 시퍼런 봄"
+title: "2024 월간 장태근 7월호 '시퍼런 봄'"
 date: 2024-07-28
 tags:
   - 회고
-series: "2024년 월간회고"
+series: "행보 2024 장태근"
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/8i-B1ieI_kY?si=VDSK-up06aLKIp7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -37,7 +37,8 @@ series: "2024년 월간회고"
 
 ## 도서관
 
-* [월리엄 진서 『글쓰기 생각쓰기』](https://product.kyobobook.co.kr/detail/S000001110694): '글쓰기 스테디 셀러' 글쓰기 종류와 형식을 설명하는 예제가 풍부하다. 하지만 번역이 매끄럽지 않다. 3.5/5
+* [월리엄 진서 『글쓰기 생각쓰기』](https://product.kyobobook.co.kr/detail/S000001110694): '글쓰기 스테디 셀러' 글쓰기 종류와 형식을 설명하는 예제가 풍부하다. 하지만
+  번역이 매끄럽지 않다. 3.5/5
 
 ## 마치며
 

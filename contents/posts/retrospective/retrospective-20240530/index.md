@@ -1,11 +1,11 @@
 ---
-title: "월간 회고 5월호 - 마라톤"
+title: "2024 월간 장태근 5월호 '마라톤'"
 description: ""
 date: 2024-05-30 08:57:14
 update: 2024-05-30 08:57:14
 tags:
   - 회고
-series: "2024년 월간회고"
+series: "행보 2024 장태근"
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/ClwEVvUgxEE?si=HzV9OLWagN8cm1FT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

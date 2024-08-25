@@ -1,11 +1,11 @@
 ---
-title: "월간 회고 6월호 - Stop Crying Your Heart Out"
+title: "2024 월간 장태근 6월호 'Stop Crying Your Heart Out'"
 description: ""
 date: 2024-06-30 18:09:59
 update: 2024-06-30 18:09:59
 tags:
   - 회고
-series: "2024년 월간회고"
+series: "행보 2024 장태근"
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/dhZUsNJ-LQU?si=lLxvUqTK1gvnEVA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

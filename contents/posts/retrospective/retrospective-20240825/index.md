@@ -1,11 +1,10 @@
 ---
-title: "2024 월간 장태근 8월호"
+title: "2024 월간 장태근 8월호 '나의 봄은'"
 description: ""
 date: 2024-08-25
-update: 2024-08-25
 tags:
   - 회고
-series: 2024 월간 장태근
+series: "행보 2024 장태근"
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/ALXA72FkkVE?si=p3bnxTbYWTEAOuUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

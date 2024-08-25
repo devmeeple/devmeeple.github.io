@@ -1,10 +1,10 @@
 ---
-title: "월간 회고 3월호 - NO PAIN"
+title: "2024 월간 장태근 3월호 'NO PAIN'"
 date: 2024-03-31
 update: 2024-03-31
 tags:
   - 회고
-series: "2024년 월간회고"
+series: "행보 2024 장태근"
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/JaIMSzE5yLA?si=uVw70SzPt2DiKpMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
