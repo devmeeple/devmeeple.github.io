@@ -1,4 +1,4 @@
-<h1 style="text-align: center">장태근블로그</h1>
+# 장태근블로그
 
 > Powered by **[gatsby-starter-hoodie](https://github.com/devHudi/gatsby-starter-hoodie)**
 
