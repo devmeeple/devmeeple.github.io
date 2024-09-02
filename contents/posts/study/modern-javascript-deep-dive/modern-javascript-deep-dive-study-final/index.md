@@ -29,6 +29,7 @@ series: "모던 자바스크립트 Deep Dive"
     - 17(생성자 함수에 의한 객체 생성), 28(Number), 29(Math), 30(Date), 31(RegExp), 32(String), 33(7번째 데이터 타입 Symbol), 34(이터러블)
       , 37(Set과 Map)
 - 넘어가기: 가볍게 훑고 넘어간다.
+    - 16(프로퍼티 어트리뷰트), 20(strict mode), 46(제너레이터와 async/await)
 
 > 강조한 개념이 어렵다면 '인간 JS 엔진 되기'를 참고하자.
 
