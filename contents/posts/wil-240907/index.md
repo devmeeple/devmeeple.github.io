@@ -53,6 +53,15 @@ series: "WIL(Weekly I Listened): 주간 장태근"
 
 > *많은 사람이 기다린 방법이라고 느꼈다. 참여하고 있는 커뮤니티에서 전부, 일제히 소식을 알렸다.
 
+## 포트폴리오
+
+> [프로젝트 완성의 기술](https://news.hada.io/topic?id=16587&utm_source=discord&utm_medium=bot&utm_campaign=2285)
+
+유독 최근에 하던 생각과 완벽하게 일치하는 글이다. '프로젝트 하이드라' 표현이 인상 깊다. 괴물을 없애고 후회하지 않는 건 불가능하다.
+만약 비슷한 고민을 한 경험이 있다면, 함께 나누고 인사이트 얻을 수 있는 좋은 글이다.
+
+> *글뿐만 아니라 고마운 분들이 많다. 예를 들어 같은 주제로 푸딩캠프 운영자, 한날님께 도움을 받았다.
+
 ### ETC.
 
 - [좋은 리팩토링 vs. 나쁜 리팩토링](https://news.hada.io/topic?id=16575&utm_source=discord&utm_medium=bot&utm_campaign=2285)
