@@ -53,15 +53,15 @@ series: "모던 자바스크립트 Deep Dive"
 
 - `const` 키워드는 값을 재할당할 수 없다는 의미다. 참조형인 배열, 객체는 값을 변경할 수 있다.
 - `Object.freeze()`는 얕은 복사만 해당한다. 중첩 객체는 수정 가능하다.
-- `Spread` 또한 마찬가지다.
+- `Spread` 또한 얕은 복사다. 새로운 객체를 생성한다.
 - 배열은 불변 메서드와, 가변 메서드가 있다.
-
-간단한 예제를 알아봤다. 조금 더 실무에 가까운 예제는 다음[https://velopert.com/3486] 을 참고하자.
 
 ## 참고
 
 - [/dev/solita '
   Writing Immutable JavaScript in 2022'](https://dev.solita.fi/2022/04/25/javascript-immutability.html)
+- [TOAST UI '불변 객체와 immer'](https://ui.toast.com/posts/ko_20220217)
+- [벨로퍼트 '23. Immer 를 사용한 더 쉬운 불변성 관리'](https://react.vlpt.us/basic/23-immer.html)
 
 ## 객체
 
