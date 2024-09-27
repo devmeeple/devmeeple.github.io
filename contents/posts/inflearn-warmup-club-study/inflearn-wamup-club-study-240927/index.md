@@ -69,7 +69,7 @@ series:
 
 ### AI 시대에 0에 수렴하는 것, 1000배 중요해진 것
 
-- AI에 대한 빌게이츠, 켄트 백 의견으로 시작하여 우빈님의 추론을 풀어낸다.
+- AI에 대한 빌게이츠[^1], 켄트 백[^2] 의견으로 시작하여 우빈님의 추론을 풀어낸다.
 
 * 클린 코드와 테스트 코드 학습은 AI와 관계에서 10% 시야(경험 지식, 통찰, 상위 설계)를 기르는 과정이다.
     * 클린 코드: 어떻게 변화할 것인지에 대한 안목, 개안
@@ -88,3 +88,6 @@ series:
 - [클린 아키텍처: 소프트웨어 구조와 설계의 원칙』(로버트 C. 마틴, 인사이트, 2019)](https://product.kyobobook.co.kr/detail/S000001033082)
 - [『최고의 프롬프트 엔지니어링 강의』(김진중, 리코멘드, 2024)](https://product.kyobobook.co.kr/detail/S000213362002)
 - [YouTube @ShuOmi_Official 'Zettelkasten Note-Taking Method: Simply Explained'](https://youtu.be/rOSZOCoqOo8?si=I6abtknMjhOyxmkF)
+
+[^1]: [Bill Gates 'The Age of AI has begun'](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
+[^2]: [Kent Beck '90% of My Skills Are Now Worth $0'](https://open.substack.com/pub/tidyfirst/p/90-of-my-skills-are-now-worth-0?utm_campaign=post&utm_medium=web)
