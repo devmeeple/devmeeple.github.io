@@ -8,7 +8,7 @@ tags:
 series: 
 ---
 
-![학습과 성장 컨퍼런스 2024 <출처: 한날>](conference-puddingcamp.jpeg)
+![학습과 성장 컨퍼런스 2024 <출처: PuddingCamp>](conference-puddingcamp.jpeg)
 
 9월 28일, PuddingCamp '학습과 성장 컨퍼런스 2024'에 다녀왔다.
 프로그램은 사전 공개 세션과 당일 공개 세션으로 진행됐다.
@@ -68,4 +68,5 @@ series:
 
 **<참고 자료>**
 
-- [Puddingcamp '학습과 성장 컨퍼런스 2024'](https://conference.puddingcamp.com/)
+- [PuddingCamp '학습과 성장 컨퍼런스 2024'](https://conference.puddingcamp.com/)
+- [PuddingCamp '컨퍼런스'](https://puddingcamp.com/topics?page=1&category=conference)
