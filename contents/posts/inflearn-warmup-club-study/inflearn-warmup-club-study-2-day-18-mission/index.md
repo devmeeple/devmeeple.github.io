@@ -1,5 +1,5 @@
 ---
-title: "Mock을 마주합니다. 그런데 클렌징을 곁들인"
+title: "Mock을 마주합니다. 그런데 Test Fixture를 곁들인"
 description: ""
 date: 2024-10-25 17:13:16
 update: 2024-10-25 17:13:16
@@ -36,7 +36,7 @@ series:
 **테스트 코드를 작성할 때 '의도'를 전달할 수 있어야 한다.** 순수 단위 테스트가 필요하다면 `@Mock`, `@Spy`를 요구사항에 맞춰 사용한다.
 반면 `Spring Context`가 필요한 통합 테스트라면 `@Bean 시리즈`를 사용해야 한다.
 
-## 2. Test Fixture 클렌징
+## 2. Test Fixture 구성하기
 
 ```java
 
@@ -112,10 +112,17 @@ void cannotUpdateCommentWhenUserIsNotWriter() {
 
 주어진 예제는 다음과 같다.
 
+## 마치며
+
+![믿기 힘든 반전의 결과 속출 <출처: Show Me The Money 6>](show-me-the-money-6-fail.avif)
+
+마지막 미션인 만큼 의심을 한 번 더 했다. 특히 2번 문제, Test Fixture 구성하기를 의심했다. '우빈 님께서 `setUp` 메서드에도
+물음표를 사용하셨지만 함정이 아닐까?' 돌다리를 두드려 봤다. 하지만 거듭 생각해도 생각이 바뀌지 않았다.
+미션, 과정 전부 끝났다. 배움이 많았다. 자세한 이야기는 '인프런 워밍업 클럽 2기 후기'로 알아보자.
+
 **<참고 자료>**
 
 - [박우빈 'Practical Testing: 실용적인 테스트 가이드'](https://inf.run/yoBRZ)
 - [Baeldung 'Mockito.mock() vs @Mock vs @MockBean'](https://www.baeldung.com/java-spring-mockito-mock-mockbean)
 - [Baeldung 'Difference Between @Spy and @SpyBean'](https://www.baeldung.com/spring-spy-vs-spybean)
 - [Baeldung 'Using @Autowired and @InjectMocks in Spring Boot Tests'](https://www.baeldung.com/spring-test-autowired-injectmocks)
-
