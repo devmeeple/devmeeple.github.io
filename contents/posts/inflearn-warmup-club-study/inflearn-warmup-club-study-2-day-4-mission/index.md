@@ -8,7 +8,9 @@ tags:
 series: 
 ---
 
-![인프런 워밍업 클럽 2기 BE 클린코드&테스트 ](inflearn-wamup-club-study-2-be.avif)
+![인프런 워밍업 클럽 스터디 2기 - 백엔드 클린 코드, 테스트 코드 <출처: 인프런>](../images/inflearn-warmup-club-study-2.png)
+
+> *인프런 워밍업 클럽 2기, 18일차 미션을 '나만의 언어'로 정리한 글이다.
 
 **"어떻게 코드를 읽기 좋게 작성할 수 있을까?"**
 
