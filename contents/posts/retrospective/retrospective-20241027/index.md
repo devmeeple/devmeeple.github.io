@@ -1,5 +1,5 @@
 ---
-title: "2024 월간 장태근 10월호"
+title: "2024 월간 장태근 10월호 'Highlight'"
 description: ""
 date: 2024-10-27 19:37:01
 update: 2024-10-27 19:37:01
