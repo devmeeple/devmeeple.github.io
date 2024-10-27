@@ -8,6 +8,12 @@ tags:
 series: "행보 2024 장태근"
 ---
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/FfB_gH3P4_E?si=6KFHq8-XeeZbR0ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**"간질간질하게 피어나는 다가오는 이 순간의 하얀 Highlight"**
+
+악에 물들다 겨우 깨어났다. 지옥에서 살아돌아온 생생후기를 공유한다.
+
 ## 오늘, 또 일을 미루고 말았다
 
 ![Callback Hell in JavaScript <출처: LinkedIn>](callback-hell-in-javascript.avif)
