@@ -99,6 +99,7 @@ HTTP 1.1을 주로 다루고, 2까지 다룬다. 점진적으로 코드와 함�
 **<참고 자료>**
 
 - [김정환 블로그](https://jeonghwan-kim.github.io/)
+- [인프런 '웹의 시작 - HTTP의 탄생과 기초를 쉽게 이해하는 시간'](https://inf.run/qjkon)
 
 [^1]: 리다이렉션(Redirection), 캐시(Cache)
 [^2]: React 상태 관리 방법과 라이브러리
