@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "90c9851e55253c01",
+    "type": "split",
+    "children": [
+      {
+        "id": "973aad918ca570fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "981c6b59cb6d825e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/inflearn-warmup-club-study/inflearn-warmup-club-study-2-day-15-mission/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "869ec81c76523290",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5e96309fd47df57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed2b7c1724ab03f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "209e07e5559d8b4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c6b86ab71a6bdac6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd547d1bcefe4ac9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b6ec18f74035090",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f822b280322ea7c3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/inflearn-warmup-club-study/inflearn-warmup-club-study-2-day-15-mission/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "577a24bc7862135d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/inflearn-warmup-club-study/inflearn-warmup-club-study-2-day-15-mission/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e4fd81aca5bd40b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d3a1ab4f7f6ad43f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/inflearn-warmup-club-study/inflearn-warmup-club-study-2-day-15-mission/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "981c6b59cb6d825e",
+  "lastOpenFiles": []
+}
