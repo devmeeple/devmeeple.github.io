@@ -8,6 +8,8 @@ tags:
 series: "인프런 워밍업 클럽 스터디" 
 ---
 
+![인프런 워밍업 클럽 네트워킹 데이 <출처: 인프런>](warmup-networking-thumb.avif)
+
 - [x] warmup-club-networkingday-2024-241213
 - [ ] 굿즈, 이미지 편집을 합니다. 그런데 미플을 곁들인
 
