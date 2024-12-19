@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[개발자. 명료한 생각이 명료한 글이 된다.]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 Dec 2024 09:38:19 GMT</lastBuildDate><item><title><![CDATA[인프런 워밍업 클럽 네트워킹 데이 후기]]></title><description><![CDATA[…]]></description><link>https://devmeeple.github.io/inflearn-warmup-club-networkingday-2024-241213/</link><guid isPermaLink="false">https://devmeeple.github.io/inflearn-warmup-club-networkingday-2024-241213/</guid><pubDate>Sat, 14 Dec 2024 23:54:23 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 1rem;&apos;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[개발자. 명료한 생각이 명료한 글이 된다.]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 Dec 2024 11:38:48 GMT</lastBuildDate><item><title><![CDATA[인프런 워밍업 클럽 네트워킹 데이 후기]]></title><description><![CDATA[…]]></description><link>https://devmeeple.github.io/inflearn-warmup-club-networkingday-2024-241213/</link><guid isPermaLink="false">https://devmeeple.github.io/inflearn-warmup-club-networkingday-2024-241213/</guid><pubDate>Sat, 14 Dec 2024 23:54:23 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 1rem;&apos;&gt;
     &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
       &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/380846fd1cc64ef3304a08de8c73c453/808e5/warmup-networking-thumb.avif&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
     &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 65.29411764705883%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/heif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAZhtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAANGlsb2MAAAAAREAAAgACAAAAAAG8AAEAAAAAAAAAFQABAAAAAAHRAAEAAAAAAAAAuQAAADhpaW5mAAAAAAACAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAFWluZmUCAAAAAAIAAGF2MDEAAAAA12lwcnAAAACxaXBjbwAAABNjb2xybmNseAACAAIABoAAAAAMYXYxQ4EAHAAAAAAUaXNwZQAAAAAAAAAUAAAADQAAAA5waXhpAAAAAAEIAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAADQAAABBwaXhpAAAAAAMICAgAAAAeaXBtYQAAAAAAAAACAAEEgYYHiAACBIIDhIUAAAAaaXJlZgAAAAAAAAAOYXV4bAACAAEAAQAAANZtZGF0EgAKBRgQ54wqMgoYAAABAAXTgPKAEgAKBTgQ54wSMq0BGAALLGHFAPHoxOPbFBIeoaX7Z2ClgPmAeE9B1gJt7lE9nr+9GvXXNY1G38/lfcSfClxBpThWIKLVPMnsPRpP7XsDi8PsTEiAOsz662c0sEuB68gEf84sGTqIsfdXdUMI1b+bHpU5i8ylURli/VMTRmS4Qh0NzEyIokLhp/GrvXv0CbzNUjg7Z+zJ+1DQ2DWUbVVbBDhe8L8IsslKdy7+UMm/G058ByySNEnpUVg=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -11,7 +11,7 @@
     &lt;/span&gt;
     &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;인프런 워밍업 클럽 네트워킹 데이 &amp;lt;출처: 인프런&amp;gt;&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;가장 먼저 도착했다. 운영진분들께서 배려해 주신 덕분에 가벼운 농담을 나누고 가운데 자리&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;에 앉았다.&lt;/p&gt;
+&lt;p&gt;가장 먼저 도착했다. 운영진분들이 배려해 주신 덕분에 가벼운 농담을 나누고 가운데 자리&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;에 앉았다.&lt;/p&gt;
 &lt;p&gt;분위기에 취했다. 매번 다른 장소에서 진행&lt;sup id=&quot;fnref-2&quot;&gt;&lt;a href=&quot;#fn-2&quot; class=&quot;footnote-ref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;되는 덕분에 새로웠다. 특히 예상하지 못한 폴라로이드, 음식 등 다양한 이벤트가 준비되어 더욱 반가웠다.
 하지만 숨 멎을 듯 침묵이 이어져 힘들었다.&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;혜린님께서 등장해 주셔서 몹시 감사했다. 빛!&lt;/del&gt;&lt;/p&gt;
@@ -92,9 +92,9 @@
 &lt;/blockquote&gt;
 &lt;p&gt;기존에 수강하던 강의 지식 공유자 분을 마주했다. 좋은 강의에 현장이라는 생동감이 추가됐다.&lt;/p&gt;
 &lt;p&gt;발표를 들으며 워밍업 클럽에서 배웠던 추상화가 거듭 떠올랐다. 코드는 추상화를 어떻게 할지 고민하는데 이력서는 오히려 추상화를 하지 않고 직관적으로 표현하는 방식으로 작성해야 한다고 느꼈다.&lt;/p&gt;
-&lt;p&gt;승현 님께서 굉장히 사려 깊은 분이라고 느꼈다. 강의도 물론 훌륭하지만 발표가 마치고 발표 자료 공유와 함께 주신 메일에서 울림이 느껴졌다.&lt;/p&gt;
+&lt;p&gt;승현님께서 굉장히 사려 깊은 분이라고 느꼈다. 강의도 물론 훌륭하지만 발표를 마치고 자료 공유와 함께 주신 메일에서 울림이 느껴졌다.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;굉장히 사소해 보여도 이런 배려에서 지속적인 관심이 생긴다. 만약 이력서, 커리어를 고민 중이라면 직무 상관없이 추천한다.&lt;/p&gt;
+&lt;p&gt;굉장히 사소해 보여도 이런 배려에서 지속적인 관심이 생긴다. 이력서, 커리어를 고민 중이라면 직무 상관없이 추천한다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&amp;#x3C;참고 자료&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
