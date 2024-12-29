@@ -1,5 +1,5 @@
 ---
-title: "2024 월간 장태근 12월호 'Heavy Is the Crown"
+title: "2024 월간 장태근 12월호 'Heavy Is the Crown'"
 description: ""
 date: 2024-12-29 18:50:23
 update: 2024-12-29 18:50:23
