@@ -2,7 +2,7 @@
 title: "2025 <월간 장태근> 1월호 '눈'"
 description: ""
 date: 2025-01-25 23:58:57
-update: 2025-01-25 17:30:30
+update: 2025-01-26 20:00:00
 tags:
   - 회고
 series: "행보 2025 장태근" 
@@ -61,7 +61,7 @@ series: "행보 2025 장태근"
 
 - [I'm Live 'Ep.340 MRCH(윤마치)'](https://youtu.be/1iCQSP2h14g?si=6_pvrF0szkPi1-y-)
 
-### 보다: 나인데
+### 👀 보다: 나인데
 
 - [[라디오스타] 윤종신에게 나타난 번아웃의 증상](https://youtu.be/xECN2LB5DJ8?si=VK3PMmFquzKZMDmS)
 - [Matthew McConaughey winning Best Actor | 86th Oscars](https://youtu.be/wD2cVhC-63I?si=A87taZmYrUN47LuO)
