@@ -1,5 +1,5 @@
 ---
-title: "2025 월간 장태근 1월호"
+title: "2025 월간 장태근 1월호 '눈'"
 description: ""
 date: 2025-01-25 23:58:57
 update: 2025-01-25 23:58:57
@@ -8,10 +8,15 @@ tags:
 series: "행보 2025 장태근" 
 ---
 
-2025, 새로운 시즌이 시작됐다. 이번 시즌 주제는 '나눔'이다. 성과는 나눌수록 커지고, 이야기는 퍼질수록 깊어진다. 혼자 오르는 산은 없고, 지나는 강도 없다. 서로가 이어질 때 비로소 길이 만들어진다.
-도전은 계속된다. 지금까지의 축적은 바탕이 된다. 실패는 흙이 되고, 배움은 비가 된다. 새로운 뿌리가 내려앉는다.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/fiGSDywrX1Y?si=yzKk6CEQkIZ0HxdZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-아직 쌓을 것이, 나눌 것이 많다. 이제, 발자국을 남긴다.
+> 국경의 긴 터널을 빠져나오자 눈의 고장이었다. 밤의 밑바닥이 하얘졌다. 신호소에 기차가 멈춰섰다.
+> <출처: 『설국』(가와바타 야스나리, 민음사, 2009)>
+
+2025, 새로운 시즌이 시작됐다. 이번 시즌 주제는 '나눔'이다.
+
+성과는 나눌수록 커지고, 이야기는 퍼질수록 깊어진다. 혼자 오르는 산은 없고, 지나는 강도 없다. 서로가 이어질 때 비로소 길이 만들어진다.
+도전은 계속된다. 지금까지의 축적은 바탕이 된다. 실패는 흙이 되고, 배움은 비가 된다. 새로운 뿌리가 내려앉는다. 아직 쌓을 것이, 나눌 것이 많다. 발자국을 남긴다.
 
 ## Kotlin Start: first step
 
