@@ -39,7 +39,15 @@ series: "행보 2025 장태근"
 
 ![Kotlin Backend Meetup](kotlin-backend-meetup.png)
 
-- SNS를 활보하다 알았다. 경품에 당첨됐었다는 사실을.
+- **정철희 'Ktor Framework Starter'**
+    - 실습으로 진행됐다. 실습하는 행사를 처음 참여해서 그런지 색다르고 재밌었다.
+    - `Ktor`에서 `Express`에 향기를 느꼈다.
+- **박재성 'Gilded 리팩터링 챌린지'**
+    - 관심있던 챌린지를 [Gilded Rose Refactoring Kata](https://youtu.be/AxxNHKCldzA?si=i4wGnhdATPotWlFM) 설명해주셔서 유익했다.
+      도전욕구가 샘솟았다.
+    - IntelliJ IDE의 무궁무진함을 느꼈다.
+
+끝까지 참석하고 싶었지만 일정이 생겨 2개를 듣고 나왔다. 이벤트에 당첨됐었다는 사실을 알게되어 쓰라렸다.
 
 ## 2. 크림: 무중력
 
