@@ -1,0 +1,36 @@
+name: Deploy Gatsby Blog
+
+# 매일 22시, 이벤트가 발생한다
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+# 반복 단계를 재사용하기 위해 action 사용
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Debug List Files
+      - run: ls -al
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.3.1
+          cache: 'yarn'
+
+      - name: Check Node.js & Yarn Version
+        run: | # 파이프는 여러 줄 출력에 사용한다
+          node --version
+          yarn --version
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Deploy Gatsby Blog
+        run: yarn run deploy-gh
