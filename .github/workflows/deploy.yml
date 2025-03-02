@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Debug List Files
-      - run: ls -al
+        run: ls -al
 
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -30,7 +30,7 @@ jobs:
           yarn --version
 
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --frozen-lockfile
 
       - name: Deploy Gatsby Blog
         run: yarn run deploy-gh
