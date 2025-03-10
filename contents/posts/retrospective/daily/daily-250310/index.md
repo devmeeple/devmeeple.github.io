@@ -1,5 +1,5 @@
 ---
-title: "EP 10. 33"
+title: "EP 8. 33"
 description: ""
 date: 2025-03-10 23:04:41
 update: 2025-03-10 23:04:41
