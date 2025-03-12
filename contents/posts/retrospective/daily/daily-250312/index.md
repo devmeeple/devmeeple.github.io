@@ -13,21 +13,42 @@ series: "일간 장태근"
 
 ## Permanent Note
 
-- Kotlin in Action
-- 생산성, Obsidian, Live Templates
+### 🏝️ Kotlin in Action
+
+- 짧은 구문으로 주 생성자를 정의하는 방법
+- **인터페이스**
+    - 클래스는 오로지 하나, 인터페이스는 여러 개 상속할 수 있다.
+    - `override`는 의무다.
+    - 기본 구현을 제공할 수 있다. 구현을 제공하지 않은 메서드는 반드시 구현해야 한다.
+    - 자식 클래스는 이름, 시그니처가 같은 메서드를 사용하기 위해 중복을 해결하는 구현을 제공해야 한다.
+- **내부 클래스와 내포된 클래스**
+    - 용어 구분과 활용이 아직 난해하다.
+- 취약한 기반 클래스가 가장 흥미롭다. '상속보다는 조합을 사용하라'는 격언을 자주 들었다. 자주 들어 암기하다시피 했었는데
+  오늘은 기점으로 풀어낼 수 있는 주제가 확장되고 있다.
+
+### 💰 자본주의
+
+- 자본주의는 '은행'을 중심으로 이뤄진다.
+
+한 번쯤 은행이 돈을 버는 구조에 의문을 가졌다. 은행에서 돈을 버는 구조가 그려지기 시작했다.
+
+### 🔨 생산성
+
+- Obsidian
+- Live Templates
 
 ## Literature Note
 
-### [LY Corporation Tech Blog '린트 적용으로 코드 대량 변경 시 AST를 이용해 검증하기'](https://techblog.lycorp.co.jp/ko/using-ast-to-verify-the-code-after-code-linting)
+### 🧌 [LY Corporation Tech Blog '린트 적용으로 코드 대량 변경 시 AST를 이용해 검증하기'](https://techblog.lycorp.co.jp/ko/using-ast-to-verify-the-code-after-code-linting)
 
 - 린트(lint)는 코드에 있는 보풀을 의미한다. 스웨터 보풀에서 유래됐다.
 
-### [취약한 기반 클래스(Fragile base class)](https://en.wikipedia.org/wiki/Fragile_base_class)
+### ⛓️‍💥 [취약한 기반 클래스(Fragile base class)](https://en.wikipedia.org/wiki/Fragile_base_class)
 
 - 부모 클래스 구현을 변경함으로 자식 클래스가 의도하지 않은 동작을 범한다.
 - 『이펙티브 자바』(조슈아 블로크, 인사이트, 2018): 상속을 의도하지 않았다면 모두 `final`을 사용하라.
 
-### [6개월 안에 합격하는 사람들의 비밀, 반복의 승리](https://youtu.be/RK5hWI1clio?si=FYz6NOBCbtyuGLX9)
+### 📖 [6개월 안에 합격하는 사람들의 비밀, 반복의 승리](https://youtu.be/RK5hWI1clio?si=FYz6NOBCbtyuGLX9)
 
 - **계획(역순)**
 - **기본강의 듣기**
@@ -41,5 +62,8 @@ series: "일간 장태근"
 - **빠른 회독**
 - **단권화를 통한 복습**
 
-## 마치며 
+## 마치며
 
+- 비 맞으며 달렸음에도 기분이 좋았다.
+- 입덕주의, 안성재 씨에 빠지고 있다. 자신의 분야에 미친 사람들이 흥미롭다.
+- 강철의 연금술사, 진리는 잔혹하지만 공정해.
