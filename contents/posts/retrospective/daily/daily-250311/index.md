@@ -1,5 +1,5 @@
 ---
-title: "EP9: Peanut butter Sandwich"
+title: "E9: Peanut butter Sandwich"
 description: ""
 date: 2025-03-11 20:30:00
 update: 2025-03-11 23:30:00
@@ -11,6 +11,8 @@ series: "일간 장태근"
 ---
 
 ![jisokuryClub 'Peanut butter Sandwich'](20562699.jpg)
+
+색다름에서 찾아오는 편안함
 
 ## 1. Permanent Note
 
