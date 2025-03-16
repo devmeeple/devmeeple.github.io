@@ -11,9 +11,9 @@ series: "일간 장태근"
 
 ![Jclef '지구 멸망 한 시간 전'](20186256.jpg)
 
-## Permanent Note
+## 1. Permanent Note
 
-### 🏝️ Kotlin in Action
+### 1.1 Kotlin in Action
 
 - 짧은 구문으로 주 생성자를 정의하는 방법
 - **인터페이스**
@@ -26,29 +26,29 @@ series: "일간 장태근"
 - 취약한 기반 클래스가 가장 흥미롭다. '상속보다는 조합을 사용하라'는 격언을 자주 들었다. 자주 들어 암기하다시피 했었는데
   오늘은 기점으로 풀어낼 수 있는 주제가 확장되고 있다.
 
-### 💰 자본주의
+### 1.2 자본주의
 
 - 자본주의는 '은행'을 중심으로 이뤄진다.
 
 한 번쯤 은행이 돈을 버는 구조에 의문을 가졌다. 은행에서 돈을 버는 구조가 그려지기 시작했다.
 
-### 🔨 생산성
+### 1.3 생산성
 
 - Obsidian
 - Live Templates
 
-## Literature Note
+## 2. Literature Note
 
-### 🧌 [LY Corporation Tech Blog '린트 적용으로 코드 대량 변경 시 AST를 이용해 검증하기'](https://techblog.lycorp.co.jp/ko/using-ast-to-verify-the-code-after-code-linting)
+### 2.1 [LY Corporation Tech Blog '린트 적용으로 코드 대량 변경 시 AST를 이용해 검증하기'](https://techblog.lycorp.co.jp/ko/using-ast-to-verify-the-code-after-code-linting)
 
 - 린트(lint)는 코드에 있는 보풀을 의미한다. 스웨터 보풀에서 유래됐다.
 
-### ⛓️‍💥 [취약한 기반 클래스(Fragile base class)](https://en.wikipedia.org/wiki/Fragile_base_class)
+### 2.2 [취약한 기반 클래스(Fragile base class)](https://en.wikipedia.org/wiki/Fragile_base_class)
 
 - 부모 클래스 구현을 변경함으로 자식 클래스가 의도하지 않은 동작을 범한다.
 - 『이펙티브 자바』(조슈아 블로크, 인사이트, 2018): 상속을 의도하지 않았다면 모두 `final`을 사용하라.
 
-### 📖 [6개월 안에 합격하는 사람들의 비밀, 반복의 승리](https://youtu.be/RK5hWI1clio?si=FYz6NOBCbtyuGLX9)
+### 2. 3 [6개월 안에 합격하는 사람들의 비밀, 반복의 승리](https://youtu.be/RK5hWI1clio?si=FYz6NOBCbtyuGLX9)
 
 - **계획(역순)**
 - **기본강의 듣기**
