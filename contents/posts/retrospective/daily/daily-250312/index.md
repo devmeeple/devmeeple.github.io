@@ -12,6 +12,8 @@ series: "일간 장태근"
 
 ![Jclef '지구 멸망 한 시간 전'](20186256.jpg)
 
+오늘 날씨 완전
+
 ## 1. Permanent Note
 
 ### 1.1 Kotlin in Action
