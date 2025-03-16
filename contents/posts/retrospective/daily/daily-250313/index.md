@@ -1,10 +1,11 @@
 ---
-title: "EP 11. 비틀비틀 짝짜꿍"
+title: "E11: 비틀비틀 짝짜꿍"
 description: ""
 date: 2025-03-13 21:30:00
 update: 2025-03-13 21:36:04
 tags:
   - 회고
+  - 독서
   - 락/메탈
 series: "일간 장태근" 
 ---
@@ -13,9 +14,9 @@ series: "일간 장태근"
 
 어지로운 세상 속, 넘어지고 다쳐도 잡아줄 서로가 있으니 괜찮지 않을까?
 
-## Permanent Note
+## 1. Permanent Note
 
-### 🏝️ Kotlin in Action
+### 1.1 Kotlin in Action
 
 - 비공개 생성자
 - 동등성
@@ -24,7 +25,7 @@ series: "일간 장태근"
 
 4장은 전체적으로 어려웠다. 의식적으로 사용할 때 개념 정리를 병행해야겠다고 느꼈다. 주말에 폭넓게 사용하며 복습하자.
 
-## Literature Note
+## 2. Literature Note
 
 - [♟ [퀸스겜빗]으로 보는 냉전시대 역사배경설명ㅣ넷플릭스 추천](https://youtu.be/lRs80MGcyNo?si=nSwFfAh-k3EAp14a): 냉전시대 배경을 몰입하기 위한 차선책
 - **지. -지구의 운동에 대하여-**: 지식을 갈구하는 자들에 대한 핍박
