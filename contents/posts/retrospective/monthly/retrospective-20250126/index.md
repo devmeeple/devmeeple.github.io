@@ -20,7 +20,7 @@ series: "행보 2025 장태근"
 
 ## 밟다: First Step
 
-![나는 이 게임을 해봤어요! <출처: 오징어 게임2>](./have-played-these-games-before.avif)
+![나는 이 게임을 해봤어요! <출처: 오징어 게임2>](have-played-these-games-before.avif)
 
 새로운 친구, `Kotlin`에 다가갔다. 12월, 어색함이 감돌았다. 아직 남아있다. 하지만 지금은 일상에 자리 잡았다. 변화는 어떻게 일어났을까?
 
