@@ -1,10 +1,10 @@
 ---
-title: "2025 <월간 장태근> 2월호 'Träumerei'"
+title: "2025 월간 장태근 2월호 'Träumerei'"
 description: ""
 date: 2025-02-23 03:53:00
 update: 2025-02-23 03:53:00
 tags:
-  - 회고
+  - 월간
 series: "행보 2025 장태근" 
 ---
 
