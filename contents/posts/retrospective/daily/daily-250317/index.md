@@ -30,6 +30,24 @@ series: "일간 장태근"
 - `associate`
 - `replaceAll` vs. `fill`
 
+### 1.2 만화로 배우는 리눅스 시스템 관리
+
+- System Admin Girl, 이세계에서는 내가 시스템 관리자?
+- `SSH(Secure SHell)`, 암호화를 곁들인 원격 접속
+    - 안전하지 않은 쉘 `RSH(Remote SHell)`
+- `root`, 모든 힘을 갖고 있는 절대 관리자.
+    - `sudo`를 통해 권한을 위임한다. (암행어사)
+- `grep(Global Regular Expression Print)`, 정규표현식을 통해 문자열 검색
+- `vim`
+    - 서버는 최소한의 서버를구성하기 위해 '데스크톱 환경'을 구축하지 않는다.
+    - `vim`은 `vi`의 업그레이드다. PC가 대중화 되기 이전, 하나의 키가 여러 역할을 하도록 설계했다.
+    - `i`: 편집 모드
+    - `:wq`: 쓰기 종료
+    - `esc`: 일반 모드
+    - `/`: 일반 모드 검색
+        - `N`: 다음 검색 결과로 이동
+        - `Shift` + `N`: 이전 검색 결과로 이동
+
 ## 2. Literature Note
 
 ## 마치며
