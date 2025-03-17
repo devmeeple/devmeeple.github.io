@@ -48,7 +48,26 @@ series: "일간 장태근"
         - `N`: 다음 검색 결과로 이동
         - `Shift` + `N`: 이전 검색 결과로 이동
 
+### 1.3 자바 알고리즘 인터뷰 with 코틀린
+
+> 코딩 테스트 준비 그 이상을 향해.
+
+- 알고리즘은 취업에만 유용할까? 스프링 기술을 잘 이해하기 위해서는 스프링 각 기술에 적용된 알고리즘을 이해해야 한다. 알고리즘이 사용되지 않는 곳이 없다.
+    - `DispatcherServlet`
+    - `DI(Dependency Injection)`
+    - `DataSource`
+- 스프링을 사용하는 개발자는 매일 알고리즘을 설계하고 조합하여 서비스를 제공한다해도 과언이 아니다.
+- **자료구조의 특징을 이해하고 적절한 활용이 중요하다.**
+    - 시간 복잡도 제대로 계산하는 방법
+- **직접 풀고 풀이와 비교하기, 코드 품질과 최적화 기법 익히기**
+- 인텔리제이는 2001년에 출시됐다.
+
 ## 2. Literature Note
+
+### 2.1 LeetCode
+
+- [(LC-Replied) New kotlin version](https://leetcode.com/discuss/post/1251018/lc-replied-new-kotlin-version-by-kevlar_-wtx5/):
+  현재, 코틀린 `1.9.0`를 지원한다.
 
 ## 마치며
 
