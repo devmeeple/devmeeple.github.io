@@ -4,7 +4,9 @@ description: ""
 date: 2025-03-18 04:30:00
 update: 2025-03-18 17:00:00
 tags:
-  - 일간
+  - 회고/일간
+  - Kotlin/코틀린
+  - 발라드
 series: "일간 장태근" 
 ---
 
@@ -40,6 +42,15 @@ series: "일간 장태근"
     - `DI(Dependency Injection`를 적용한 프레임워크 사례
 
 ## 2. Literature Note
+
+- [『우주비행사의 지구생활 안내서』(크리스 해드필드, 더퀘스트, 2014)](https://product.kyobobook.co.kr/detail/S000001031978)
+    - Chris Hadfield
+- [GeekNews '새로운 출발을 준비할 때 읽어볼 100권의 책'](https://news.hada.io/topic?id=19809&v2)
+- [GeekNews 'HTTP/3가 널리 지원되지만 실제로는 거의 사용되지 않는 이유'](https://news.hada.io/topic?id=19816)
+- [Kotlin Docs 'Nullability in Java and Kotlin﻿'](https://kotlinlang.org/docs/java-to-kotlin-nullability-guide.html#support-for-definitely-non-nullable-types)
+- [Kotlin Docs 'Null safety'](https://kotlinlang.org/docs/null-safety.html)
+- Predicate: 주어진 조건 만족 여부를 검증하는 함수나 표현식
+- Precondition: 사전 조건
 
 ## 마치며 
 
