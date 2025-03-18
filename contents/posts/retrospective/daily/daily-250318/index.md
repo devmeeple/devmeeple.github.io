@@ -1,5 +1,5 @@
 ---
-title: "E14: Kaze"
+title: "E14: 바람"
 description: ""
 date: 2025-03-18 04:30:00
 update: 2025-03-18 17:00:00
@@ -8,7 +8,9 @@ tags:
 series: "일간 장태근" 
 ---
 
-![]()
+![윤하 '바람'](4086334.jpg)
+
+아무도 만질 수 없는 기억의 바람
 
 ## 1. Permanent Note
 
