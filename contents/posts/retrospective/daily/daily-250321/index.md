@@ -87,4 +87,9 @@ series: "일간 장태근"
 
 ## 2. 참고 노트
 
+- [MDN Web Docs - Mozilla 'High-level programming langugage'](https://developer.mozilla.org/en-US/docs/Glossary/High-level_programming_language)
+- [광주축구 'ACLE 요코하마전 대승을 부른 이정효 감독의 한마디!'](https://youtube.com/shorts/nwodUEQUoZ4?si=G3Pcibgf8oIMCocf)
+- [외교부 '페이커 이상혁 기조연설'](https://youtu.be/YGAFaLEoK8M?si=zW4aHjdRV2e0IU2c)
+- [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition): 과도한 추상화의 결과
+
 ## 마치며 
