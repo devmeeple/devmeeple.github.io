@@ -37,6 +37,19 @@ series: "일간 장태근"
 - [『JVM 밑바닥까지 파헤치기』(저우즈밍, 인사이트, 2024)](https://product.kyobobook.co.kr/detail/S000213057051)
 - [Stack Overflow 'How Java linker works?'](https://stackoverflow.com/questions/6440310/how-java-linker-works)
 
+## 자바 알고리즘 인터뷰 with 코틀린
+
+### 1. 제네릭: 안전한 코드 작성하기
+
+`컴파일 타임(Compile Time)`에 클래스나 메서드에 사용할 자료형을 지정하여 타입 검사에 도움을 받는다.
+
+### 2. 함수형 프로그래밍 언어
+
+- 람다 표현식
+- 스트림 API
+
+`Java 8` 이전에는 객체 지향 외에 절차 지향, 함수형 프로그래밍 개념을 배척하다 싶은 행보를 보냈다. `OOP`를 코딩 테스트에서 활용하기란 어렵다. 하지만 함수형은 코딩 테스트에 매우 유용하다.
+
 ## 마치며
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4UasKCFGJCnCchh3UrpV58?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
