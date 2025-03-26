@@ -8,6 +8,10 @@ tags:
 series: "일간 장태근" 
 ---
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4UasKCFGJCnCchh3UrpV58?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+- 나는 왜 성장해야하는가?
+
 ## 컴퓨터 밑바닥의 비밀
 
 > 1장, 프로그래밍 언어부터 프로그램 실행까지, 이렇게 진행된다
@@ -52,4 +56,3 @@ series: "일간 장태근"
 
 ## 마치며
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4UasKCFGJCnCchh3UrpV58?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
