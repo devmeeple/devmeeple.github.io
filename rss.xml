@@ -1,4 +1,272 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[개발자. 명료한 생각이 명료한 글이 된다.]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Mar 2025 13:20:02 GMT</lastBuildDate><item><title><![CDATA[E14: 바람]]></title><description><![CDATA[아무도 만질 수 없는 기억의 바람 1. Permanent Note 1.1 Kotlin in Action 널이 될 수 있는 값 nullable type…]]></description><link>https://devmeeple.github.io/daily-250318/</link><guid isPermaLink="false">https://devmeeple.github.io/daily-250318/</guid><pubDate>Tue, 18 Mar 2025 04:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 1rem;&apos;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 장태근블로그]]></title><description><![CDATA[개발자. 명료한 생각이 명료한 글이 된다.]]></description><link>https://devmeeple.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 27 Mar 2025 15:01:58 GMT</lastBuildDate><item><title><![CDATA[2025-03-27 HOT]]></title><description><![CDATA[노동요, 내가 나로 살 수 있다면, 재가 된대도 난 좋아 1. Java to Kotlin 1. 당신의 엔티티는 안전하십니까 는 와 1:…]]></description><link>https://devmeeple.github.io/daily-250327/</link><guid isPermaLink="false">https://devmeeple.github.io/daily-250327/</guid><pubDate>Thu, 27 Mar 2025 22:53:33 GMT</pubDate><content:encoded>&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/406IpEtZPvbxApWTGM3twY?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;152&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;노동요, 내가 나로 살 수 있다면, 재가 된대도 난 좋아&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-Java-to-Kotlin&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-Java-to-Kotlin&quot; aria-label=&quot;1 Java to Kotlin permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;1. Java to Kotlin&lt;/h2&gt;
+&lt;h3 id=&quot;1-당신의-엔티티는-안전하십니까&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EC%97%94%ED%8B%B0%ED%8B%B0%EB%8A%94-%EC%95%88%EC%A0%84%ED%95%98%EC%8B%AD%EB%8B%88%EA%B9%8C&quot; aria-label=&quot;1 당신의 엔티티는 안전하십니까 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;1. 당신의 엔티티는 안전하십니까&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;엔티티&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;JPA의 엔티티(@Entity)&lt;/code&gt;와 1:1 대응될까?&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;JPA&lt;/code&gt;가 없으면 &lt;code class=&quot;language-text&quot;&gt;엔티티&lt;/code&gt;는 허상인가?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;추상적이고 보편적인 엔티티를 구체화한 결과가 &lt;code class=&quot;language-text&quot;&gt;JPA 엔티티&lt;/code&gt;라고 생각한다.&lt;/li&gt;
+&lt;li&gt;문맥에 따라 다르지만, 주로 사용하는 엔티티는 도메인 엔티티(비즈니스 객체)를 의미한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;JPA 엔티티&lt;/code&gt;의 뿌리는 &lt;code class=&quot;language-text&quot;&gt;DB 엔티티&lt;/code&gt;에 가깝다. 추상적인 엔티티를 구현 기술(JPA)에 맞춰 구체화한 결과물이다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;따라서, &lt;code class=&quot;language-text&quot;&gt;JPA 엔티티&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;영속성 객체(PO: persistent object)&lt;/code&gt;&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;다.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000213447953&quot;&gt;『자바/스프링 개발자를 위한 실용주의 프로그래밍』(김우근, 위키북스, 2024)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;2-컴퓨터-밑바닥의-비밀&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B0%91%EB%B0%94%EB%8B%A5%EC%9D%98-%EB%B9%84%EB%B0%80&quot; aria-label=&quot;2 컴퓨터 밑바닥의 비밀 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;2. 컴퓨터 밑바닥의 비밀&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;chapter 2, 프로그램이 실행되었지만, 뭐가 뭔지 하나도 모르겠다&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU를 우선 다루는 이유는 가장 간단하기 때문이다. 적재된 명령을 선택하고 실행한다. 반복한다.&lt;/li&gt;
+&lt;li&gt;CPU는 한 번에 한 가지 일을 수행한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;프로세스(process)&lt;/code&gt;, 얼음땡 마법으로 멀티 태스킹이 가능하다.&lt;/li&gt;
+&lt;li&gt;운영체제, 코드 재사용성의 정수&lt;/li&gt;
+&lt;li&gt;다중 프로세스에서 발생하는 문제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;3-자바-알고리즘-인터뷰-with-코틀린&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%9E%90%EB%B0%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9D%B8%ED%84%B0%EB%B7%B0-with-%EC%BD%94%ED%8B%80%EB%A6%B0&quot; aria-label=&quot;3 자바 알고리즘 인터뷰 with 코틀린 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;3. 자바 알고리즘 인터뷰 with 코틀린&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;3장_코틀린, 구글이 인정한 공식 언어&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;고수준 언어와 저수준 언어는 자동차의 자동, 수동 변속기와 유사하다.&lt;/li&gt;
+&lt;li&gt;자바도 10 버전 이상에서도 타입 추론을 지원한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;117, C++.와 자바에서는 이 기능이 존재하지 않아서 디자인 패턴 중 빌더 패턴(Builder Pattern)이란 것을 고안해 사용해왔는데,
+코틀린은 파라미터 이름을 지정할 수 있어서 굳이 빌더 패턴을 사용할 필요가 없으며, 훨씬 더 간단하게 처리할 수 있다. 참고로 이 기능은 파이썬에서도 지원한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;마치며&lt;/h2&gt;
+&lt;p&gt;강철의 연금술사에 홀린 덕분에, 연금술을 부리듯 매일이 즐겁다. 컴퓨터 과학의 마법에 깨달음을 얻고, 이어지는 정리의 순간이 더없이 짜릿하다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;강철의 연금술사의 영향인지 연금술을 하고 있는 것 같아 매사가 즐겁다. 정리가 재밌다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;오늘의-함께-읽기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%A4%EB%8A%98%EC%9D%98-%ED%95%A8%EA%BB%98-%EC%9D%BD%EA%B8%B0&quot; aria-label=&quot;오늘의 함께 읽기 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;오늘의 함께 읽기&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=FrdG_n2ZWtE&amp;#x26;t=113s&quot;&gt;얄팍한 코딩사전 &apos;01. 파사드(Facade) 패턴&apos;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;퍼사드 패턴(Facade Pattern)&lt;/code&gt;, 소통 창구를 열어 클라이언트와 소통한다. 구조패턴에 속한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Spring&lt;/code&gt;은 어떻게 활용하고 있을까?&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;div class=&quot;footnotes&quot;&gt;
+        
+        &lt;ol &gt;
+    
+    &lt;li class=&quot;footnote-list-item&quot; id=&quot;fn-1&quot; &gt;
+          
+        &lt;p class=&quot;footnote-paragraph&quot; style=&quot;display:inline; &quot;&gt;데이터가 영원히 이어지도록 임의의 공간에 저장하고 불러온다.&lt;/p&gt;
+      &lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot; style=&quot;display:inline;text-decoration: none;&quot;&gt;
+        ↩
+      &lt;/a&gt;
+    
+      &lt;/li&gt;
+      
+    &lt;/ol&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2025-03-26 New Face]]></title><description><![CDATA[여름을 기대하는 단 한가지 이유 Java to Kotlin POJO(Plain Old Java Object) 란 구조에 종속되지 않는 순수한 자바 객체를 의미한다. 상속(extends)하지 않기 구현(implements…]]></description><link>https://devmeeple.github.io/daily-250326/</link><guid isPermaLink="false">https://devmeeple.github.io/daily-250326/</guid><pubDate>Wed, 26 Mar 2025 03:00:00 GMT</pubDate><content:encoded>&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/25YgkxnU4UzEG4ORni69Rw?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;152&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;여름을 기대하는 단 한가지 이유&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Java-to-Kotlin&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Java-to-Kotlin&quot; aria-label=&quot;Java to Kotlin permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;Java to Kotlin&lt;/h2&gt;
+&lt;h3 id=&quot;POJOPlain-Old-Java-Object&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#POJOPlain-Old-Java-Object&quot; aria-label=&quot;POJOPlain Old Java Object permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;POJO(Plain Old Java Object)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;POJO&lt;/code&gt;란 구조&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;에 종속되지 않는 순수한 자바 객체를 의미한다.&lt;/li&gt;
+&lt;li&gt;상속(extends)하지 않기&lt;/li&gt;
+&lt;li&gt;구현(implements)하지 않기&lt;/li&gt;
+&lt;li&gt;어노테이션 사용하지 않기&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://martinfowler.com/bliki/POJO.html&quot;&gt;P O J O&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oqPiEc2zNb0&amp;#x26;t=25s&quot;&gt;What is a POJO in Java? Almost EVERYONE Gets This Wrong&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;왜-내가-쓰는-GPT는-대답을-잘못할까&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%99%9C-%EB%82%B4%EA%B0%80-%EC%93%B0%EB%8A%94-GPT%EB%8A%94-%EB%8C%80%EB%8B%B5%EC%9D%84-%EC%9E%98%EB%AA%BB%ED%95%A0%EA%B9%8C&quot; aria-label=&quot;왜 내가 쓰는 GPT는 대답을 잘못할까 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;왜 내가 쓰는 GPT는 대답을 잘못할까?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;LLM 배경 지식&lt;/li&gt;
+&lt;li&gt;LLM의 특성에 맞춰 활용하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;생각을-정리하는-독서법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%83%9D%EA%B0%81%EC%9D%84-%EC%A0%95%EB%A6%AC%ED%95%98%EB%8A%94-%EB%8F%85%EC%84%9C%EB%B2%95&quot; aria-label=&quot;생각을 정리하는 독서법 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;생각을 정리하는 독서법&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;8장, 저자와 협약해 용어 파악하기&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;122, 사람들은 대게 능동적으로 읽으려 하지 않는다. 보이는 대로만 볼뿐 의욕적으로 읽으려 하지 않는 독자들의 큰 잘못은 단어에 주의를 기울이지 않는 것, 저자와 협약에 실패하는 것이다.&lt;/li&gt;
+&lt;li&gt;124, 제일 좋은 방법 같은 것은 없다. 이렇게 해서 안 되면 저렇게 해보는 그림 맞추기 퍼즐과 같다. 맞추어 놓은 조각이 많을수록 나머지는 쉬워진다. (중략) 책은 이미 많은 단어가 맞춰져 있는 상태로,
+&quot;제자리에 맞춰져 있는 단어는 저자의 의미가 파악된 단어다.&quot; 저자와 독자가 같은 의미로 사용하는 협약이 이루어져 제자리를 찾은 것이다. 나머지 단어도 제자리를 찾아주어야 한다.
+그러려면 이렇게도 맞추어 보고 저렇게도 맞추어 봐야 한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;단어는 여러 의미로 해석될 수 있다. 저자가 상황에 따라 동일한 단어를 어떻게 사용했는지 의미를 꼭꼭 씹어먹자. 이해력은 자연스레 따라온다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;마치며&lt;/h2&gt;
+&lt;p&gt;어쩌다 3월이 이렇게 여름처럼 달아오를까. 물음표가 생긴다. 날씨와 컴퓨터 과학의 열기로 가슴이 뜨겁다. 흠뻑쇼는 이미 시작됐다.
+부디 흠뻑쇼가 오래 이어지길 바란다.&lt;/p&gt;
+&lt;h3 id=&quot;오늘의-함께-읽기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%A4%EB%8A%98%EC%9D%98-%ED%95%A8%EA%BB%98-%EC%9D%BD%EA%B8%B0&quot; aria-label=&quot;오늘의 함께 읽기 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;오늘의 함께 읽기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@composite/%EC%9D%B4%EC%A0%9C-React%EB%8A%94-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%95%84%EB%8B%88-%ED%92%80%EC%8A%A4%ED%83%9D%EC%9D%B4%EB%8B%A4&quot;&gt;이제 React는 프론트엔드? 아니, 풀스택이다.&lt;/a&gt;: &lt;code class=&quot;language-text&quot;&gt;React v19&lt;/code&gt;는 풀스택 시장까지 넓히는 행보를 보인다.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://msyu1207.tistory.com/entry/%EA%B9%94%EB%81%94%ED%95%9C-%ED%8F%AC%EB%A7%B7%ED%8C%85%EC%9D%84-%EC%9C%84%ED%95%9C-ktlint-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-feat-kotlin&quot;&gt;깔끔한 포맷팅을 위한 klint 적용하기 (feat. kotlin)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@BookOverflowPod/videos&quot;&gt;Book Overflow&lt;/a&gt;: 원서 재밌게 읽기, 확장하기&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.gangnamunni.com/post/how-we-improved-test-stability/&quot;&gt;강남언니 &apos;[Sass] 테스트 안정감을 N배로 확보할 수 있었던 이유&apos;&lt;/a&gt;: 실무에서는 어떻게 테스트 환경을 구성할까?&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;div class=&quot;footnotes&quot;&gt;
+        
+        &lt;ol &gt;
+    
+    &lt;li class=&quot;footnote-list-item&quot; id=&quot;fn-1&quot; &gt;
+          
+        &lt;p class=&quot;footnote-paragraph&quot; style=&quot;display:inline; &quot;&gt;프레임워크와 라이브러리에 종속되지 않는다.&lt;/p&gt;
+      &lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot; style=&quot;display:inline;text-decoration: none;&quot;&gt;
+        ↩
+      &lt;/a&gt;
+    
+      &lt;/li&gt;
+      
+    &lt;/ol&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2025-03-25 살기 위해서]]></title><description><![CDATA[나는 왜 성장해야하는가? 컴퓨터 밑바닥의 비밀…]]></description><link>https://devmeeple.github.io/daily-250325/</link><guid isPermaLink="false">https://devmeeple.github.io/daily-250325/</guid><pubDate>Tue, 25 Mar 2025 03:00:00 GMT</pubDate><content:encoded>&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/4UasKCFGJCnCchh3UrpV58?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;152&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;나는 왜 성장해야하는가?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;컴퓨터-밑바닥의-비밀&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B0%91%EB%B0%94%EB%8B%A5%EC%9D%98-%EB%B9%84%EB%B0%80&quot; aria-label=&quot;컴퓨터 밑바닥의 비밀 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;컴퓨터 밑바닥의 비밀&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1장, 프로그래밍 언어부터 프로그램 실행까지, 이렇게 진행된다&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;컴파일러는-번역가다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%EB%8A%94-%EB%B2%88%EC%97%AD%EA%B0%80%EB%8B%A4&quot; aria-label=&quot;컴파일러는 번역가다 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;컴파일러는 번역가다&lt;/h3&gt;
+&lt;p&gt;우리의 기록은 &lt;code class=&quot;language-text&quot;&gt;소스 파일(source file)&lt;/code&gt;이다. &lt;code class=&quot;language-text&quot;&gt;컴파일러&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;소스 파일&lt;/code&gt;을 &lt;code class=&quot;language-text&quot;&gt;CPU&lt;/code&gt;가 실행할 수 있도록 &lt;code class=&quot;language-text&quot;&gt;실행 파일&lt;/code&gt;로 변환한다.&lt;/p&gt;
+&lt;h3 id=&quot;토큰은-최소-단위다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%86%A0%ED%81%B0%EC%9D%80-%EC%B5%9C%EC%86%8C-%EB%8B%A8%EC%9C%84%EB%8B%A4&quot; aria-label=&quot;토큰은 최소 단위다 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;토큰은 최소 단위다&lt;/h3&gt;
+&lt;p&gt;컴파일러는 소스 코드에서 &lt;code class=&quot;language-text&quot;&gt;토큰(token)&lt;/code&gt;을 추출한다. 추출하는 과정을 &lt;code class=&quot;language-text&quot;&gt;어휘 분석(lexical analysis)&lt;/code&gt;이라고 한다.&lt;/p&gt;
+&lt;h3 id=&quot;링커는-예언자다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%81%EC%BB%A4%EB%8A%94-%EC%98%88%EC%96%B8%EC%9E%90%EB%8B%A4&quot; aria-label=&quot;링커는 예언자다 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;링커는 예언자다&lt;/h3&gt;
+&lt;p&gt;소스 파일은 &lt;code class=&quot;language-text&quot;&gt;대상 파일(object file)&lt;/code&gt;이 존재한다. 대상 파일과 소스 파일을 병합하기 위해 &lt;code class=&quot;language-text&quot;&gt;링커(linker)&lt;/code&gt;를 사용한다. 링커는 압축 프로그램처럼 소스 파일과 대상 파일을 묶어 하나의 실행 파일을
+만든다. 링커는 전역 변수, 외부 모듈 같은 참조할 수 있는 대상에 관심을 둔다.&lt;/p&gt;
+&lt;h3 id=&quot;톺아보기-자바와-링커&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%86%BA%EC%95%84%EB%B3%B4%EA%B8%B0-%EC%9E%90%EB%B0%94%EC%99%80-%EB%A7%81%EC%BB%A4&quot; aria-label=&quot;톺아보기 자바와 링커 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;톺아보기: 자바와 링커&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;자바도 컴파일이 필요하다. 하지만 이전에 배운 전통적 방식&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;과 다른 방식을 채택했다. 목적파일을 연결하고 실행 파일을 만들지 않는다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;클래스 로더(Class Loader)&lt;/code&gt;, 자바는 클래스 로딩, 링킹, 초기화가 모두 &apos;프로그램 실행 중(Runtime)&apos;에 동적으로 이뤄진다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;WORA(Write Once, Run Anywhere)&lt;/code&gt;, 하드웨어 플랫폼에 종속되는 구조를 탈피했다.&lt;/li&gt;
+&lt;li&gt;링킹은 &lt;code class=&quot;language-text&quot;&gt;검증(verification) -&gt;&lt;/code&gt;준비(preparation) -&gt; 해석(resolution)` 단계로 이뤄진다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#x3C;참고 자료&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://product.kyobobook.co.kr/detail/S000213057051&quot;&gt;『JVM 밑바닥까지 파헤치기』(저우즈밍, 인사이트, 2024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/6440310/how-java-linker-works&quot;&gt;Stack Overflow &apos;How Java linker works?&apos;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;자바-알고리즘-인터뷰-with-코틀린&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EB%B0%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9D%B8%ED%84%B0%EB%B7%B0-with-%EC%BD%94%ED%8B%80%EB%A6%B0&quot; aria-label=&quot;자바 알고리즘 인터뷰 with 코틀린 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;자바 알고리즘 인터뷰 with 코틀린&lt;/h2&gt;
+&lt;h3 id=&quot;1-제네릭-안전한-코드-작성하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A0%9C%EB%84%A4%EB%A6%AD-%EC%95%88%EC%A0%84%ED%95%9C-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0&quot; aria-label=&quot;1 제네릭 안전한 코드 작성하기 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;1. 제네릭: 안전한 코드 작성하기&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;컴파일 타임(Compile Time)&lt;/code&gt;에 클래스나 메서드에 사용할 자료형을 지정하여 타입 검사에 도움을 받는다.&lt;/p&gt;
+&lt;h3 id=&quot;2-함수형-프로그래밍-언어&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%96%B8%EC%96%B4&quot; aria-label=&quot;2 함수형 프로그래밍 언어 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;2. 함수형 프로그래밍 언어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;람다 표현식&lt;/li&gt;
+&lt;li&gt;스트림 API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Java 8&lt;/code&gt; 이전에는 객체 지향 외에 절차 지향, 함수형 프로그래밍 개념을 배척하다 싶은 행보를 보냈다. &lt;code class=&quot;language-text&quot;&gt;OOP&lt;/code&gt;를 코딩 테스트에서 활용하기란 어렵다. 하지만 함수형은 코딩 테스트에 매우 유용하다.&lt;/p&gt;
+&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;마치며&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[E17: 비행]]></title><description><![CDATA[1.…]]></description><link>https://devmeeple.github.io/daily-250321/</link><guid isPermaLink="false">https://devmeeple.github.io/daily-250321/</guid><pubDate>Fri, 21 Mar 2025 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 1rem;&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/8516dc71439b8d0e2a4c3a4a4dfcfa72/120d2/20345945.jpg&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABhQjXjsWcNGgGyK//xAAbEAEAAgIDAAAAAAAAAAAAAAADAQQAAhESE//aAAgBAQABBQK3b2lIZNMrtDE2nVeIykU+DgbQVMpnP//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB8QAAICAQQDAAAAAAAAAAAAAAERAAIxAxAhUSJBkv/aAAgBAQAGPwI6emUB7jrc/TgtjuXrbguZjwzPMc9x2ZW3/8QAHhABAAICAgMBAAAAAAAAAAAAAQAhETFhcUFRgfD/2gAIAQEAAT8hSi7CHCvcdvvTZ8m1rQ5mfFlK2T8yPyttOp4UNDc4SYWoAABgJ//aAAwDAQACAAMAAAAQO/DA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHhABAAICAwADAAAAAAAAAAAAAQARITFBYXFRgaH/2gAIAQEAAT8QYq6tFvoGoLJDmg9KVBLW7obrrn7lnQoNrMjNjwcDtHSiDOaBf4wVbTl0Or+PYxQ8Rre0FwmwKAKAn//Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;E SENS &amp;#39;비행&amp;#39;&apos; title=&apos;&apos; src=&apos;/static/8516dc71439b8d0e2a4c3a4a4dfcfa72/a22ce/20345945.jpg&apos; srcset=&apos;/static/8516dc71439b8d0e2a4c3a4a4dfcfa72/0b705/20345945.jpg 170w,
+/static/8516dc71439b8d0e2a4c3a4a4dfcfa72/31389/20345945.jpg 340w,
+/static/8516dc71439b8d0e2a4c3a4a4dfcfa72/a22ce/20345945.jpg 680w,
+/static/8516dc71439b8d0e2a4c3a4a4dfcfa72/29373/20345945.jpg 1020w,
+/static/8516dc71439b8d0e2a4c3a4a4dfcfa72/232dc/20345945.jpg 1360w,
+/static/8516dc71439b8d0e2a4c3a4a4dfcfa72/120d2/20345945.jpg 4000w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;E SENS &amp;#39;비행&amp;#39;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;11-생각을-넓혀주는-독서법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#11-%EC%83%9D%EA%B0%81%EC%9D%84-%EB%84%93%ED%98%80%EC%A3%BC%EB%8A%94-%EB%8F%85%EC%84%9C%EB%B2%95&quot; aria-label=&quot;11 생각을 넓혀주는 독서법 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;1.1 생각을 넓혀주는 독서법&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;읽기 수준은 쌓여가는 것이다. 기초가 없으면 분석하며 읽을 수 없다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;방법&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;책을 분류한다. 이미 읽은 책과 비교한다.&lt;/li&gt;
+&lt;li&gt;목차 확인&lt;/li&gt;
+&lt;li&gt;(비소설) 찾아보기 확인&lt;/li&gt;
+&lt;li&gt;출판사 광고 확인&lt;/li&gt;
+&lt;li&gt;요약 자세히 읽기&lt;/li&gt;
+&lt;li&gt;탐정 접근법&lt;/li&gt;
+&lt;li&gt;겉만 핥아보기: 처음부터 끝까지 읽기, 살피지 않기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;50, 이해할 수 있는 부분은 주위를 기울여 읽고 금방 이해가 안 되는 부분은 멈추지 말고 그냥 넘어가라. 아무리 어려워도 계속 읽으면 곧 이해할 수 있는 부분이 나타난다.
+그러면 다시 이 부분을 집중해서 읽는다. 이렇게 각주, 주석, 참고문헌 등으로 빠져나가지 말고 끝까지 읽는다. 딴 데로 새면 길을 잃는다. 모르는 문제는 붙들고 있어봤자 풀 수 없다.
+다시 읽어야 훨씬 쉽게 이해하게 된다. 그러니 &apos;일단 처음부터 끝까지&apos; 읽고 나서 다시 읽어야 한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 속도 읽기&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이해력 높이기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이해력을 높여야 적극적으로 책을 읽을 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;너, 내 동료가 돼라&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;62, 글을 읽는다는 것은 저자와 독자 사이에 대화가 되어야 한다는 것이다.
+(중략) 그런데 이해 한다는 것은 상호적이다. 즉 뭔가를 배우려면 자신에게 질문하고 가르치는 사람에게도 질문해야 한다. 가르치는 사람이 하는 이야기를 이해하고 나면 기꺼이 그와 토론하고 싶어 할 정도가 되어야
+한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;질문을 위해 메모하는 다양한 방법을 설명한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;책에 직접 메모하는 방법을 선호하지 않는다.&lt;/li&gt;
+&lt;li&gt;지적 소유권 주장, 면지에 요약 정리하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;구조 파악&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;개념 파악 전초제&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;어떤 분류인가?&lt;/li&gt;
+&lt;li&gt;전체적으로 무엇을 이야기하는가?&lt;/li&gt;
+&lt;li&gt;저자는 어떤 방식으로 주제를 전개하는가?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;습관 만들기&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;66, 기술이 있다는 말은 뭔가를 만들거나 어떤 일을 하는 원칙을 아는 것이 아니라 그 일을 하는 데 어떤 습관을 익혔다는 말이다.
+...(중략) ...
+원칙을 모르면서 원칙대로 할 수 없다. 원칙대로 하지 않으면서 습관처럼 익숙하게 기능이나 기술을 발휘할 수도 없다. 배워서 터득할 수 있는 기술에는 원칙이 있다. 그리고 배워서 터득한 기술은 원칙을 따라 하는
+습관에서 생겨난다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;습관을 어떻게 만들 수 있을까?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;69, 원칙이 다양하다는 것은 별개 습관이 여럿 모인다는 것이 아니라 형성할 하나의 습관이 그만큼 복잡하다는 뜻이다. 각각의 원칙이 저절로 움직이는 단계에 이르면 서로 맞물려 하나를 이루게 된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;12-컴퓨터-밑바닥의-비밀&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#12-%EC%BB%B4%ED%93%A8%ED%84%B0-%EB%B0%91%EB%B0%94%EB%8B%A5%EC%9D%98-%EB%B9%84%EB%B0%80&quot; aria-label=&quot;12 컴퓨터 밑바닥의 비밀 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;1.2 컴퓨터 밑바닥의 비밀&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그래밍 언어는 컴퓨터 과학의 극히 일부다. 컴퓨터와 대화하는 방법이다.&lt;/li&gt;
+&lt;li&gt;간단한 스위치는 &lt;code class=&quot;language-text&quot;&gt;CPU&lt;/code&gt;로 전환됐다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;어셈블리어&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;기계어&lt;/code&gt;에서 마침내 진화한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;저수준 언어&lt;/code&gt;는 개발자가 더 많은 신경을 써야 한다.&lt;/li&gt;
+&lt;li&gt;어려움에 봉착하여 더욱 편리한 언어의 필요성이 대두됐다.&lt;/li&gt;
+&lt;li&gt;일상에서 주로 사용하는 언어를 어떻게 &lt;code class=&quot;language-text&quot;&gt;CPU&lt;/code&gt;에 전달할까? 명령에 공통점은 &lt;code class=&quot;language-text&quot;&gt;문(statement)&lt;/code&gt;이 됐다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;코드(code)&lt;/code&gt;는 단도직입적인 문장이다.&lt;/li&gt;
+&lt;li&gt;세상의 모든 코드의 기본은 &lt;code class=&quot;language-text&quot;&gt;구문(syntax)&lt;/code&gt;다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;컴파일러(compiler)&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;자료구조&lt;/code&gt;는 무의미할까?&lt;/li&gt;
+&lt;li&gt;마침내 &lt;code class=&quot;language-text&quot;&gt;고수준 언어&lt;/code&gt;가 탄생했다. &lt;code class=&quot;language-text&quot;&gt;고수준 언어&lt;/code&gt;의 등장으로 날개를 달았다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;CPU&lt;/code&gt;는 다양한 형식을 갖는다. 문제를 해결하기 위해서 각 &lt;code class=&quot;language-text&quot;&gt;CPU&lt;/code&gt;를 추상화한 &lt;code class=&quot;language-text&quot;&gt;인터프리터(interpreter)&lt;/code&gt;가 등장했다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;13-자바-알리즘-인터뷰-with-코틀린&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#13-%EC%9E%90%EB%B0%94-%EC%95%8C%EB%A6%AC%EC%A6%98-%EC%9D%B8%ED%84%B0%EB%B7%B0-with-%EC%BD%94%ED%8B%80%EB%A6%B0&quot; aria-label=&quot;13 자바 알리즘 인터뷰 with 코틀린 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;1.3 자바 알리즘 인터뷰 with 코틀린&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OOP, 복잡도, 재사용성, 독립적, 유연하게 협력하는 방법&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;캡슐화, 변수와 함수를 클래스 단위로 묶어 분리하다.&lt;/li&gt;
+&lt;li&gt;외부와 협력하기 위해 &lt;code class=&quot;language-text&quot;&gt;접근 제어자(Access Modifier)&lt;/code&gt;를 도입했다.&lt;/li&gt;
+&lt;li&gt;추상화, 의도 자체에 집중하여 복잡도를 낮추다.&lt;/li&gt;
+&lt;li&gt;상속, 필요한 개념을 이어 물려받아 재사용성을 높이다.&lt;/li&gt;
+&lt;li&gt;다형성, 상황에 따라 달리 동작하다. (오버로딩, 오버라이딩)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;2-참고-노트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%B0%B8%EA%B3%A0-%EB%85%B8%ED%8A%B8&quot; aria-label=&quot;2 참고 노트 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;2. 참고 노트&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/High-level_programming_language&quot;&gt;MDN Web Docs - Mozilla &apos;High-level programming langugage&apos;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/shorts/nwodUEQUoZ4?si=G3Pcibgf8oIMCocf&quot;&gt;광주축구 &apos;ACLE 요코하마전 대승을 부른 이정효 감독의 한마디!&apos;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/YGAFaLEoK8M?si=zW4aHjdRV2e0IU2c&quot;&gt;외교부 &apos;페이커 이상혁 기조연설&apos;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition&quot;&gt;FizzBuzzEnterpriseEdition&lt;/a&gt;: 과도한 추상화의 결과&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;heading-anchor before&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;15&quot; height=&quot;15&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;마치며&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[E14: 바람]]></title><description><![CDATA[아무도 만질 수 없는 기억의 바람 1. Permanent Note 1.1 Kotlin in Action 널이 될 수 있는 값 nullable type…]]></description><link>https://devmeeple.github.io/daily-250318/</link><guid isPermaLink="false">https://devmeeple.github.io/daily-250318/</guid><pubDate>Tue, 18 Mar 2025 04:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 1rem;&apos;&gt;
     &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
       &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/04d72e8e7500f6907901c67075ce7102/c7e40/4086334.jpg&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
     &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABvxmrOmhEmegPYT//xAAcEAABBAMBAAAAAAAAAAAAAAABAAIDIRARMhL/2gAIAQEAAQUCBv2MMNyWgTpnUnK//8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQMBAT8BIf/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABcQAQADAAAAAAAAAAAAAAAAABABESD/2gAIAQEABj8CxZL/AP/EABoQAQACAwEAAAAAAAAAAAAAAAEAERAhQTH/2gAIAQEAAT8hnXXlM9l9uzQihrcIBbwnWk4T/9oADAMBAAIAAwAAABBgwD3/xAAZEQACAwEAAAAAAAAAAAAAAAAAARARMUH/2gAIAQMBAT8QVdjQz//EABgRAAMBAQAAAAAAAAAAAAAAAAABESFB/9oACAECAQE/EHZgjgj/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhMUFRYf/aAAgBAQABPxAGi5ypbaijff2CCzRjArQ7uTpIBj5AZI9CpseA+ex0aDhyHT6DP//Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -76,7 +344,7 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;온라인 코딩 테스트의 사전 준비 사항&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;연습장과 필기 도구: 값의 변화, 최종 결과를 기록하고 풀이를 비교한다.&lt;/li&gt;
+&lt;li&gt;연습장과 필기도구: 값의 변화, 최종 결과를 기록하고 풀이를 비교한다.&lt;/li&gt;
 &lt;li&gt;나만의 코드 스니펫(Snippet)&lt;/li&gt;
 &lt;li&gt;예외 처리&lt;/li&gt;
 &lt;li&gt;REPL(Read Evaluate Print Loop) 도구로 코드 검증&lt;/li&gt;
