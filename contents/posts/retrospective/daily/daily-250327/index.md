@@ -42,8 +42,25 @@ series: "일간 장태근"
 
 > 3장_코틀린, 구글이 인정한 공식 언어
 
+```java
+@Test
+void calculateTotalPriceUsingVar() {
+    // given
+    var calculator = new OrderCalculator();
+    var orders = new ArrayList<Order>();
+    orders.add(new Order("단위 테스트의 기술", 36000, 1));
+    orders.add(new Order("Kotlin in Action 2/e", 48000, 1));
+    
+    // when
+    var results = calculator.calcualteTotalPrice(orders);
+    
+    // then
+    assertThat(results).isEqualTo(84000);
+}
+```
+
 - 고수준 언어와 저수준 언어는 자동차의 자동, 수동 변속기와 유사하다.
-- 자바도 10 버전 이상에서도 타입 추론을 지원한다.
+- 자바도 10 버전 이상에서는 타입 추론을 지원한다.
 
 > 117, C++.와 자바에서는 이 기능이 존재하지 않아서 디자인 패턴 중 빌더 패턴(Builder Pattern)이란 것을 고안해 사용해왔는데, 
 > 코틀린은 파라미터 이름을 지정할 수 있어서 굳이 빌더 패턴을 사용할 필요가 없으며, 훨씬 더 간단하게 처리할 수 있다. 참고로 이 기능은 파이썬에서도 지원한다.
