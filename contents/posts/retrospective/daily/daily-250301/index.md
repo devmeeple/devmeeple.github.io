@@ -1,5 +1,5 @@
 ---
-title: "E1: 시퍼런 봄"
+title: "2025-03-01 시퍼런 봄"
 description: ""
 date: 2025-03-01 00:00:00
 update: 2025-03-01 23:30:00
@@ -7,22 +7,18 @@ tags:
   - 회고/일간
   - 인프런워밍업클럽
   - 영화
-  - 락/메탈
 series: "일간 장태근" 
 ---
 
-![쏜애플 '시퍼런 봄'](434300.jpg)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4644JaCBBX7EpiZY1XXJaW?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-아무것도 하기 싫어. 우리는 그늘을 찾았네.
+**아무것도 하기 싫어. 우리는 그늘을 찾았네.**
 
-## 1. Permanent Note
+## 1. 워밍업 클럽: 서포터
 
-### 1.1 워밍업 클럽: 서포터
+> 전략적이 아닌, 적극적으로 다가가기
 
-드디어 올해 워밍업 클럽이 시작됐다. 우연히 기회를 잡았다. 작년 인연을 맺게 도와준 스터디인 만큼 올해는 어떤 즐거움과 어려움이 기다릴지 기대된다.
-운영 관점에서 문제를 해결하는 방법을 배우고 싶다. 전략적이진 않지만, 적극적으로.
-
-- 첫 번째 회의를 마쳤다.
+드디어 올해 워밍업 클럽이 시작됐다. 우연히 기회를 잡았다. 인연을 맺어준 활동인 만큼 올해는 어떤 즐거움과 어려움이 다가올지 기대된다. 운영팀과 러너의 사이에서 원활한 활로가 되고싶다.
 
 ### 1.2 영화: 미키17
 
