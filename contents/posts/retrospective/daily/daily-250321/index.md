@@ -1,17 +1,34 @@
 ---
-title: "E17: 비행"
+title: "2025-03-21 비행"
 description: ""
 date: 2025-03-21 22:00:00
 update: 2025-03-21 23:00:00
 tags:
   - 회고/일간
-  - 랩/힙합
+  - CS
+  - 독서
 series: "일간 장태근" 
 ---
 
-![E SENS '비행'](20345945.jpg)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/05vY4piKAbBXJXaaa4xOCt?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-## 1.1 생각을 넓혀주는 독서법
+**착한 내 친구의 삶까지는 내가 못 챙겨 서로 이해해**
+
+## 컴퓨터 밑바닥의 비밀
+
+- 프로그래밍 언어는 컴퓨터 과학의 극히 일부다. 컴퓨터와 대화하는 방법이다.
+- 간단한 스위치는 `CPU`로 전환됐다.
+- `어셈블리어`, `기계어`에서 마침내 진화한다.
+- `저수준 언어`는 개발자가 더 많은 신경을 써야 한다.
+- 어려움에 봉착하여 더욱 편리한 언어의 필요성이 대두됐다.
+- 일상에서 주로 사용하는 언어를 어떻게 `CPU`에 전달할까? 명령에 공통점은 `문(statement)`이 됐다.
+- `코드(code)`는 단도직입적인 문장이다.
+- 세상의 모든 코드의 기본은 `구문(syntax)`다.
+- `컴파일러(compiler)`, `자료구조`는 무의미할까?
+- 마침내 `고수준 언어`가 탄생했다. `고수준 언어`의 등장으로 날개를 달았다.
+- `CPU`는 다양한 형식을 갖는다. 문제를 해결하기 위해서 각 `CPU`를 추상화한 `인터프리터(interpreter)`가 등장했다.
+
+## 생각을 넓혀주는 독서법
 
 > 읽기 수준은 쌓여가는 것이다. 기초가 없으면 분석하며 읽을 수 없다.
 
@@ -62,21 +79,7 @@ series: "일간 장태근"
 
 > 69, 원칙이 다양하다는 것은 별개 습관이 여럿 모인다는 것이 아니라 형성할 하나의 습관이 그만큼 복잡하다는 뜻이다. 각각의 원칙이 저절로 움직이는 단계에 이르면 서로 맞물려 하나를 이루게 된다.
 
-## 1.2 컴퓨터 밑바닥의 비밀
-
-- 프로그래밍 언어는 컴퓨터 과학의 극히 일부다. 컴퓨터와 대화하는 방법이다.
-- 간단한 스위치는 `CPU`로 전환됐다.
-- `어셈블리어`, `기계어`에서 마침내 진화한다.
-- `저수준 언어`는 개발자가 더 많은 신경을 써야 한다.
-- 어려움에 봉착하여 더욱 편리한 언어의 필요성이 대두됐다.
-- 일상에서 주로 사용하는 언어를 어떻게 `CPU`에 전달할까? 명령에 공통점은 `문(statement)`이 됐다.
-- `코드(code)`는 단도직입적인 문장이다.
-- 세상의 모든 코드의 기본은 `구문(syntax)`다.
-- `컴파일러(compiler)`, `자료구조`는 무의미할까?
-- 마침내 `고수준 언어`가 탄생했다. `고수준 언어`의 등장으로 날개를 달았다.
-- `CPU`는 다양한 형식을 갖는다. 문제를 해결하기 위해서 각 `CPU`를 추상화한 `인터프리터(interpreter)`가 등장했다.
-
-## 1.3 자바 알리즘 인터뷰 with 코틀린
+## 자바 알고리즘 인터뷰 with 코틀린
 
 > OOP, 복잡도, 재사용성, 독립적, 유연하게 협력하는 방법
 
@@ -85,12 +88,14 @@ series: "일간 장태근"
 - 추상화, 의도 자체에 집중하여 복잡도를 낮추다.
 - 상속, 필요한 개념을 이어 물려받아 재사용성을 높이다.
 - 다형성, 상황에 따라 달리 동작하다. (오버로딩, 오버라이딩)
-
-## 2. 참고 노트
-
-- [MDN Web Docs - Mozilla 'High-level programming langugage'](https://developer.mozilla.org/en-US/docs/Glossary/High-level_programming_language)
-- [광주축구 'ACLE 요코하마전 대승을 부른 이정효 감독의 한마디!'](https://youtube.com/shorts/nwodUEQUoZ4?si=G3Pcibgf8oIMCocf)
-- [외교부 '페이커 이상혁 기조연설'](https://youtu.be/YGAFaLEoK8M?si=zW4aHjdRV2e0IU2c)
 - [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition): 과도한 추상화의 결과
 
+### 오늘의 함께 읽기
+
+- [MDN Web Docs - Mozilla 'High-level programming language'](https://developer.mozilla.org/en-US/docs/Glossary/High-level_programming_language)
+- [광주축구 'ACLE 요코하마전 대승을 부른 이정효 감독의 한마디!'](https://youtube.com/shorts/nwodUEQUoZ4?si=G3Pcibgf8oIMCocf)
+- [외교부 '페이커 이상혁 기조연설'](https://youtu.be/YGAFaLEoK8M?si=zW4aHjdRV2e0IU2c)
+
 ## 마치며
+
+컨디션이 좋지 않아 평소보다 적은 학습을 이어갔다. 날카로운 예민함을 덜어가는 것으로 한 잔.
