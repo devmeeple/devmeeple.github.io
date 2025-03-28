@@ -90,12 +90,12 @@ series: "일간 장태근"
 - 다형성, 상황에 따라 달리 동작하다. (오버로딩, 오버라이딩)
 - [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition): 과도한 추상화의 결과
 
+## 마치며
+
+컨디션이 좋지 않아 평소보다 적은 학습을 이어갔다. 날카로운 예민함을 덜어가는 것으로 한 잔.
+
 ### 오늘의 함께 읽기
 
 - [MDN Web Docs - Mozilla 'High-level programming language'](https://developer.mozilla.org/en-US/docs/Glossary/High-level_programming_language)
 - [광주축구 'ACLE 요코하마전 대승을 부른 이정효 감독의 한마디!'](https://youtube.com/shorts/nwodUEQUoZ4?si=G3Pcibgf8oIMCocf)
 - [외교부 '페이커 이상혁 기조연설'](https://youtu.be/YGAFaLEoK8M?si=zW4aHjdRV2e0IU2c)
-
-## 마치며
-
-컨디션이 좋지 않아 평소보다 적은 학습을 이어갔다. 날카로운 예민함을 덜어가는 것으로 한 잔.
