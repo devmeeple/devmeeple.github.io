@@ -1,22 +1,20 @@
 ---
-title: "E8: 33"
+title: "2025-03-10 33"
 description: ""
 date: 2025-03-10 23:04:41
 update: 2025-03-10 23:04:41
 tags:
   - 회고/일간
+  - Kotlin/코틀린
   - 독서
-  - 알앤비/소울
 series: "일간 장태근" 
 ---
 
-![이창섭 '33'](4106536.jpg)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3tqXynBuF095sqRV9OjwNJ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-낭만을 잃지 않고 익어가고 있다.
+**낭만을 잃지 않고 익어간다.**
 
-## 1. Permanent Note
-
-### 1.1 Kotlin in Action
+## Kotlin in Action
 
 - 컬렉션
 - 확장함수
@@ -24,7 +22,7 @@ series: "일간 장태근"
   유도하며 상호작용을 설명한다.
 - 코틀린을 배우며 지난 어노테이션 과제가 연결됐다. 어노테이션의 활용도는 어디까지일까?
 
-### 1.2 일인칭 단수
+## 일인칭 단수
 
 > 보드카 김렛을 천천히 홀짝이면서 스무 쪽쯤 읽어나갔지만 이상하게 집에서와 마찬가지로 여기서도
 > 독서에 신경을 집중할 수 없었다. 소설이 딱히 재미있지 않아서만은 아닌 듯 했다. 그렇다고 바의 분위기가 어수선한 것도 아니다
@@ -35,14 +33,13 @@ series: "일간 장태근"
 
 - 환경이 좋아도 집중되지 않던 순간이 스쳐갔다. 파노라마처럼
 
-### 1.3 톺아보기
+## 마치며
 
-- 자본주의
-- 멋진 신세계
+- 싱그러운 봄을 몸소 느꼈다. 산책할 때 가장 행복했다. 우아하다.
+- 갚을 수 없을 만큼 수면을 대출했다. 상환할 시간이다.
+- 쪽잠에서 살발한 경고를 받았다.
 
-행방불명 된 도서[^1] 덕분에 차선책으로 2권을 대출했다. 기존에 읽지 않았던 분야라 더욱 설렌다. 풍족한 한 주를 기대한다.
-
-## Literature Note
+### 오늘의 함께 읽기
 
 - [goormblog](https://blog.goorm.io/commit/)
     - 타입으로 견고하게 다형성으로 유연하게
@@ -51,10 +48,6 @@ series: "일간 장태근"
 - [IdeaVim](https://blog.jetbrains.com/ko/webstorm/2022/11/ideavim-in-webstorm/): 생산성 깎고 또 깎아.
 - 한무무, 한성 무접점키보드 GK893B (텐키리스)
 
-## 마치며
-
-- 싱그러운 봄을 몸소 느꼈다. 산책할 때 가장 행복했다. 우아하다.
-- 갚을 수 없을 만큼 수면을 대출했다. 상환할 시간이다.
-- 쪽잠에서 살발한 경고를 받았다.
+행방불명 된 도서[^1] 덕분에 차선책으로 2권을 대출했다. 기존에 읽지 않았던 분야라 더욱 설렌다. 풍족한 한 주를 기대한다.
 
 [^1]: [『리틀 라이프 1』(한야 야나기하라, 시공사, 2016)](https://product.kyobobook.co.kr/detail/S000000733954)
