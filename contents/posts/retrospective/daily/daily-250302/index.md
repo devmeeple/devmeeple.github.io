@@ -1,30 +1,24 @@
 ---
-title: "E2: NOT OK"
+title: "2025-03-02 NOT OK"
 description: ""
 date: 2025-03-02 00:00:00
 update: 2025-03-02 23:30:00
 tags:
   - 회고/일간
-  - 스터디
-  - 랩/힙합
+  - 스터디/꾸글
 series: "일간 장태근" 
 ---
 
-![로꼬 'NOT OK'](20598234.jpg)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0tSDqQOK8EgoRxYXWkP5rR?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-울다가 웃으면?
+**울다가 웃으면?**
 
-## 1. Permanent Note
+## 꾸글
 
-### 1.1 꾸글
-
-- 개발에 빠질 수록 좋아하는 일과 취미가 있는 친구를 곁에 두고 싶다. 다음이 기다려진다.
-- 행복하다. 대화 하다보면 사고가 확장되고 연결하는 표현력이 풍부해진다.
-
-## 2. Literature Note
-
-- 바람의 노래를 듣기엔 우렁찼다. 금방이라도 벽을 허물겠다는 기세가 느껴졌다.
+- 개발과 동행할 수록 좋아하는 분야가 있는 덕후와 함께 하고 싶다. 다음이 기대된다.
+- 행복하다. 사고가 확장되고 연결하는 표현이 익어감을 느낀다.
 
 ## 마치며
 
-따뜻한 일요일이다. 모난 것 없이 둥글게 적당히 불어오는 행복에 해맑다. 좋아하는 일을 하고 있다는 기분을 다시 한번 느꼈다.
+바람의 노래를 듣기엔 우렁찼다. 금방이라도 벽을 허물겠다는 기세가 보였다.
+그럼에도 마음은 따뜻한 일요일을 보냈다. 모난 것 없이 둥글게 적당히 불어오는 행복에 해맑다. 좋아하는 일을 하고 있음을 다시 한번 실감했다.
