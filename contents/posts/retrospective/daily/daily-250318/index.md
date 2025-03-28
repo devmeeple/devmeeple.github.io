@@ -1,32 +1,29 @@
 ---
-title: "E14: 바람"
+title: "2025-03-18 바람"
 description: ""
 date: 2025-03-18 04:30:00
 update: 2025-03-18 17:00:00
 tags:
   - 회고/일간
   - Kotlin/코틀린
-  - 독서/독서법
-  - 발라드
+  - 독서
 series: "일간 장태근" 
 ---
 
-![윤하 '바람'](4086334.jpg)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/686EAFs0uJRvVTHaOhkP1u?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-아무도 만질 수 없는 기억의 바람
+**아무도 만질 수 없는 기억의 바람**
 
-## 1. Permanent Note
+## Kotlin in Action
 
-### 1.1 Kotlin in Action
-
-> 7. 널이 될 수 있는 값
+> 7장, 널이 될 수 있는 값
 
 - **nullable type**
     - 최신 언어들은 실행 환경이 아닌 아닌 컴파일 단계에서 `NPE(NullPointerException)`가 발생할 수 있도록 지원한다.
 - 타입 뒤에 `?`는 해당 타입이 널을 참조할 수 있음을 암시한다.
 - 널이 될 수 있는 타입과, 널이 될 수 없는 타입을 구분하면 어떤 연산이 가능한지 명확하게 이해할 수 있다.
     - 실행 환경은 같은 타입이다. 래퍼 타입이 아니다.
-- **null을 다루는 방법**
+- **`null`을 다루는 방법**
     - `if`
     - `?.`
         - 호출 값이 `null`이 아니면 일반 메서드 호출처럼 동작한다.
@@ -41,8 +38,10 @@ series: "일간 장태근"
     - `let 함수`
     - `lateinit`
     - `DI(Dependency Injection`를 적용한 프레임워크 사례
+- [Nullability in Java and Kotlin](https://kotlinlang.org/docs/java-to-kotlin-nullability-guide.html#support-for-definitely-non-nullable-types)
+- [Null safety](https://kotlinlang.org/docs/null-safety.html)
 
-### 1.2 자바 알고리즘 인터뷰 with 코틀린
+## 자바 알고리즘 인터뷰 with 코틀린
 
 > 플랫폼 별 특징과 활용, 사전 준비
 
@@ -55,13 +54,17 @@ series: "일간 장태근"
     - REPL(Read Evaluate Print Loop) 도구로 코드 검증
     - 코딩 테스트 플랫폼 숙지: 해커랭크, 프로그래머스
 
-### 1.3 생각을 넓혀주는 독서법
+## 생각을 넓혀주는 독서법
 
 - 투수와 타자의 관계, 읽고 듣기도 적극적인 자세가 필요하다.
 - 깊이 이해하는 독서는 깨달음을 동반한다.
 - 읽기란 보이지 않는 교사에게 배우는 방법이다.
 
-## 2. Literature Note
+## 마치며
+
+마감 기한을 지키고 방문하는 도서관은 산들바람이 되어 가슴에 안긴다.
+
+### 오늘의 함께 읽기
 
 - [『우주비행사의 지구생활 안내서』(크리스 해드필드, 더퀘스트, 2014)](https://product.kyobobook.co.kr/detail/S000001031978)
     - Chris Hadfield
@@ -71,6 +74,3 @@ series: "일간 장태근"
 - [Kotlin Docs 'Null safety'](https://kotlinlang.org/docs/null-safety.html)
 - Predicate: 주어진 조건 만족 여부를 검증하는 함수나 표현식
 - Precondition: 사전 조건
-
-## 마치며 
-
