@@ -1,5 +1,5 @@
 ---
-title: "2025 월간 장태근 3월호 '이달의 제목'"
+title: "2025 월간 장태근 3월호 'READY STEADY GO'"
 description: ""
 date: 2025-03-30 03:00:00
 update: 2025-03-30 17:00:00
@@ -7,6 +7,8 @@ tags:
   - 회고/월간
 series: "2025 월간 장태근"
 ---
+
+<iframe width="100%" height="400"" src="https://www.youtube.com/embed/FrjoqD-azPg?si=XLPT0CJTyzh35lPt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 착수
 
