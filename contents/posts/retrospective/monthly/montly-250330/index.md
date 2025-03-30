@@ -1,5 +1,5 @@
 ---
-title: "2025 월간 장태근 3월호 'READY STEADY GO'"
+title: "2025 월간 장태근 3월호 'Not a Dream'"
 description: ""
 date: 2025-03-30 03:00:00
 update: 2025-03-30 17:00:00
@@ -8,7 +8,7 @@ tags:
 series: "2025 월간 장태근"
 ---
 
-<iframe width="100%" height="400"" src="https://www.youtube.com/embed/FrjoqD-azPg?si=XLPT0CJTyzh35lPt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/EOEOe_2C6ZQ?si=pf2qwQ577b1pk4qR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 착수
 
@@ -16,7 +16,7 @@ series: "2025 월간 장태근"
 
 벚꽃과 눈이 공존할 수 있음을 체험하는 3월을 보냈다.
 
-## <일간 장태근> 부검
+## 1수 <일간 장태근> 부검: Under Pressure
 
 ![3월 일간 장태근 결과 <출처: 장태근블로그>](results-of-the-daily-series-in-march.png)
 
@@ -26,7 +26,7 @@ series: "2025 월간 장태근"
 임시로 둔 두 편을 빼고 총 열다섯 편을 작성했다. **스무 번의 기회중 열다섯이니, 75% 성과를 이뤘다.** 발행하지 못한 기록을 추가할 까 했으나, 끝내 부자연스럽다는 결론을 내렸다.
 미생에 사활을 걸지 않은 덕에 다음을 기약한다.
 
-## 강철의 연금술사
+## 2수 강철의 연금술사: Again
 
 ![강철의 연금 술사 <출처: 장태근블로그>](fullmetal-alchemist.JPG)
 
@@ -40,13 +40,13 @@ series: "2025 월간 장태근"
 '읽기'에 거부감 없던 비결은 만화책 덕분이었다. 너무 재밌어서 용돈을 쪼개고, 언덕을 넘어 빌려있던 시절의 풍경이 선명하다. 웃음이 새어 나온다. 
 앞으로 더 많은 만화책을 만나고, 따뜻한 감상을 블로그에 자주 녹여내고 싶다. 함께여서 행복하다.
 
-## 이달의 인터뷰: CREDIT
+## 3수 이달의 인터뷰: CREDIT
 
 질문과 답변을 모아 인터뷰 형식으로 정리했다. 
 
 ### Q. 학습 동기, 원동력이 무엇인가요?
 
-> 이찬혁 가스라이팅
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/o5BtIoHwB7k?si=qw5f-7yR3g_wB8FS&amp;start=982" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 생존확률을 높이기 위해 포석을 깔았다. 다른 선택지는 애초에 없다고, 삶을 인정하고 각인시켰다. **정석이나 수 읽기보다 중요한 건 적극적으로 임하는 자세라고 생각한다.** 
 누구도 다음 수를 알려줄 수 없다. 스스로 묻고, 탐색하는 수순만이 유일한 최선이라 믿는다. 매 순간이 미생이겠지만, 그래서 두어볼 가치가 있다.
