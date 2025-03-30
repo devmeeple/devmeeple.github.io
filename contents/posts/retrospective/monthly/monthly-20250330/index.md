@@ -5,7 +5,7 @@ date: 2025-03-30 03:00:00
 update: 2025-03-30 17:00:00
 tags:
   - 회고/월간
-series: "2025 월간 장태근"
+series: "행보 2025 장태근"
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/EOEOe_2C6ZQ?si=pf2qwQ577b1pk4qR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -61,5 +61,5 @@ series: "2025 월간 장태근"
 
 ## 마치며
 
-방송국의 봄은 수 읽기다. 다양한 수순으로 변화를 꾀하듯, 입춘 삶의 포석을 다채롭게 펼쳤다. 숱한 변칙수와 응수를 거친 끝에, 쓸만한 한수가 발견되면 좋겠다. 
+방송국의 봄은 수 읽기다. 다양한 수순으로 변화를 꾀하듯, 삶의 포석을 다채롭게 펼쳤다. 숱한 변칙수와 응수를 거친 끝에, 쓸만한 한수가 발견되면 좋겠다. 
 부디 수 읽기가 헛되지 않기를, 원하는 국면에 안착하기를 기대한다.
