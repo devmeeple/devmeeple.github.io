@@ -41,6 +41,20 @@ kotlinc HelloWorld.kt -inclunde-runtime -d HelloWorld.jar
 
 코틀린은 `kotlinc`명령을 통해 컴파일하며, 동일한 `.class`파일을 생성한다.
 
+## 실행하는 방법
+
+```shell
+java HelloWorld
+```
+
+생성된 `.class`파일은 `java`명령을 통해 실행한다.
+
+```shell
+java -jar HelloWorld.jar
+```
+
+코틀린은 보통 생성된 `JAR`를 실행한다. 
+
 ## 마치며 
 
 [^1]: 한 번 작성하면 어디서든 실행 가능
