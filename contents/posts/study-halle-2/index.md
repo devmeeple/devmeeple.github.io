@@ -126,4 +126,24 @@ val numbers = arrayOf(1, 2, 3)
 val matrix = Array(2) { IntArray(3) }
 ```
 
+## 타입 추론과 var 키워드 사용법
+
+**Java**
+
+Java 10부터 `var` 키워드를 사용하여 타입 추론을 지원한다.
+
+```java
+var number = 10; // int
+var text = "Hello"; // String
+```
+
+**Kotlin**
+
+Kotlin은 기본적으로 타입을 추론한다.
+
+```kotlin
+val number = 10
+val text = "Hello"
+```
+
 ## 마치며 
