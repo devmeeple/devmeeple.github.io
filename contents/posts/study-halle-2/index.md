@@ -98,7 +98,7 @@ val intValue = 10
 val longValue = intValue.toLong()
 ```
 
-Kotlin은 자동 형변환이 일어나지 않는다. 명시적으로 변환 함수를 호출한다.
+Kotlin은 자동 형변환이 발생하지 않는다. 명시적 변환 함수를 호출한다.
 
 ## 배열 선언하기
 
@@ -110,7 +110,7 @@ int[] array = new int[3];
 int[] numbers = {1, 2, 3};
 
 // 2차원 배열
-int[][] matrix = new int[2][3]; 
+int[][] twoDArray = new int[2][3]; 
 ```
 
 **Kotlin**
@@ -121,7 +121,7 @@ val array = IntArray(3)
 val numbers = arrayOf(1, 2, 3)
 
 // 2차원 배열
-val matrix = Array(2) { IntArray(3) }
+val twoDArray = Array(2) { Array<Int>(3) {0} }
 ```
 
 ## 타입 추론과 var 키워드 사용법
@@ -146,4 +146,5 @@ val text = "Hello"
 
 ## 참고 자료
 
+- [『Kotlin in Action: 2/e 』(세바스티안 아이그너·로만 엘리자로프·스베트라나 이사코바·드미트리 제메로프, 에이콘출판, 2025)](https://product.kyobobook.co.kr/detail/S000215768644)
 - [김영한의 실전 자바 - 기본편](https://inf.run/PuC6W)
