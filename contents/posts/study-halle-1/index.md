@@ -61,7 +61,7 @@ java -jar <jar 이름>
 - JRE(Java Runtime Environment): JVM, 프로그램에 실행에 필요한 라이브러리를 포함하여 **프로그램을 실행하기 위한 환경을 제공한다.** JDK의 일부다.
 - JDK(Java Development Kit): 컴파일러, 디버거 등 필요한 요소를 모두 포함한다. **프로그램을 만드는데 필요한 모든 것이 담겨있다.**
 
-### 참고 자료
+## 참고 자료
 
 - [『Kotlin in Action: 2/e 』(세바스티안 아이그너·로만 엘리자로프·스베트라나 이사코바·드미트리 제메로프, 에이콘출판, 2025)](https://product.kyobobook.co.kr/detail/S000215768644)
 
