@@ -12,7 +12,6 @@ series: "스터디 할래? 온라인 자바 스터디"
 
 기본형, 변수와 배열을 사용하는 방법을 학습한다.
 
-- 1차 및 2차 배열 선언하기
 - 타입 추론, var
 
 ## 기본형 변수와 배열 사용법
@@ -93,5 +92,38 @@ int intValue = (int) doubleValue; // 1
 ```
 
 큰 범위 숫자 타입에서 작은 범위 숫자 타입으로 값을 대입할 때 개발자가 직접 형변환 코드를 입력한다. 이를 명시적 형변환(Casting)이라 한다. 소수점이 버려지고 오버플로(Overflow)를 유의해야 한다.
+
+**Kotlin**
+
+```kotlin
+val intValue = 10
+val longValue = intValue.toLong()
+```
+
+Kotlin은 자동 형변환이 일어나지 않는다. 명시적으로 변환 함수를 호출한다.
+
+## 배열 선언하기
+
+**Java**
+
+```java
+// 1차원 배열
+int[] array = new int[3];
+int[] numbers = {1, 2, 3};
+
+// 2차원 배열
+int[][] matrix = new int[2][3]; 
+```
+
+**Kotlin**
+
+```kotlin
+// 1차원 배열
+val array = IntArray(3)
+val numbers = arrayOf(1, 2, 3)
+
+// 2차원 배열
+val matrix = Array(2) { IntArray(3) }
+```
 
 ## 마치며 
