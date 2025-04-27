@@ -8,8 +8,7 @@ tags:
 series: 
 ---
 
-- 관계 연산자
-- 논리 연산자
+- 관계 연산자, 논리 연산자(동일)
 - is 연산자
 - assignment(=) operator
 - 화살표(->) 연산자
@@ -53,7 +52,7 @@ Kotlin은 Java의 `&&`, `||`, `!` 연산자 대신 명확한 함수를 사용한
 
 ## is 연산자
 
-Java의 instanceOf
+`is` 연산자는 Java의 `instanceOf` 연산자와 유사하다. 변수의 타입을 검사할 때 사용한다.
 
 ## when 표현식
 
