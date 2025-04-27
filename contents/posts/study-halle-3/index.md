@@ -37,15 +37,19 @@ println(x / y.toDouble())
 
 ## 비트 연산자(Bitwise Operators)
 
-- `shl`
-- `shr`
-- `ushr`
-- `and`
-- `or`
-- `xor`
-- `inv()`
+```kotlin
+val x = 0b1100 // 12
+val y = 0b1010 // 10
 
-Kotlin은 Java의 `&&`, `||`, `!` 연산자 대신 함수를 사용한다.
+println(x and y)   // AND
+println(x or y)    // OR
+println(x xor y)   // XOR
+println(x shl 2)   // 좌측 시프트
+println(x shr 2)   // 우측 시프트
+println(x ushr 2)  // 부호 없는 우측 시프트
+```
+
+Kotlin은 Java의 `&&`, `||`, `!` 연산자 대신 명확한 함수를 사용한다.
 
 ## is 연산자
 
