@@ -8,6 +8,8 @@ tags:
 series: 코딩을 지탱하는 기술
 ---
 
+> 이 글은 『코딩을 지탱하는 기술』을 읽고 생각과 지식을 덧붙여 정리했다. 책 내용과 100% 일치하지 않기 때문에 자세한 내용은 원문 참고를 권장한다.
+
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3AoeaZs8dFemFJr3JdzOL0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 어떻게 최적화하면 언어를 더욱 재밌게, 효과적으로 학습할 수 있을까? 학습법은 항상 고민하는 주제다. 새로운 언어를 배울 때 시작부터 중요한 점을 가려내기란 쉽지 않다. 효과적으로 언어를 배우는 방법 2가지를 제안한다.
