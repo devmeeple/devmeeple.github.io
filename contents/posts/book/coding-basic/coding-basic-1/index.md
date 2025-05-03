@@ -66,7 +66,6 @@ class NumberTruthyTest {
 
 ![James Gosling씨, 당신의 의도는 무엇인가요? <출처: JetBrains>](jetbrains-james-gosling.jpg)
 
-
 - Java는 네트워크 장치, 임베디드 시스템 등 '다양한 환경에서 동작하는 언어'를 위해 개발했다.
 - Java 문법은 C, C++의 영향을 받았다.
 - Java는 처음에 Oak라고 불렸지만 Green이라는 이름을 거쳐 Java로 최종 변경됐다.
