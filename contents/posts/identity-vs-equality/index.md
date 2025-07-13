@@ -76,7 +76,7 @@ void testEqualityWithDifferentContent() {
 ## equals() 메서드 오버라이딩
 
 ```java
-// Object.equals()
+// Object.equals() 기본 구현
 public boolean equals(Object obj) {
     return (this == obj);
 }
