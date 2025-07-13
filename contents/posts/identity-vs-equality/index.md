@@ -46,17 +46,31 @@ void testIdentityWithDifferentReference() {
 ### 동등성(Equality)
 
 ```java
+@DisplayName("두 객체의 실제값이 같다면 동등성은 같다.")
 @Test
-@DisplayName("참조값이 다르지만 실제값이 같다면 equals 결과는 true를 반환한다")
-void tru1e() {
+void testEqualityWithSameContent() {
     Coffee coffee1 = new Coffee("아메리카노");
     Coffee coffee2 = new Coffee("아메리카노");
+    
+    // Object.equals() 재정의 필요
+    boolean result = coffee1.equals(coffee2);
 
-    assertThat(coffee1.equals(coffee2)).isTrue();
+    assertThat(result).isTrue();
+}
+
+@DisplayName("두 객체의 실제값이 다르다면 동등성은 같지 않다.")
+@Test
+void testEqualityWithDifferentContent() {
+    Coffee coffee1 = new Coffee("아메리카노");
+    Coffee coffee2= new Coffee("카페라떼");
+    
+    boolean result = coffee1.equals(coffee2);
+    
+    assertThat(result).isFalse();
 }
 ```
 
-- 동등성은 두 객체의 내용이 같은지를 의미한다.
+- 동등성은 두 객체의 실제값이 같은지를 의미한다.
 - `Object`의 `equals()` 메서드를 사용하며, 서로 다른 객체라도 실제값이 같다면 `true`를 반환한다.
 
 ## equals() 메서드 오버라이딩
@@ -76,7 +90,7 @@ public boolean equals(Object obj) {
 ## 정리
 
 - 동일성과 동등성은 객체 비교에 사용하는 핵심 개념이다.
-- 객체에서 `==`는 참조값을 비교하고, `equals()`는 객체의 내용을 비교한다.
+- 객체에서 `==`는 참조값을 비교하고, `equals()`는 객체의 실제값을 비교한다.
 - 동일한 객체는 항상 동등하지만, 동등한 객체는 반드시 동일한 객체는 아니다.
 
 **<참고 자료>**
