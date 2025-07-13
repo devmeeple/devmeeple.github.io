@@ -14,6 +14,18 @@ series:
 
 ### 동일성(Identity)
 
+```java
+
+@Test
+@DisplayName("[동일성] 두 객체의 참조값이 같다면 true를 반환한다")
+void getIdentity() {
+    Coffee coffee1 = new Coffee("아메리카노");
+    Coffee coffee2 = coffee1;
+
+    assertThat(coffee1 == coffee2).isTrue();
+}
+```
+
 - 동일성은 두 객체가 같은 메모리 주소를 참조하는지를 의미한다.
 - `==` 연산자를 사용하며, 동일한 객체를 참조할 때 `true`를 반환한다.
 
@@ -21,26 +33,35 @@ series:
 
 ### 동등성(Equality)
 
+```java
+@Test
+@DisplayName("참조값이 다르지만 실제값이 같다면 equals 결과는 true를 반환한다")
+void tru1e() {
+    Coffee coffee1 = new Coffee("아메리카노");
+    Coffee coffee2 = new Coffee("아메리카노");
+
+    assertThat(coffee1.equals(coffee2)).isTrue();
+}
+```
+
 - 동등성은 두 객체의 내용이 같은지를 의미한다.
-- `Object`의 `equals()` 메서드를 사용하며, 서로 다른 객체라도 내부 값이 같다면 `true`를 반환한다.
+- `Object`의 `equals()` 메서드를 사용하며, 서로 다른 객체라도 실제값이 같다면 `true`를 반환한다.
 
 ## equals() 메서드 오버라이딩
 
 ```java
+// Object.equals()
 public boolean equals(Object obj) {
     return (this == obj);
 }
 ```
 
-- `Object.equals()`는 오버라이딩 하지 않으면 의도대로 동작하지 않는다. 참조값을 비교한다. 의미 있는 동등성 비교, 실제값을 비교하기 위해서는 오버라이딩이 필요하다.
-- `equals()`를 오버라이드 할 때는, 반드시 `hashCode()`도 오버라이드 해야 한다.
+- 동등성을 비교할 때 `Object.equals()`는 재정의(override) 하지 않으면 의도대로 동작하지 않는다. 기본적으로 참조값을 비교한다.
+- 사용자 정의 클래스에서 의미 있는 동등성, 실제값을 비교하기 위해서는 재정의가 필요하다.
+- `equals()`를 재정의 할 때는, 반드시 `hashCode()`도 재정의 해야 한다.
+    - Java의 기본 규약을 지키고 해시 기반 컬렉션에서 객체가 예상대로 동작하기 위함
 
 ## 정리
-
-```java
-Coffee americano1 = new Coffee("아메리카노"); // 참조 x001
-Coffee americano2 = new Coffee("아메리카노"); // 참조 x002
-```
 
 - 동일성과 동등성은 객체 비교에 사용하는 핵심 개념이다.
 - 객체에서 `==`는 참조값을 비교하고, `equals()`는 객체의 내용을 비교한다.
@@ -49,4 +70,3 @@ Coffee americano2 = new Coffee("아메리카노"); // 참조 x002
 **<참고 자료>**
 
 - [김영한 '김영한의 실전 자바 - 중급 1편'](https://inf.run/FiFGQ)
-
