@@ -15,14 +15,26 @@ series:
 ### 동일성(Identity)
 
 ```java
-
+@DisplayName("동일한 참조를 가진 두 객체의 동일성은 같다.")
 @Test
-@DisplayName("[동일성] 두 객체의 참조값이 같다면 true를 반환한다")
-void getIdentity() {
+void testIdentityWithSameReference() {
     Coffee coffee1 = new Coffee("아메리카노");
     Coffee coffee2 = coffee1;
+    
+    boolean result = coffee1 == coffee2;
 
-    assertThat(coffee1 == coffee2).isTrue();
+    assertThat(result).isTrue();
+}
+
+@DisplayName("다른 참조를 가진 두 객체의 동일성은 다르다.")
+@Test
+void testIdentityWithDifferentReference() {
+    Coffee coffee1 = new Coffee("아메리카노");
+    Coffee coffee2 = new Coffee("아메리카노");
+    
+    boolean result = coffee1 == coffee2;
+    
+    assertThat(result).isFalse();
 }
 ```
 
