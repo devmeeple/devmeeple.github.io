@@ -85,7 +85,7 @@ public boolean equals(Object obj) {
 - 동등성을 비교할 때 `Object.equals()`는 재정의(override) 하지 않으면 의도대로 동작하지 않는다. 기본적으로 참조값을 비교한다.
 - 사용자 정의 클래스에서 의미 있는 동등성, 실제값을 비교하기 위해서는 재정의가 필요하다.
 - `equals()`를 재정의 할 때는, 반드시 `hashCode()`도 재정의 해야 한다.
-    - Java의 기본 규약을 지키고 해시 기반 컬렉션에서 객체가 예상대로 동작하기 위함
+    - Java의 기본 규약을 지키고 해시 기반 컬렉션(HashMap, HashTable, HashSet)에서 객체가 예상대로 동작하기 위함
 
 ## 정리
 
