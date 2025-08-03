@@ -27,8 +27,8 @@ series:
 ## 9장. 컨테이너와 문자열
 
 - **자료구조**
-  - 배열(Array): 정수와 값을 대응
-  - 해쉬(Hash): 키와 값을 대응, 키는 모든 타입의 객체가 될 수 있음
+    - 배열(Array): 정수와 값을 대응
+    - 해쉬(Hash): 키와 값을 대응, 키는 모든 타입의 객체가 될 수 있음
 - 자료구조는 정답이 없다. 자신의 상황에 맞춰 선택하는 것이 최선이다.
 - 문자는 모스 부호, 아스키(ASCII), EBCDIC 같은 초기 문자 인코딩을 거쳐 현재는 유니코드(Unicode)가 전 세계의 모든 문자를 표현하는 표준으로 정의했다.
 
@@ -38,27 +38,63 @@ series:
 
 - 병행 처리[^2]를 위해 프로세스(Process), 스레드(Thread) 등의 개념이 등장했다. 또한 병행 처리에서 발생하는 문제를 해결하기 위해 락(Lock), 파이버(Fiber) 등의 개념이 등장했다.
 - **병행 처리를 해결하는 방법**
-  - 협력적 멀티태스킹(Cooperative Multitasking): 최적의 시점을 기다려 교대(협력), 초기 Mac OS 9 이전
-  - 선점적 멀티태스킹(Preemptive Multitasking): 일정 시간에 맞춰 교대(강제), 스케줄러가 따로 존재, 현대의 운영체제
+    - 협력적 멀티태스킹(Cooperative Multitasking): 최적의 시점을 기다려 교대(협력), 초기 Mac OS 9 이전
+    - 선점적 멀티태스킹(Preemptive Multitasking): 일정 시간에 맞춰 교대(강제), 스케줄러가 따로 존재, 현대의 운영체제
 - **경합 상태(Race Condition) 방지법**
-  - 불변(Immutable) 디자인 패턴
-  - 협력적 스레드 사용[^3]: 파이버(Fiber), 코루틴(Coroutine), 그린 스레드(Green Thread)[^4]
-  - 사용 중 표시: 락(Lock)[^5]
+    - 불변(Immutable) 디자인 패턴
+    - 협력적 스레드 사용[^3]: 파이버(Fiber), 코루틴(Coroutine), 그린 스레드(Green Thread)[^4]
+    - 사용 중 표시: 락(Lock)[^5]
 
 ## 11장. 객체와 클래스
 
 > 객체 지향의 흐름
 
 - 객체 지향은 현실 세계의 사물(Object)을 컴퓨터 안의 모델(Model)로 구현한 방법이다.
-- Java는 클래스를 설계하고 조립하는 프로그래밍 언어다. 
-- 패키지(Package)는 관련 있는 함수, 변수를 묶음으로 표현하기 위해 도입했다. 
-  - Python과 Ruby는 모듈(Module)이라 한다.
+- Java는 클래스를 설계하고 조립하는 프로그래밍 언어다.
+- 패키지(Package)는 관련 있는 함수, 변수를 묶음으로 표현하기 위해 도입했다.
+    - Python과 Ruby는 모듈(Module)이라 한다.
 - 생성자(Constructor)는 객체를 만드는 함수다.
 - 일급 시민(First-Class Citizen)이란 변수에 할당할 수 있고, 함수의 인자로 전달하거나 반환값으로 쓸 수 있는 값을 의미한다.
 - 클래스의 시작은 '분류'다.
+
+## 12장. 상속을 통한 재사용
+
+> 상속 구조 비교와 장·단점
+
+- **상속**
+    - 일반적인 기능은 부모 클래스에, 특화된 기능은 자식 클래스에 구현
+    - 공통적인 부분을 추출
+- 상속을 사용하면 코드 재사용성을 높인다. 하지만 무분별하게 사용하면 코드 영향 범위를 넓혀 주의가 필요하다.
+
+```java
+interface Engine {
+    void run();
+}
+
+class Car {
+    private Engine engine;
+
+    // 의존성 주입(생성자 주입)
+    public Car(Engine engine) {
+        this.engine = engine;
+    }
+
+    public void start() {
+        engine.run();
+    }
+}
+
+Engine hondaEngine = new HondaEngine();
+Car car = new Car(hondaEngine);
+```
+
+- 다중 상속에서 발생하는 다이아몬드 문제[^6]를 해결하기 위해 언어마다 다른 방법을 채택했다.
+    - Java에서는 다중 상속을 허용하지 않는다. 대신하여 위임(Delegation)을 사용한다. 위임을 효과적으로 사용하기 위해 의존성 주입(Dependency Injection)을 활용한다.
+    - C++의 가상 상속(Virtual Inheritance), Python의 C3 선형화(C3 Linearization), Ruby의 믹스인(Mix-in)
 
 [^1]: Python의 PyObject, Ruby의 VALUE, JavaScript의 tagged pointer, Nan boxing
 [^2]: 프로그램이 계속 동작하고 있는 것처럼 보이지만, 실제로는 잘게 분할해서 실행된다.
 [^3]: 여러 작업이 서로 협력하여 실행 흐름을 제어하는 방식
 [^4]: 운영체제가 아닌, 런타임 환경(JVM)이 관리하는 스레드
 [^5]: 락은 교착 상태(Deadlock)가 발생하는 문제가 있다. 따라서 신중하게 결정해야 한다.
+[^6]: 다중 상속 시 공통 조상 클래스에서 상속된 멤버(특히 메서드)가 어떻게 실행되어야 하는지 모호해지는 현상
