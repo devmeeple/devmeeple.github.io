@@ -22,6 +22,8 @@ series:
 
 ## 마치며
 
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/69A1xOqqOvm387J32Ps32R?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 - 사골처럼 우려먹고 싶은 작품이다. 도파민 폭발하는 일반적인 속도감 있는 전개였다면 또 보고 싶은 마음이 안 생겼을 것 같다.
 - 인생의 흐름을 느낄 수 있는 구성이 매력 있다. (초등학교-청소년-성인)
 - 소재(달리기)가 좋아 선택했는데 삶의 본질에 대해 생각해 볼 수 있어 좋았다.
