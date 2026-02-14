@@ -135,5 +135,10 @@ public class OrderService {
 - Spring은 IoC를 널리 알린 대표 사례일 뿐, Spring에 국한된 기술이 아니다. 앞서 '프레임워크가 담당하는 설계 원칙'이라고 말했듯이 다른 프레임워크도 IoC를 사용한다.
 - 예를 들어 C# 프레임워크 닷넷(.NET)[^1], JavaScript 프레임워크 NestJS[^2]가 해당한다.
 
+<참고 자료>
+
+- [Spring Framework Documentation 'Core Technologies'](https://docs.spring.io/spring-framework/reference/core.html)
+- [『부트캠프 백엔드 개발자 편 with 스프링 부트』(김송아, 한빛미디어, 2026)](https://product.kyobobook.co.kr/detail/S000219025613)
+
 [^1]: [.NET 종속성 주입](https://learn.microsoft.com/ko-kr/dotnet/core/extensions/dependency-injection/overview)
 [^2]: [NestJS Custom providers](https://docs.nestjs.com/fundamentals/custom-providers)
