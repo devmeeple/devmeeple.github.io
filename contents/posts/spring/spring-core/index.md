@@ -4,11 +4,11 @@ description: ""
 date: 2026-02-14 09:00:00
 update: 2026-02-14 18:00:00
 tags:
-- Spring
+  - Spring
 series:
 ---
 
-- Spring Core의 핵심은 IoC(Inversion of Control) 컨테이너다. 
+- Spring Core의 핵심은 IoC(Inversion of Control) 컨테이너다.
 - Spring은 단순한 라이브러리가 아니라, 객체의 생성과 관계를 대신 관리하는 프레임워크다.
 
 ## 1. 개념
@@ -17,36 +17,36 @@ series:
 
 - IoC란 객체의 생성, 의존성 연결, 생명주기 관리의 제어권을 개발자가 아닌 프레임워크가 담당하는 설계 원칙이다.
 - 제어권이란 다음 동작을 결정하는 권한을 의미한다.
-  - 객체 생성시점
-  - 다른 객체와 연결
-  - 호출시점
+    - 객체 생성시점
+    - 다른 객체와 연결
+    - 호출시점
 
 ### 1.2 IoC Container
 
 - IoC Container는 다음을 수행한다.
-  - BeanDefinition 생성
-  - 객체 인스턴스화
-  - 의존성 주입
-  - 초기화 및 소멸 관리
-  - AOP 연계
+    - BeanDefinition 생성
+    - 객체 인스턴스화
+    - 의존성 주입
+    - 초기화 및 소멸 관리
+    - AOP 연계
 - 주요 구현체
-  - BeanFactory
-  - ApplicationContext
+    - BeanFactory
+    - ApplicationContext
 
 ### 1.3 DI(Dependency Injection)
 
 - DI는 IoC를 구현하는 대표적인 방식(하위 개념)이다. 객체가 필요로 하는 의존성을 외부에서 주입받는다.
 - IoC를 구현하는 방법은 DI 외에도 있다.
-  - Service Locator
-  - 이벤트 기반 호출
-  - 템플릿 메서드 패턴
+    - Service Locator
+    - 이벤트 기반 호출
+    - 템플릿 메서드 패턴
 
 ### 1.4 Bean
 
-- Bean은 IoC Container에 의해 생성, 관리, 조립되는 객체다. 
+- Bean은 IoC Container에 의해 생성, 관리, 조립되는 객체다.
 - Spring의 기능(AOP, 트랜잭션, 이벤트 등)을 사용하려면 객체가 반드시 Bean으로 등록해야 한다.
 
-## 2. 왜 필요한가(문제 상황)
+## 2. 왜 필요할까?(문제 상황)
 
 ```java
 UserRepository userRepository = new UserRepository();
@@ -78,9 +78,9 @@ IoC Container의 흐름은 다음과 같다.
 
 ```java
 public class OrderService {
-    
+
     private final OrderRepository orderRepository;
-    
+
     public OrderService() {
         this.orderRepository = new OrderRepository();
     }
@@ -88,15 +88,15 @@ public class OrderService {
 ```
 
 - OrderService와 OrderRepository 구현에 강하게 의존한다.
-  - 테스트 코드 작성이 어렵다.
+    - 테스트 코드 작성이 어렵다.
 
 ### IoC + DI 적용
 
 ```java
 public class OrderService {
-    
+
     private final OrderRepository orderRepository;
-    
+
     public OrderService(OrderRepository orderRepository) {
         this.orderRepository = orderRepository;
     }
@@ -104,9 +104,9 @@ public class OrderService {
 ```
 
 - Spring의 생성 시점에 의존성을 주입한다. 덕분에 이점을 갖는다.
-  - 테스트 코드 작성이 편리하다.
-  - 확장 가능하다.
-  - 결합도가 감소한다.
+    - 테스트 코드 작성이 편리하다.
+    - 확장 가능하다.
+    - 결합도가 감소한다.
 
 ## 5. 주의점
 
@@ -116,15 +116,15 @@ public class OrderService {
 ## 6. 실무에서의 의미
 
 - IoC가 없다면 다음의 문제가 발생한다.
-  - AOP 구현이 어렵다.
-  - 트랜잭션 처리가 복잡하다.
-  - 테스트 코드 작성 난이도가 증가한다.
-  - 확장 포인트가 부족하다.
+    - AOP 구현이 어렵다.
+    - 트랜잭션 처리가 복잡하다.
+    - 테스트 코드 작성 난이도가 증가한다.
+    - 확장 포인트가 부족하다.
 - IoC 컨테이너 덕분에 이점을 갖는다.
-  - 공통 관심사 분리(AOP)
-  - 선언적 트랜잭션
-  - 의존성 교체 용이
-  - 모듈화 용이
+    - 공통 관심사 분리(AOP)
+    - 선언적 트랜잭션
+    - 의존성 교체 용이
+    - 모듈화 용이
 
 즉, Spring의 대부분 기능은 IoC 위에 구축되어 있다.
 
