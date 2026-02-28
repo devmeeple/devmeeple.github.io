@@ -1,0 +1,21 @@
+disabled = false
+languageCode = "ko"
+languageName = "Korean"
+weight = 1
+title = "장태근블로그"
+
+[params]
+displayName = "KR"
+isoCode = "ko"
+rtl = false
+dateFormat = "2006.01.02"
+
+["params.author"]
+name = "장태근"
+# image = "img/author.jpg"
+headline = "A generally awesome human"
+bio = "개발자. 명료한 생각이 명료한 글이 된다."
+links = [
+    { github = "https://github.com/devmeeple" },
+    { linkedin = "https://www.linkedin.com/in/%ED%83%9C%EA%B7%BC-%EC%9E%A5-a98622300/" }
+]

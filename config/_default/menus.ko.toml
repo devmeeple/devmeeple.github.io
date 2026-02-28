@@ -1,0 +1,26 @@
+[[main]]
+# 이력서
+name = "About"
+pageRef = "about" # content/about/index.md와
+weight = 10
+
+[[main]]
+# 게시글
+name = "Blog"
+pageRef = "posts" # content/posts와 연결
+weight = 20
+
+[[main]]
+name ="Series"
+pageRef = "series"
+weight = 30
+
+[[footer]]
+name = "Tags"
+pageRef = "tags"
+weight = 10
+
+[[footer]]
+name = "Categories"
+pageRef = "categories"
+weight = 20
