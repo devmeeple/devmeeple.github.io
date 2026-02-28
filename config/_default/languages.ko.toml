@@ -12,7 +12,7 @@ dateFormat = "2006.01.02"
 
 ["params.author"]
 name = "장태근"
-# image = "img/author.jpg"
+image = "img/author.jpg"
 # headline = "A generally awesome human"
 bio = "개발자. 명료한 생각이 명료한 글이 된다."
 links = [
