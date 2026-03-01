@@ -45,11 +45,30 @@ draft: true
 - `Archetypes`를 사용하면 명령어로 만들어지는 기본 템플릿도 수정할 수 있다. 자신의 환경에 맞게 수정한다.
   - `yaml`, `toml`, `json` 형식을 지원한다. 가장 대중적으로 사용하는 `yaml` 형식을 추천한다.
 
+## 2. 업데이트 날짜 표시하기
+
+### 2.1 Front matter 수정하기
+
+> [!INFO] config/_default/params.toml 수정
+
+![업데이트 날짜 표시하기(front matter 수정)](img/show-date-updated.png "업데이트 날짜 표시하기")
+
+- `showDateUpdated` 옵션의 값을 `true`로 수정한다.
+
+### 2.2 수정 날짜 자동으로 추가하기(feat. Git)
+
+> [!INFO] config/_default/hugo.toml 수정
+
+- `enableGitInfo = true`를 추가한다.
+  - 옵션을 추가하지 않으면 front matter를 직접 수정해야 하는 번거로움이 발생한다.
+
 ## 마치며
 
 ### 참고 자료
 
 - [Archetypes](https://gohugo.io/content-management/archetypes/)
+- [Lastmod](https://gohugo.io/methods/page/lastmod/)
+- [Gitinfo](https://gohugo.io/methods/page/gitinfo/)
 
 [^1]: https://www.jetbrains.com/help/idea/using-live-templates.html
 [^2]: https://code.visualstudio.com/docs/editing/userdefinedsnippets
