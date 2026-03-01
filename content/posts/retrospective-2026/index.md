@@ -2,7 +2,6 @@
 title: "행보 2026 기록"
 description: ""
 date: 2026-01-01
-lastmod: 2026-02-28
 categories: ["회고"]
 tags: ["연간"]
 ---
