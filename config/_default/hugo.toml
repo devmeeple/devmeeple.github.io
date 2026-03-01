@@ -7,7 +7,9 @@ buildFuture = false
 enableEmoji = true
 baseURL = "https://devmeeple.github.io/"
 
-googleAnalytics = "G-ZQRHQY8T3Y"
+# 추가 고급 설정
+googleAnalytics = "G-ZQRHQY8T3Y" # GA(Google Analytics)
+enableGitInfo = true # Lastmod, Returns the last modification date of the given page.
 
 [pagination]
 pagerSize = 100
