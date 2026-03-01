@@ -62,6 +62,42 @@ draft: true
 - `enableGitInfo = true`를 추가한다.
   - 옵션을 추가하지 않으면 front matter를 직접 수정해야 하는 번거로움이 발생한다.
 
+## 3. 폰트 변경하기 (feat. Pretendard)
+
+> [!INFO] assets/css/custom.css를 수정하고 static/fonts에 폰트를 위치한다.
+
+```text
+.
+├── assets
+│   └── css
+│       └── custom.css
+...
+└─── static
+    └── fonts
+        └─── font.ttf
+```
+
+- [Pretendard](https://github.com/orioncactus/pretendard)를 다운로드 받아 `custom.css` 파일을 수정, 기존 설정을 덮어쓴다.
+
+```text
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url('/fonts/Pretendard-Regular.woff2') format('woff2');
+}
+
+html {
+    font-family: Pretendard-Regular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+```
+
+- 폰트는 `static/fonts/Pretendard.woff2`에 위치한다.
+
+> [!NOTE]
+> TTF, OTF 파일은 로컬에 설치하는 파일이다. 반면 웹에서 사용하는 폰트는 WOFF(Web Open Font Format) 또는 WOFF2를 사용한다.
+> WOFF는 기존 폰트 파일(TTF, OTF)을 압축한 형태다. GZIP 알고리즘을 사용한다. 대부분의 브라우저에서 지원한다.
+> WOFF2(Web Open Font Format2): WOFF는 WOFF를 개선했다. Brotli 알고리즘을 사용하여 WOFF에 비해 평균 30% 더 작은 파일 크기를 유지한다.
+> 하지만 WOFF2는 최신 브라우저에서는 거의 모두 지원하지만 일부 브라우저에서는 지원하지 않을 수 있다.
+
 ## 마치며
 
 ### 참고 자료
@@ -69,6 +105,7 @@ draft: true
 - [Archetypes](https://gohugo.io/content-management/archetypes/)
 - [Lastmod](https://gohugo.io/methods/page/lastmod/)
 - [Gitinfo](https://gohugo.io/methods/page/gitinfo/)
+- [Advanced Customisation](https://blowfish.page/docs/advanced-customisation/)
 
 [^1]: https://www.jetbrains.com/help/idea/using-live-templates.html
 [^2]: https://code.visualstudio.com/docs/editing/userdefinedsnippets
