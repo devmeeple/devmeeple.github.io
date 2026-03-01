@@ -6,6 +6,10 @@ tags: ["월간"]
 draft: true
 ---
 
+[//]: # ({{< youtubeLite id="9qkpcLK422o" label="2026년 2월 월간 회고">}})
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4MII9R3syMugyhdDvB8G0u?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 - 학습
   - 코딩 테스트
   - 생활코딩 웹
