@@ -5,7 +5,6 @@ categories: ["Java"]
 tags: []
 series: ["Java에서 살아남기"]
 series_order: 2
-draft: true
 ---
 
 ## 1. 변수(Variable)
