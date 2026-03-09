@@ -3,26 +3,46 @@ title: "월간 장태근 2월호 'BANG BANG'"
 date: '2026-02-22T05:20:58+09:00'
 categories: ["회고"]
 tags: ["월간"]
-draft: true
 ---
 
-[//]: # ({{< youtubeLite id="9qkpcLK422o" label="2026년 2월 월간 회고">}})
+{{< youtubeLite id="9qkpcLK422o" label="2026년 2월 월간 회고">}}
 
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4MII9R3syMugyhdDvB8G0u?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+> 초기화가 아닌 재점화의 신호탄
 
+## Keep
+
+- 드디어 [코딩 테스트 준비](https://codeup.kr/problemsetsol.php?psid=23)를 시작했다.
+- SSG를 Gatsby에서 Hugo로 전환했다. 드디어 `node_modules`를 삭제했다. ~~짜릿하다.~~
 - 학습
-  - 코딩 테스트
-  - 생활코딩 웹
-- 활동
-  - 챌린지(부트캠프, 서바이벌) 
+  - 챌린지 2개를 병행, 모두 성공했다. 하나라도 실패하고 싶지 않아 여러 번 확인했다. 습관 만들기에 적합했다.
+  - [인프런 '성장과 상금은 누구의 것? 인프런 3주 '서바이벌' 챌린지 : All or Nothing!'](https://inf.run/uFpBs)
+  - [송아지할때송아김송아입니다. '[4주 과정] 『부트캠프 백엔드 개발자 편 with 스프링 부트』 완독 챌린지'](https://inf.run/8AdRR)  
+  - [생활코딩 WEB](https://opentutorials.org/course/3083) 수업을 진행, Netlify 배포를 마쳤다.
+    - Node.js 수업도 진행, 배포하여 현재는 서비스에 접근할 수 없다. Spring Boot + AWS 조합으로 전환이 필요하다.
+    - 잃어버린 성취감을 오랜만에 느꼈다. 처음 코딩을 시작했을 때 느꼈던 순수함(?)에 근접했다.
+- 독서
+  - 총 6권을 읽었다. 듄 시리즈를 덕분에 소설의 즐거움과 필요성을 느꼈다.
+- 달리기를 다시 시작했다.
+
+## Problem
+
+- 시간 내에 끝내지 못한 작업이 많았다. 결국은 끝낸 작업이 많지만 빨리 끝냈다면 편히 잠들지 않았을까?
+- 악마의 각성제 커피, 당일은 즐겁게, 3일은 괴로웠다. 푹 잠들지 못했다.
+
+## Try
+
+- CodeUp 기초 100제를 마치고 알고리즘, 자료구조로 넘어가 꾸준히 문제 풀기([백준](https://www.acmicpc.net/), [프로그래머스](https://programmers.co.kr/))
+- [인프런 '김영한의 실전 자바'](https://inf.run/7KDww) 중급 2편까지 완강하기
+- AI 활용도 높이기
+  - AI Agent
+  - OpenClaw
+  - NotebookLM
+- 독서
+  - 역사
+  - 컴퓨터 과학
+  - 바이브 코딩 
 
 ## 마치며
 
-- 현재 가장 관심있는 주제는 역사, 컴퓨터 과학, 바이브 코딩이다. 
-
-### 도전(목표)
-
-- AI 활용도 높이기
-  - OpenClaw
-  - AI 에이전트
-  - NotebookLM
+- 끝난 줄 알았는데 아직 끝나지 않았음을 몸소 느꼈다.
+- 페이스를 바짝 올리다 쓰러지지 않게 의식하며 조절을 잘하면 좋겠다.
