@@ -1,10 +1,17 @@
 ---
-title: '월간 장태근 3월호'
+title: "월간 장태근 3월호 'Desert Eagle'"
 date: '2026-03-13T23:20:18+09:00'
 categories: ["회고"]
 tags: ["월간"]
 draft: true
 ---
+
+{{< youtubeLite id="IWYft_hOIgo" label="2026년 3월 월간 회고">}}
+
+> 기계와 친구가 되는 공장에서<br>
+> 신비한 힘을 느끼고<br>
+> 이 사막에서 꼭 살아남자<br>
+> 마지막 행복을 위해
 
 - Orbit_ - ONEWE
 - Hoa - Please Take My Hand
@@ -30,4 +37,9 @@ draft: true
 
 ## 마치며
 
+![코르드빌 초가집 - 고흐](vincent-van-gogh-thatched-cottages-at-cordeville.jpg)
+
 - 2월부터 시작하여 안된다고 생각했던 일이 되는걸 보는 과정이 즐겁다. 자신감도 조금 생겼다.
+
+선순환이 반복되었다. 행복한 한 달을 보냈다. 만족스럽지 않은 날이 손에 꼽을 정도로 적었다. 시작도 전에 할 수 없다고 자신하던 일들이 비슷한 상황이 닥쳤을 때 뚫고 지나갔던 경험으로 이겨낼 때 희열이 느껴졌다.
+어두운 안개밖에 보이지 않던 마음에 한 줄 기 빛을 발견했다. 자주 찾아오면 좋겠다.
