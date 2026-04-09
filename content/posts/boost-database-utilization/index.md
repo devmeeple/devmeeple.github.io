@@ -3,7 +3,6 @@ title: '한빛앤 MSA 데이터베이스 활용도 끌어올리기 후기'
 date: '2024-07-21T23:41:35+09:00'
 categories: ["행사"]
 tags: ["한빛앤", "MSA", "데이터베이스"]
-draft: true
 ---
 
 ![한빛앤 MSA 데이터베이스 활용도 끌어올리기 <출처: X(SNS)>](boost-database-utilization.jpeg '한빛앤 MSA 데이터베이스 활용도 끌어올리기 <출처: X(SNS)>')
