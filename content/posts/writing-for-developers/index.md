@@ -63,5 +63,6 @@ tags: ["컴퓨터/IT", "글쓰기", "기술블로그", "블로그", "개발자",
 
 - [『개발자가 블로그도 잘 써야 하나요?』(피오트르 사르나·신시아 던롭, 길벗, 2026)](https://product.kyobobook.co.kr/detail/S000219662458)
 - [GitHub 'Writing For Developers'](https://github.com/scynthiadunlop/WritingForDevelopersBook)
+- [역자 블로그](https://taegon.kim/archives/10851)
 
 [^1]: 『프로그래머의 길, 멘토에게 묻다』와 유사한 방식으로 전개한다.
